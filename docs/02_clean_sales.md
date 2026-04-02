@@ -76,16 +76,12 @@ flowchart TD
 
     %% Cleaning Layer
     C1[02_clean_sales.py]
-    C2[03_clean_production.py]
-    C3[04_clean_inventory.py]
-    C4[05_clean_accounts.py]
+
 
     %% Cleaned Data
     subgraph StagingLayer
         D1[(fact_sales_cleaned.csv)]
-        D2[(fact_prod_cleaned.csv)]
-        D3[(fact_inv_cleaned.csv)]
-        D4[(fact_acc_cleaned.csv)]
+        
     end
 
     %% Database & BI
@@ -104,18 +100,10 @@ flowchart TD
     I --> B4
 
     B1 --> C1
-    B2 --> C2
-    B3 --> C3
-    B4 --> C4
+    
 
     C1 --> D1
-    C2 --> D2
-    C3 --> D3
-    C4 --> D4
+   
 
     D1 --> E
-    D2 --> E
-    D3 --> E
-    D4 --> E
-
-    E --> F
+   
