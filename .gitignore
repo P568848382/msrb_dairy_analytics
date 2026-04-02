@@ -9,9 +9,9 @@ env/
 
 # Data files (IMPORTANT: We do NOT upload raw or cleaned data to GitHub)
 data/raw/*.csv
-data/cleaned/*.csv
+
 data/raw/*.xlsx
-data/cleaned/*.xlsx
+
 
 # Application Logs
 logs/*.log

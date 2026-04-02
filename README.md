@@ -162,7 +162,7 @@ msrb-dairy-analytics/
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/P568848382/msrb-dairy-analytics
+git clone https://github.com/P568848382/MSRB-Dairy-Analytics
 
 # 2. Install dependencies
 pip install pandas numpy sqlalchemy psycopg2-binary
