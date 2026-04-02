@@ -54,78 +54,68 @@ The following architectural flow maps out the entire ingestion through cleaning 
 
 ```mermaid
 flowchart TD
-    %% Base Datasets Layer
-    subgraph RawLayer [Raw Layer "/data/raw"]
+
+    %% Raw Layer
+    subgraph RawLayer
         A1[fact_sales.csv]
         A2[fact_production.csv]
         A3[fact_inventory.csv]
         A4[fact_accounts.csv]
     end
 
-    %% Structural Check Layer
-    I{01_ingest.py\nSchema & Structural\nValidation}
+    %% Ingestion
+    I{01_ingest.py<br/>Schema Validation}
 
-    %% Validated State
-    subgraph MemoryLayer [Working Memory Space]
+    %% Validated Layer
+    subgraph MemoryLayer
         B1((Sales Validated))
         B2((Production Validated))
         B3((Inventory Validated))
         B4((Accounts Validated))
     end
 
-    %% Transformation Processing
+    %% Cleaning Layer
     C1[02_clean_sales.py]
-    C2[02_clean_production.py\n*Upcoming*]
-    C3[02_clean_inventory.py\n*Upcoming*]
-    C4[02_clean_accounts.py\n*Upcoming*]
+    C2[03_clean_production.py]
+    C3[04_clean_inventory.py]
+    C4[05_clean_accounts.py]
 
-    %% Final Target Storage
-    subgraph StagingLayer [Cleaned Staging Layer "/data/cleaned"]
+    %% Cleaned Data
+    subgraph StagingLayer
         D1[(fact_sales_cleaned.csv)]
         D2[(fact_prod_cleaned.csv)]
         D3[(fact_inv_cleaned.csv)]
         D4[(fact_acc_cleaned.csv)]
     end
 
-    %% Final DB
-    E[(PostgreSQL \n RDBMS Core)]
-    F[Tableau / BI Dashboard Layer]
+    %% Database & BI
+    E[(PostgreSQL)]
+    F[BI Dashboard Layer]
 
-    %% Linking Nodes
+    %% Flow
     A1 --> I
     A2 --> I
     A3 --> I
     A4 --> I
 
-    I -->|Structure Pass| B1
-    I -->|Structure Pass| B2
-    I -->|Structure Pass| B3
-    I -->|Structure Pass| B4
+    I --> B1
+    I --> B2
+    I --> B3
+    I --> B4
 
     B1 --> C1
     B2 --> C2
     B3 --> C3
     B4 --> C4
 
-    C1 -- Apply Rules & Flags --> D1
-    C2 -- Standardize & Link --> D2
-    C3 -- Fix Stock Outliers --> D3
-    C4 -- Validate Totals --> D4
+    C1 --> D1
+    C2 --> D2
+    C3 --> D3
+    C4 --> D4
 
     D1 --> E
     D2 --> E
     D3 --> E
     D4 --> E
-    
+
     E --> F
-
-    classDef source fill:#f8f9fa,stroke:#dae0e5;
-    classDef valid fill:#d4edda,stroke:#28a745,color:#155724;
-    classDef process fill:#e2e3e5,stroke:#383d41;
-    classDef file fill:#cce5ff,stroke:#b8daff,color:#004085;
-
-    class A1,A2,A3,A4 source;
-    class B1,B2,B3,B4 valid;
-    class C1,C2,C3,C4 process;
-    class D1,D2,D3,D4 file;
-```
