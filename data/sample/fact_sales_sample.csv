@@ -1,0 +1,501 @@
+sale_id,date,year,month,month_name,quarter,customer_id,customer_name,customer_type,route_id,route_name,product_id,product_name,category,unit,quantity,unit_price,gross_amount,discount,net_amount,payment_mode,invoice_number
+SL000001,2023-04-01,2023,4,April,Q2,C045,Priya Kumar,Retailer,R08,Bypass Road Route,P06,Curd 400g,Curd,Piece,26,37.02,962.52,0.0,962.52,UPI,INV-000001
+SL000002,2023-04-01,2023,4,April,Q2,C045,Priya Kumar,Retailer,R08,Bypass Road Route,P05,Paneer 500g,Paneer,Piece,5,167.09,835.45,16.71,818.74,Cash,INV-000002
+SL000003,2023-04-01,2023,4,April,Q2,C045,Priya Kumar,Retailer,R08,Bypass Road Route,P03,Milk Packet 200ml,Milk Packet,Packet,153,11.13,1702.89,34.06,1668.83,Credit,INV-000003
+SL000004,2023-04-01,2023,4,April,Q2,C014,Deepak Dubey,Retailer,R03,Model Town Route,P03,Milk Packet 200ml,Milk Packet,Packet,141,11.29,1591.89,0.0,1591.89,Cash,INV-000004
+SL000005,2023-04-01,2023,4,April,Q2,C014,Deepak Dubey,Retailer,R03,Model Town Route,P08,Ghee 500ml,Ghee,Piece,15,300.79,4511.85,0.0,4511.85,UPI,INV-000005
+SL000006,2023-04-01,2023,4,April,Q2,C014,Deepak Dubey,Retailer,R03,Model Town Route,P05,Paneer 500g,Paneer,Piece,4,162.4,649.6,32.48,617.12,Credit,INV-000006
+SL000007,2023-04-01,2023,4,April,Q2,C014,Deepak Dubey,Retailer,R03,Model Town Route,P07,Curd 1kg,Curd,Piece,11,82.04,902.44,18.05,884.39,Credit,INV-000007
+SL000008,2023-04-01,2023,4,April,Q2,C056,Dinesh Bansal,Retailer,R01,Sector-7 Route,P06,Curd 400g,Curd,Piece,19,35.88,681.72,0.0,681.72,Cash,INV-000008
+SL000009,2023-04-01,2023,4,April,Q2,C056,Dinesh Bansal,Retailer,R01,Sector-7 Route,P12,Cream 200ml,Cream,Piece,5,74.64,373.2,0.0,373.2,UPI,INV-000009
+SL000010,2023-04-01,2023,4,April,Q2,C056,Dinesh Bansal,Retailer,R01,Sector-7 Route,P05,Paneer 500g,Paneer,Piece,5,163.13,815.65,16.31,799.34,UPI,INV-000010
+SL000011,2023-04-01,2023,4,April,Q2,C056,Dinesh Bansal,Retailer,R01,Sector-7 Route,P09,Ghee 1L,Ghee,Piece,7,600.35,4202.45,210.12,3992.33,Cash,INV-000011
+SL000012,2023-04-01,2023,4,April,Q2,C109,Kamlesh Shah,Hotel/Restaurant,R05,Railway Colony Route,P03,Milk Packet 200ml,Milk Packet,Packet,29,10.83,314.07,0.0,314.07,Cash,INV-000012
+SL000013,2023-04-01,2023,4,April,Q2,C117,Neha Rajput,Wholesaler,R05,Railway Colony Route,P11,Butter 500g,Butter,Piece,7,260.98,1826.86,36.54,1790.32,UPI,INV-000013
+SL000014,2023-04-01,2023,4,April,Q2,C020,Pramod Pandey,Hotel/Restaurant,R02,Civil Lines Route,P04,Paneer 200g,Paneer,Piece,17,71.43,1214.31,0.0,1214.31,Credit,INV-000014
+SL000015,2023-04-01,2023,4,April,Q2,C020,Pramod Pandey,Hotel/Restaurant,R02,Civil Lines Route,P12,Cream 200ml,Cream,Piece,11,74.99,824.89,0.0,824.89,Cheque,INV-000015
+SL000016,2023-04-01,2023,4,April,Q2,C020,Pramod Pandey,Hotel/Restaurant,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,42,42.37,1779.54,88.98,1690.56,Cheque,INV-000016
+SL000017,2023-04-01,2023,4,April,Q2,C020,Pramod Pandey,Hotel/Restaurant,R02,Civil Lines Route,P05,Paneer 500g,Paneer,Piece,12,161.56,1938.72,38.77,1899.95,UPI,INV-000017
+SL000018,2023-04-01,2023,4,April,Q2,C088,Vijay Verma,Wholesaler,R03,Model Town Route,P01,Milk Bulk 1L,Milk Bulk,Litre,59,41.12,2426.08,0.0,2426.08,UPI,INV-000018
+SL000019,2023-04-01,2023,4,April,Q2,C088,Vijay Verma,Wholesaler,R03,Model Town Route,P12,Cream 200ml,Cream,Piece,6,74.29,445.74,0.0,445.74,Cheque,INV-000019
+SL000020,2023-04-01,2023,4,April,Q2,C088,Vijay Verma,Wholesaler,R03,Model Town Route,P04,Paneer 200g,Paneer,Piece,14,68.86,964.04,19.28,944.76,UPI,INV-000020
+SL000021,2023-04-01,2023,4,April,Q2,C086,Anita Bansal,Hotel/Restaurant,R01,Sector-7 Route,P10,Butter 100g,Butter,Piece,15,56.35,845.25,16.91,828.34,Cash,INV-000021
+SL000022,2023-04-01,2023,4,April,Q2,C086,Anita Bansal,Hotel/Restaurant,R01,Sector-7 Route,P08,Ghee 500ml,Ghee,Piece,7,305.0,2135.0,42.7,2092.3,Cash,INV-000022
+SL000023,2023-04-01,2023,4,April,Q2,C003,Vikas Tiwari,Hotel/Restaurant,R03,Model Town Route,P01,Milk Bulk 1L,Milk Bulk,Litre,50,43.1,2155.0,107.75,2047.25,UPI,INV-000023
+SL000024,2023-04-01,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P07,Curd 1kg,Curd,Piece,6,81.0,486.0,0.0,486.0,UPI,INV-000024
+SL000025,2023-04-01,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P03,Milk Packet 200ml,Milk Packet,Packet,49,10.93,535.57,0.0,535.57,Cash,INV-000025
+SL000026,2023-04-01,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P06,Curd 400g,Curd,Piece,10,36.24,362.4,7.25,355.15,Cash,INV-000026
+SL000027,2023-04-01,2023,4,April,Q2,C053,Ashok Srivastava,Retailer,R01,Sector-7 Route,P05,Paneer 500g,Paneer,Piece,5,164.74,823.7,0.0,823.7,Cash,INV-000027
+SL000028,2023-04-01,2023,4,April,Q2,C053,Ashok Srivastava,Retailer,R01,Sector-7 Route,P01,Milk Bulk 1L,Milk Bulk,Litre,34,42.24,1436.16,0.0,1436.16,UPI,INV-000028
+SL000029,2023-04-01,2023,4,April,Q2,C053,Ashok Srivastava,Retailer,R01,Sector-7 Route,P10,Butter 100g,Butter,Piece,15,56.26,843.9,42.2,801.7,Cash,INV-000029
+SL000030,2023-04-01,2023,4,April,Q2,C053,Ashok Srivastava,Retailer,R01,Sector-7 Route,P11,Butter 500g,Butter,Piece,12,269.69,3236.28,64.73,3171.55,Credit,INV-000030
+SL000031,2023-04-01,2023,4,April,Q2,C051,Rajesh Saxena,Wholesaler,R08,Bypass Road Route,P12,Cream 200ml,Cream,Piece,9,76.96,692.64,34.63,658.01,Credit,INV-000031
+SL000032,2023-04-01,2023,4,April,Q2,C051,Rajesh Saxena,Wholesaler,R08,Bypass Road Route,P03,Milk Packet 200ml,Milk Packet,Packet,66,11.19,738.54,36.93,701.61,Cash,INV-000032
+SL000033,2023-04-01,2023,4,April,Q2,C086,Anita Bansal,Hotel/Restaurant,R01,Sector-7 Route,P12,Cream 200ml,Cream,Piece,4,75.15,300.6,15.03,285.57,Cash,INV-000033
+SL000034,2023-04-01,2023,4,April,Q2,C086,Anita Bansal,Hotel/Restaurant,R01,Sector-7 Route,P01,Milk Bulk 1L,Milk Bulk,Litre,51,41.42,2112.42,105.62,2006.8,Cash,INV-000034
+SL000035,2023-04-01,2023,4,April,Q2,C086,Anita Bansal,Hotel/Restaurant,R01,Sector-7 Route,P08,Ghee 500ml,Ghee,Piece,5,302.62,1513.1,0.0,1513.1,Credit,INV-000035
+SL000036,2023-04-01,2023,4,April,Q2,C036,Alpesh Mittal,Retailer,R03,Model Town Route,P01,Milk Bulk 1L,Milk Bulk,Litre,96,40.92,3928.32,78.57,3849.75,Cash,INV-000036
+SL000037,2023-04-01,2023,4,April,Q2,C036,Alpesh Mittal,Retailer,R03,Model Town Route,P08,Ghee 500ml,Ghee,Piece,3,307.24,921.72,18.43,903.29,Credit,INV-000037
+SL000038,2023-04-01,2023,4,April,Q2,C036,Alpesh Mittal,Retailer,R03,Model Town Route,P07,Curd 1kg,Curd,Piece,33,79.98,2639.34,0.0,2639.34,Credit,INV-000038
+SL000039,2023-04-01,2023,4,April,Q2,C036,Alpesh Mittal,Retailer,R03,Model Town Route,P03,Milk Packet 200ml,Milk Packet,Packet,185,10.79,1996.15,0.0,1996.15,UPI,INV-000039
+SL000040,2023-04-01,2023,4,April,Q2,C070,Amit Goyal,Retailer,R04,Sadar Bazar Route,P10,Butter 100g,Butter,Piece,19,59.49,1130.31,0.0,1130.31,Cheque,INV-000040
+SL000041,2023-04-01,2023,4,April,Q2,C070,Amit Goyal,Retailer,R04,Sadar Bazar Route,P09,Ghee 1L,Ghee,Piece,4,607.21,2428.84,0.0,2428.84,UPI,INV-000041
+SL000042,2023-04-01,2023,4,April,Q2,C089,Rohit Rao,Retailer,R02,Civil Lines Route,P03,Milk Packet 200ml,Milk Packet,Packet,164,11.18,1833.52,36.67,1796.85,Credit,INV-000042
+SL000043,2023-04-01,2023,4,April,Q2,C089,Rohit Rao,Retailer,R02,Civil Lines Route,P02,Milk Packet 500ml,Milk Packet,Packet,133,24.05,3198.65,0.0,3198.65,Cash,INV-000043
+SL000044,2023-04-01,2023,4,April,Q2,C089,Rohit Rao,Retailer,R02,Civil Lines Route,P08,Ghee 500ml,Ghee,Piece,6,309.77,1858.62,37.17,1821.45,Cash,INV-000044
+SL000045,2023-04-01,2023,4,April,Q2,C112,Pooja Gupta,Retailer,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,33,41.3,1362.9,0.0,1362.9,UPI,INV-000045
+SL000046,2023-04-01,2023,4,April,Q2,C112,Pooja Gupta,Retailer,R02,Civil Lines Route,P12,Cream 200ml,Cream,Piece,10,76.14,761.4,15.23,746.17,Cash,INV-000046
+SL000047,2023-04-01,2023,4,April,Q2,C112,Pooja Gupta,Retailer,R02,Civil Lines Route,P03,Milk Packet 200ml,Milk Packet,Packet,131,10.81,1416.11,0.0,1416.11,Credit,INV-000047
+SL000048,2023-04-01,2023,4,April,Q2,C112,Pooja Gupta,Retailer,R02,Civil Lines Route,P07,Curd 1kg,Curd,Piece,18,82.04,1476.72,0.0,1476.72,Cash,INV-000048
+SL000049,2023-04-01,2023,4,April,Q2,C002,Jignesh Patel,Hotel/Restaurant,R02,Civil Lines Route,P07,Curd 1kg,Curd,Piece,27,83.68,2259.36,0.0,2259.36,Credit,INV-000049
+SL000050,2023-04-01,2023,4,April,Q2,C002,Jignesh Patel,Hotel/Restaurant,R02,Civil Lines Route,P06,Curd 400g,Curd,Piece,7,36.49,255.43,12.77,242.66,Credit,INV-000050
+SL000051,2023-04-01,2023,4,April,Q2,C094,Harish Mishra,Hotel/Restaurant,R07,Old City Route,P03,Milk Packet 200ml,Milk Packet,Packet,73,10.93,797.89,39.89,758.0,Credit,INV-000051
+SL000052,2023-04-01,2023,4,April,Q2,C094,Harish Mishra,Hotel/Restaurant,R07,Old City Route,P01,Milk Bulk 1L,Milk Bulk,Litre,13,40.98,532.74,0.0,532.74,Credit,INV-000052
+SL000053,2023-04-01,2023,4,April,Q2,C094,Harish Mishra,Hotel/Restaurant,R07,Old City Route,P02,Milk Packet 500ml,Milk Packet,Packet,193,23.92,4616.56,0.0,4616.56,Cash,INV-000053
+SL000054,2023-04-01,2023,4,April,Q2,C094,Harish Mishra,Hotel/Restaurant,R07,Old City Route,P09,Ghee 1L,Ghee,Piece,3,583.18,1749.54,0.0,1749.54,Credit,INV-000054
+SL000055,2023-04-01,2023,4,April,Q2,C112,Pooja Gupta,Retailer,R02,Civil Lines Route,P02,Milk Packet 500ml,Milk Packet,Packet,103,24.59,2532.77,50.66,2482.11,Credit,INV-000055
+SL000056,2023-04-01,2023,4,April,Q2,C112,Pooja Gupta,Retailer,R02,Civil Lines Route,P10,Butter 100g,Butter,Piece,15,58.21,873.15,0.0,873.15,Cash,INV-000056
+SL000057,2023-04-01,2023,4,April,Q2,C034,Mukesh Mishra,Institutional,R05,Railway Colony Route,P10,Butter 100g,Butter,Piece,6,56.66,339.96,0.0,339.96,Cheque,INV-000057
+SL000058,2023-04-01,2023,4,April,Q2,C005,Ajay Mehta,Retailer,R07,Old City Route,P08,Ghee 500ml,Ghee,Piece,9,316.46,2848.14,56.96,2791.18,Cash,INV-000058
+SL000059,2023-04-01,2023,4,April,Q2,C005,Ajay Mehta,Retailer,R07,Old City Route,P02,Milk Packet 500ml,Milk Packet,Packet,164,24.68,4047.52,0.0,4047.52,Credit,INV-000059
+SL000060,2023-04-01,2023,4,April,Q2,C005,Ajay Mehta,Retailer,R07,Old City Route,P06,Curd 400g,Curd,Piece,12,34.99,419.88,8.4,411.48,Cash,INV-000060
+SL000061,2023-04-01,2023,4,April,Q2,C005,Ajay Mehta,Retailer,R07,Old City Route,P03,Milk Packet 200ml,Milk Packet,Packet,67,11.26,754.42,15.09,739.33,UPI,INV-000061
+SL000062,2023-04-01,2023,4,April,Q2,C058,Girish Verma,Institutional,R02,Civil Lines Route,P10,Butter 100g,Butter,Piece,23,56.57,1301.11,26.02,1275.09,Cash,INV-000062
+SL000063,2023-04-01,2023,4,April,Q2,C058,Girish Verma,Institutional,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,33,40.75,1344.75,0.0,1344.75,Cash,INV-000063
+SL000064,2023-04-01,2023,4,April,Q2,C041,Anita Yadav,Retailer,R04,Sadar Bazar Route,P10,Butter 100g,Butter,Piece,14,58.91,824.74,0.0,824.74,Credit,INV-000064
+SL000065,2023-04-01,2023,4,April,Q2,C041,Anita Yadav,Retailer,R04,Sadar Bazar Route,P09,Ghee 1L,Ghee,Piece,3,590.0,1770.0,35.4,1734.6,Cash,INV-000065
+SL000066,2023-04-01,2023,4,April,Q2,C041,Anita Yadav,Retailer,R04,Sadar Bazar Route,P07,Curd 1kg,Curd,Piece,38,79.8,3032.4,0.0,3032.4,Credit,INV-000066
+SL000067,2023-04-01,2023,4,April,Q2,C069,Santosh Agarwal,Institutional,R02,Civil Lines Route,P06,Curd 400g,Curd,Piece,18,36.26,652.68,0.0,652.68,Credit,INV-000067
+SL000068,2023-04-01,2023,4,April,Q2,C091,Rekha Jain,Wholesaler,R04,Sadar Bazar Route,P11,Butter 500g,Butter,Piece,7,266.94,1868.58,0.0,1868.58,Cash,INV-000068
+SL000069,2023-04-01,2023,4,April,Q2,C091,Rekha Jain,Wholesaler,R04,Sadar Bazar Route,P05,Paneer 500g,Paneer,Piece,17,169.14,2875.38,57.51,2817.87,Cash,INV-000069
+SL000070,2023-04-01,2023,4,April,Q2,C091,Rekha Jain,Wholesaler,R04,Sadar Bazar Route,P01,Milk Bulk 1L,Milk Bulk,Litre,17,42.45,721.65,14.43,707.22,UPI,INV-000070
+SL000071,2023-04-01,2023,4,April,Q2,C091,Rekha Jain,Wholesaler,R04,Sadar Bazar Route,P04,Paneer 200g,Paneer,Piece,2,72.01,144.02,0.0,144.02,Credit,INV-000071
+SL000072,2023-04-01,2023,4,April,Q2,C091,Rekha Jain,Wholesaler,R04,Sadar Bazar Route,P05,Paneer 500g,Paneer,Piece,17,161.66,2748.22,0.0,2748.22,Cheque,INV-000072
+SL000073,2023-04-01,2023,4,April,Q2,C091,Rekha Jain,Wholesaler,R04,Sadar Bazar Route,P09,Ghee 1L,Ghee,Piece,1,605.62,605.62,0.0,605.62,Cash,INV-000073
+SL000074,2023-04-01,2023,4,April,Q2,C110,Pramod Pandey,Direct Consumer,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,70,42.28,2959.6,0.0,2959.6,UPI,INV-000074
+SL000075,2023-04-01,2023,4,April,Q2,C110,Pramod Pandey,Direct Consumer,R02,Civil Lines Route,P10,Butter 100g,Butter,Piece,1,56.8,56.8,0.0,56.8,UPI,INV-000075
+SL000076,2023-04-01,2023,4,April,Q2,C110,Pramod Pandey,Direct Consumer,R02,Civil Lines Route,P02,Milk Packet 500ml,Milk Packet,Packet,168,23.35,3922.8,78.46,3844.34,Cheque,INV-000076
+SL000077,2023-04-01,2023,4,April,Q2,C110,Pramod Pandey,Direct Consumer,R02,Civil Lines Route,P05,Paneer 500g,Paneer,Piece,14,169.53,2373.42,0.0,2373.42,Cheque,INV-000077
+SL000078,2023-04-01,2023,4,April,Q2,C024,Santosh Singh,Retailer,R08,Bypass Road Route,P07,Curd 1kg,Curd,Piece,39,81.38,3173.82,158.69,3015.13,Credit,INV-000078
+SL000079,2023-04-01,2023,4,April,Q2,C055,Yogesh Garg,Wholesaler,R01,Sector-7 Route,P05,Paneer 500g,Paneer,Piece,18,169.92,3058.56,61.17,2997.39,Credit,INV-000079
+SL000080,2023-04-01,2023,4,April,Q2,C043,Vijay Thakur,Retailer,R08,Bypass Road Route,P04,Paneer 200g,Paneer,Piece,11,69.27,761.97,15.24,746.73,Credit,INV-000080
+SL000081,2023-04-01,2023,4,April,Q2,C108,Mohit Shukla,Hotel/Restaurant,R01,Sector-7 Route,P05,Paneer 500g,Paneer,Piece,15,167.35,2510.25,125.51,2384.74,UPI,INV-000081
+SL000082,2023-04-01,2023,4,April,Q2,C065,Pramod Mehta,Retailer,R07,Old City Route,P03,Milk Packet 200ml,Milk Packet,Packet,134,11.16,1495.44,0.0,1495.44,Cash,INV-000082
+SL000083,2023-04-01,2023,4,April,Q2,C065,Pramod Mehta,Retailer,R07,Old City Route,P11,Butter 500g,Butter,Piece,16,261.59,4185.44,0.0,4185.44,Credit,INV-000083
+SL000084,2023-04-01,2023,4,April,Q2,C065,Pramod Mehta,Retailer,R07,Old City Route,P02,Milk Packet 500ml,Milk Packet,Packet,110,23.77,2614.7,52.29,2562.41,Credit,INV-000084
+SL000085,2023-04-01,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P11,Butter 500g,Butter,Piece,3,270.56,811.68,16.23,795.45,Cash,INV-000085
+SL000086,2023-04-01,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P10,Butter 100g,Butter,Piece,8,59.49,475.92,0.0,475.92,Cash,INV-000086
+SL000087,2023-04-03,2023,4,April,Q2,C032,Sumit Patel,Direct Consumer,R03,Model Town Route,P07,Curd 1kg,Curd,Piece,28,79.62,2229.36,0.0,2229.36,Cash,INV-000087
+SL000088,2023-04-03,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P11,Butter 500g,Butter,Piece,1,271.97,271.97,0.0,271.97,Cash,INV-000088
+SL000089,2023-04-03,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P02,Milk Packet 500ml,Milk Packet,Packet,103,24.37,2510.11,0.0,2510.11,Credit,INV-000089
+SL000090,2023-04-03,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P05,Paneer 500g,Paneer,Piece,9,160.81,1447.29,28.95,1418.34,Cash,INV-000090
+SL000091,2023-04-03,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P07,Curd 1kg,Curd,Piece,13,81.6,1060.8,0.0,1060.8,Credit,INV-000091
+SL000092,2023-04-03,2023,4,April,Q2,C031,Bhavesh Jain,Direct Consumer,R05,Railway Colony Route,P12,Cream 200ml,Cream,Piece,11,76.26,838.86,0.0,838.86,Cash,INV-000092
+SL000093,2023-04-03,2023,4,April,Q2,C031,Bhavesh Jain,Direct Consumer,R05,Railway Colony Route,P06,Curd 400g,Curd,Piece,20,35.56,711.2,0.0,711.2,Cheque,INV-000093
+SL000094,2023-04-03,2023,4,April,Q2,C031,Bhavesh Jain,Direct Consumer,R05,Railway Colony Route,P01,Milk Bulk 1L,Milk Bulk,Litre,55,43.21,2376.55,0.0,2376.55,Credit,INV-000094
+SL000095,2023-04-03,2023,4,April,Q2,C026,Ramesh Bansal,Hotel/Restaurant,R02,Civil Lines Route,P06,Curd 400g,Curd,Piece,17,35.1,596.7,29.84,566.86,UPI,INV-000095
+SL000096,2023-04-03,2023,4,April,Q2,C026,Ramesh Bansal,Hotel/Restaurant,R02,Civil Lines Route,P09,Ghee 1L,Ghee,Piece,12,582.08,6984.96,0.0,6984.96,Cash,INV-000096
+SL000097,2023-04-03,2023,4,April,Q2,C026,Ramesh Bansal,Hotel/Restaurant,R02,Civil Lines Route,P02,Milk Packet 500ml,Milk Packet,Packet,88,23.95,2107.6,0.0,2107.6,UPI,INV-000097
+SL000098,2023-04-03,2023,4,April,Q2,C026,Ramesh Bansal,Hotel/Restaurant,R02,Civil Lines Route,P11,Butter 500g,Butter,Piece,6,259.17,1555.02,77.75,1477.27,Cheque,INV-000098
+SL000099,2023-04-03,2023,4,April,Q2,C104,Deepak Dubey,Direct Consumer,R02,Civil Lines Route,P03,Milk Packet 200ml,Milk Packet,Packet,130,11.12,1445.6,0.0,1445.6,UPI,INV-000099
+SL000100,2023-04-03,2023,4,April,Q2,C104,Deepak Dubey,Direct Consumer,R02,Civil Lines Route,P05,Paneer 500g,Paneer,Piece,5,168.68,843.4,0.0,843.4,Credit,INV-000100
+SL000101,2023-04-03,2023,4,April,Q2,C104,Deepak Dubey,Direct Consumer,R02,Civil Lines Route,P04,Paneer 200g,Paneer,Piece,4,69.72,278.88,0.0,278.88,Cash,INV-000101
+SL000102,2023-04-03,2023,4,April,Q2,C050,Ajay Pandey,Direct Consumer,R06,Industrial Area Route,P02,Milk Packet 500ml,Milk Packet,Packet,39,23.39,912.21,0.0,912.21,Cash,INV-000102
+SL000103,2023-04-03,2023,4,April,Q2,C010,Yogesh Goyal,Retailer,R04,Sadar Bazar Route,P12,Cream 200ml,Cream,Piece,6,75.45,452.7,0.0,452.7,Credit,INV-000103
+SL000104,2023-04-03,2023,4,April,Q2,C010,Yogesh Goyal,Retailer,R04,Sadar Bazar Route,P05,Paneer 500g,Paneer,Piece,16,165.84,2653.44,0.0,2653.44,Cash,INV-000104
+SL000105,2023-04-03,2023,4,April,Q2,C010,Yogesh Goyal,Retailer,R04,Sadar Bazar Route,P09,Ghee 1L,Ghee,Piece,7,581.63,4071.41,0.0,4071.41,Cash,INV-000105
+SL000106,2023-04-03,2023,4,April,Q2,C117,Neha Rajput,Wholesaler,R05,Railway Colony Route,P05,Paneer 500g,Paneer,Piece,16,163.19,2611.04,52.22,2558.82,Cash,INV-000106
+SL000107,2023-04-03,2023,4,April,Q2,C117,Neha Rajput,Wholesaler,R05,Railway Colony Route,P12,Cream 200ml,Cream,Piece,1,76.85,76.85,0.0,76.85,Credit,INV-000107
+SL000108,2023-04-03,2023,4,April,Q2,C117,Neha Rajput,Wholesaler,R05,Railway Colony Route,P02,Milk Packet 500ml,Milk Packet,Packet,139,23.29,3237.31,0.0,3237.31,Credit,INV-000108
+SL000109,2023-04-03,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P11,Butter 500g,Butter,Piece,17,271.82,4620.94,0.0,4620.94,Credit,INV-000109
+SL000110,2023-04-03,2023,4,April,Q2,C010,Yogesh Goyal,Retailer,R04,Sadar Bazar Route,P03,Milk Packet 200ml,Milk Packet,Packet,106,11.1,1176.6,0.0,1176.6,Credit,INV-000110
+SL000111,2023-04-03,2023,4,April,Q2,C010,Yogesh Goyal,Retailer,R04,Sadar Bazar Route,P06,Curd 400g,Curd,Piece,19,35.51,674.69,0.0,674.69,Cash,INV-000111
+SL000112,2023-04-03,2023,4,April,Q2,C010,Yogesh Goyal,Retailer,R04,Sadar Bazar Route,P12,Cream 200ml,Cream,Piece,3,74.51,223.53,4.47,219.06,Credit,INV-000112
+SL000113,2023-04-03,2023,4,April,Q2,C068,Meena Nair,Retailer,R06,Industrial Area Route,P12,Cream 200ml,Cream,Piece,3,76.18,228.54,4.57,223.97,UPI,INV-000113
+SL000114,2023-04-03,2023,4,April,Q2,C068,Meena Nair,Retailer,R06,Industrial Area Route,P09,Ghee 1L,Ghee,Piece,3,598.62,1795.86,0.0,1795.86,Cash,INV-000114
+SL000115,2023-04-03,2023,4,April,Q2,C068,Meena Nair,Retailer,R06,Industrial Area Route,P10,Butter 100g,Butter,Piece,1,56.48,56.48,0.0,56.48,Credit,INV-000115
+SL000116,2023-04-03,2023,4,April,Q2,C004,Harish Mishra,Wholesaler,R04,Sadar Bazar Route,P08,Ghee 500ml,Ghee,Piece,8,303.24,2425.92,121.3,2304.62,Cash,INV-000116
+SL000117,2023-04-03,2023,4,April,Q2,C004,Harish Mishra,Wholesaler,R04,Sadar Bazar Route,P07,Curd 1kg,Curd,Piece,38,83.5,3173.0,63.46,3109.54,UPI,INV-000117
+SL000118,2023-04-03,2023,4,April,Q2,C075,Sunil Kumar,Retailer,R01,Sector-7 Route,P08,Ghee 500ml,Ghee,Piece,9,309.52,2785.68,55.71,2729.97,UPI,INV-000118
+SL000119,2023-04-03,2023,4,April,Q2,C075,Sunil Kumar,Retailer,R01,Sector-7 Route,P07,Curd 1kg,Curd,Piece,33,80.57,2658.81,132.94,2525.87,Cash,INV-000119
+SL000120,2023-04-03,2023,4,April,Q2,C052,Lokesh Gupta,Retailer,R04,Sadar Bazar Route,P11,Butter 500g,Butter,Piece,17,265.04,4505.68,0.0,4505.68,Cash,INV-000120
+SL000121,2023-04-03,2023,4,April,Q2,C052,Lokesh Gupta,Retailer,R04,Sadar Bazar Route,P10,Butter 100g,Butter,Piece,5,59.65,298.25,0.0,298.25,Credit,INV-000121
+SL000122,2023-04-03,2023,4,April,Q2,C097,Lokesh Trivedi,Hotel/Restaurant,R06,Industrial Area Route,P02,Milk Packet 500ml,Milk Packet,Packet,78,23.47,1830.66,0.0,1830.66,Cash,INV-000122
+SL000123,2023-04-03,2023,4,April,Q2,C097,Lokesh Trivedi,Hotel/Restaurant,R06,Industrial Area Route,P03,Milk Packet 200ml,Milk Packet,Packet,105,10.95,1149.75,23.0,1126.75,UPI,INV-000123
+SL000124,2023-04-03,2023,4,April,Q2,C097,Lokesh Trivedi,Hotel/Restaurant,R06,Industrial Area Route,P01,Milk Bulk 1L,Milk Bulk,Litre,22,41.31,908.82,0.0,908.82,Credit,INV-000124
+SL000125,2023-04-03,2023,4,April,Q2,C097,Lokesh Trivedi,Hotel/Restaurant,R06,Industrial Area Route,P12,Cream 200ml,Cream,Piece,6,77.1,462.6,9.25,453.35,Cash,INV-000125
+SL000126,2023-04-03,2023,4,April,Q2,C088,Vijay Verma,Wholesaler,R03,Model Town Route,P12,Cream 200ml,Cream,Piece,12,74.07,888.84,17.78,871.06,Cheque,INV-000126
+SL000127,2023-04-03,2023,4,April,Q2,C088,Vijay Verma,Wholesaler,R03,Model Town Route,P09,Ghee 1L,Ghee,Piece,6,597.46,3584.76,0.0,3584.76,Cash,INV-000127
+SL000128,2023-04-03,2023,4,April,Q2,C093,Vikas Tiwari,Wholesaler,R01,Sector-7 Route,P08,Ghee 500ml,Ghee,Piece,11,308.1,3389.1,0.0,3389.1,Credit,INV-000128
+SL000129,2023-04-03,2023,4,April,Q2,C057,Manoj Rajput,Retailer,R01,Sector-7 Route,P08,Ghee 500ml,Ghee,Piece,6,300.97,1805.82,90.29,1715.53,Credit,INV-000129
+SL000130,2023-04-03,2023,4,April,Q2,C057,Manoj Rajput,Retailer,R01,Sector-7 Route,P06,Curd 400g,Curd,Piece,22,35.42,779.24,15.58,763.66,Cash,INV-000130
+SL000131,2023-04-03,2023,4,April,Q2,C057,Manoj Rajput,Retailer,R01,Sector-7 Route,P02,Milk Packet 500ml,Milk Packet,Packet,32,23.93,765.76,15.32,750.44,Credit,INV-000131
+SL000132,2023-04-03,2023,4,April,Q2,C057,Manoj Rajput,Retailer,R01,Sector-7 Route,P07,Curd 1kg,Curd,Piece,21,82.32,1728.72,0.0,1728.72,UPI,INV-000132
+SL000133,2023-04-03,2023,4,April,Q2,C023,Meena Srivastava,Wholesaler,R07,Old City Route,P05,Paneer 500g,Paneer,Piece,15,167.92,2518.8,125.94,2392.86,Credit,INV-000133
+SL000134,2023-04-03,2023,4,April,Q2,C023,Meena Srivastava,Wholesaler,R07,Old City Route,P03,Milk Packet 200ml,Milk Packet,Packet,157,10.85,1703.45,0.0,1703.45,Cheque,INV-000134
+SL000135,2023-04-03,2023,4,April,Q2,C093,Vikas Tiwari,Wholesaler,R01,Sector-7 Route,P04,Paneer 200g,Paneer,Piece,15,70.4,1056.0,21.12,1034.88,Cash,INV-000135
+SL000136,2023-04-03,2023,4,April,Q2,C033,Mahesh Tiwari,Wholesaler,R02,Civil Lines Route,P11,Butter 500g,Butter,Piece,11,268.2,2950.2,0.0,2950.2,Credit,INV-000136
+SL000137,2023-04-03,2023,4,April,Q2,C033,Mahesh Tiwari,Wholesaler,R02,Civil Lines Route,P06,Curd 400g,Curd,Piece,26,35.91,933.66,0.0,933.66,Cash,INV-000137
+SL000138,2023-04-03,2023,4,April,Q2,C033,Mahesh Tiwari,Wholesaler,R02,Civil Lines Route,P07,Curd 1kg,Curd,Piece,26,82.73,2150.98,43.02,2107.96,UPI,INV-000138
+SL000139,2023-04-03,2023,4,April,Q2,C061,Umesh Jain,Wholesaler,R08,Bypass Road Route,P12,Cream 200ml,Cream,Piece,12,74.34,892.08,0.0,892.08,Cheque,INV-000139
+SL000140,2023-04-03,2023,4,April,Q2,C042,Suresh Iyer,Institutional,R02,Civil Lines Route,P07,Curd 1kg,Curd,Piece,22,80.57,1772.54,35.45,1737.09,UPI,INV-000140
+SL000141,2023-04-03,2023,4,April,Q2,C042,Suresh Iyer,Institutional,R02,Civil Lines Route,P05,Paneer 500g,Paneer,Piece,8,160.95,1287.6,25.75,1261.85,Credit,INV-000141
+SL000142,2023-04-03,2023,4,April,Q2,C042,Suresh Iyer,Institutional,R02,Civil Lines Route,P11,Butter 500g,Butter,Piece,10,268.06,2680.6,53.61,2626.99,Cheque,INV-000142
+SL000143,2023-04-03,2023,4,April,Q2,C042,Suresh Iyer,Institutional,R02,Civil Lines Route,P04,Paneer 200g,Paneer,Piece,5,69.47,347.35,0.0,347.35,UPI,INV-000143
+SL000144,2023-04-03,2023,4,April,Q2,C090,Priya Sharma,Institutional,R02,Civil Lines Route,P02,Milk Packet 500ml,Milk Packet,Packet,90,23.89,2150.1,0.0,2150.1,Credit,INV-000144
+SL000145,2023-04-03,2023,4,April,Q2,C090,Priya Sharma,Institutional,R02,Civil Lines Route,P03,Milk Packet 200ml,Milk Packet,Packet,25,10.69,267.25,0.0,267.25,UPI,INV-000145
+SL000146,2023-04-03,2023,4,April,Q2,C090,Priya Sharma,Institutional,R02,Civil Lines Route,P07,Curd 1kg,Curd,Piece,27,80.47,2172.69,0.0,2172.69,UPI,INV-000146
+SL000147,2023-04-03,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P12,Cream 200ml,Cream,Piece,5,72.84,364.2,7.28,356.92,Cash,INV-000147
+SL000148,2023-04-03,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P05,Paneer 500g,Paneer,Piece,13,165.51,2151.63,107.58,2044.05,Cash,INV-000148
+SL000149,2023-04-03,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P01,Milk Bulk 1L,Milk Bulk,Litre,47,41.76,1962.72,0.0,1962.72,Credit,INV-000149
+SL000150,2023-04-03,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P11,Butter 500g,Butter,Piece,12,257.93,3095.16,0.0,3095.16,Cash,INV-000150
+SL000151,2023-04-03,2023,4,April,Q2,C026,Ramesh Bansal,Hotel/Restaurant,R02,Civil Lines Route,P12,Cream 200ml,Cream,Piece,10,75.1,751.0,37.55,713.45,Cash,INV-000151
+SL000152,2023-04-03,2023,4,April,Q2,C026,Ramesh Bansal,Hotel/Restaurant,R02,Civil Lines Route,P07,Curd 1kg,Curd,Piece,23,79.55,1829.65,0.0,1829.65,UPI,INV-000152
+SL000153,2023-04-03,2023,4,April,Q2,C097,Lokesh Trivedi,Hotel/Restaurant,R06,Industrial Area Route,P01,Milk Bulk 1L,Milk Bulk,Litre,56,41.82,2341.92,0.0,2341.92,UPI,INV-000153
+SL000154,2023-04-03,2023,4,April,Q2,C097,Lokesh Trivedi,Hotel/Restaurant,R06,Industrial Area Route,P10,Butter 100g,Butter,Piece,6,57.51,345.06,6.9,338.16,Cash,INV-000154
+SL000155,2023-04-03,2023,4,April,Q2,C097,Lokesh Trivedi,Hotel/Restaurant,R06,Industrial Area Route,P02,Milk Packet 500ml,Milk Packet,Packet,149,23.78,3543.22,0.0,3543.22,Cheque,INV-000155
+SL000156,2023-04-03,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P08,Ghee 500ml,Ghee,Piece,10,303.75,3037.5,0.0,3037.5,UPI,INV-000156
+SL000157,2023-04-03,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P10,Butter 100g,Butter,Piece,6,58.47,350.82,0.0,350.82,UPI,INV-000157
+SL000158,2023-04-03,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P12,Cream 200ml,Cream,Piece,8,74.67,597.36,11.95,585.41,Credit,INV-000158
+SL000159,2023-04-03,2023,4,April,Q2,C038,Sanjay Nair,Wholesaler,R08,Bypass Road Route,P10,Butter 100g,Butter,Piece,9,57.95,521.55,0.0,521.55,UPI,INV-000159
+SL000160,2023-04-03,2023,4,April,Q2,C038,Sanjay Nair,Wholesaler,R08,Bypass Road Route,P05,Paneer 500g,Paneer,Piece,10,168.51,1685.1,0.0,1685.1,Cash,INV-000160
+SL000161,2023-04-03,2023,4,April,Q2,C032,Sumit Patel,Direct Consumer,R03,Model Town Route,P09,Ghee 1L,Ghee,Piece,14,610.52,8547.28,170.95,8376.33,Cash,INV-000161
+SL000162,2023-04-03,2023,4,April,Q2,C032,Sumit Patel,Direct Consumer,R03,Model Town Route,P03,Milk Packet 200ml,Milk Packet,Packet,78,11.29,880.62,0.0,880.62,Credit,INV-000162
+SL000163,2023-04-03,2023,4,April,Q2,C059,Deepak Rao,Wholesaler,R05,Railway Colony Route,P03,Milk Packet 200ml,Milk Packet,Packet,146,10.68,1559.28,0.0,1559.28,Credit,INV-000163
+SL000164,2023-04-03,2023,4,April,Q2,C059,Deepak Rao,Wholesaler,R05,Railway Colony Route,P11,Butter 500g,Butter,Piece,11,264.24,2906.64,58.13,2848.51,Cash,INV-000164
+SL000165,2023-04-03,2023,4,April,Q2,C059,Deepak Rao,Wholesaler,R05,Railway Colony Route,P09,Ghee 1L,Ghee,Piece,1,611.7,611.7,12.23,599.47,Cash,INV-000165
+SL000166,2023-04-03,2023,4,April,Q2,C005,Ajay Mehta,Retailer,R07,Old City Route,P11,Butter 500g,Butter,Piece,8,267.16,2137.28,0.0,2137.28,Cash,INV-000166
+SL000167,2023-04-03,2023,4,April,Q2,C005,Ajay Mehta,Retailer,R07,Old City Route,P07,Curd 1kg,Curd,Piece,23,83.28,1915.44,0.0,1915.44,Cash,INV-000167
+SL000168,2023-04-03,2023,4,April,Q2,C068,Meena Nair,Retailer,R06,Industrial Area Route,P05,Paneer 500g,Paneer,Piece,18,166.68,3000.24,0.0,3000.24,UPI,INV-000168
+SL000169,2023-04-03,2023,4,April,Q2,C115,Amit Garg,Hotel/Restaurant,R04,Sadar Bazar Route,P09,Ghee 1L,Ghee,Piece,11,601.06,6611.66,0.0,6611.66,Cash,INV-000169
+SL000170,2023-04-03,2023,4,April,Q2,C114,Santosh Singh,Retailer,R04,Sadar Bazar Route,P03,Milk Packet 200ml,Milk Packet,Packet,162,11.29,1828.98,0.0,1828.98,UPI,INV-000170
+SL000171,2023-04-03,2023,4,April,Q2,C044,Rohit Dubey,Institutional,R03,Model Town Route,P04,Paneer 200g,Paneer,Piece,2,70.43,140.86,7.04,133.82,Credit,INV-000171
+SL000172,2023-04-03,2023,4,April,Q2,C044,Rohit Dubey,Institutional,R03,Model Town Route,P05,Paneer 500g,Paneer,Piece,18,160.55,2889.9,0.0,2889.9,Cash,INV-000172
+SL000173,2023-04-03,2023,4,April,Q2,C070,Amit Goyal,Retailer,R04,Sadar Bazar Route,P05,Paneer 500g,Paneer,Piece,15,160.6,2409.0,0.0,2409.0,Cash,INV-000173
+SL000174,2023-04-03,2023,4,April,Q2,C070,Amit Goyal,Retailer,R04,Sadar Bazar Route,P01,Milk Bulk 1L,Milk Bulk,Litre,34,43.09,1465.06,0.0,1465.06,Cash,INV-000174
+SL000175,2023-04-03,2023,4,April,Q2,C070,Amit Goyal,Retailer,R04,Sadar Bazar Route,P12,Cream 200ml,Cream,Piece,5,74.66,373.3,0.0,373.3,Cash,INV-000175
+SL000176,2023-04-03,2023,4,April,Q2,C100,Yogesh Goyal,Wholesaler,R02,Civil Lines Route,P11,Butter 500g,Butter,Piece,13,272.21,3538.73,176.94,3361.79,Credit,INV-000176
+SL000177,2023-04-03,2023,4,April,Q2,C100,Yogesh Goyal,Wholesaler,R02,Civil Lines Route,P05,Paneer 500g,Paneer,Piece,10,164.37,1643.7,32.87,1610.83,Cash,INV-000177
+SL000178,2023-04-03,2023,4,April,Q2,C100,Yogesh Goyal,Wholesaler,R02,Civil Lines Route,P06,Curd 400g,Curd,Piece,30,36.06,1081.8,54.09,1027.71,Credit,INV-000178
+SL000179,2023-04-03,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P10,Butter 100g,Butter,Piece,11,57.81,635.91,31.8,604.11,Credit,INV-000179
+SL000180,2023-04-03,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P05,Paneer 500g,Paneer,Piece,13,166.4,2163.2,0.0,2163.2,Credit,INV-000180
+SL000181,2023-04-03,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P12,Cream 200ml,Cream,Piece,12,74.0,888.0,0.0,888.0,Cash,INV-000181
+SL000182,2023-04-03,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P02,Milk Packet 500ml,Milk Packet,Packet,197,24.6,4846.2,242.31,4603.89,Credit,INV-000182
+SL000183,2023-04-04,2023,4,April,Q2,C097,Lokesh Trivedi,Hotel/Restaurant,R06,Industrial Area Route,P09,Ghee 1L,Ghee,Piece,3,592.82,1778.46,35.57,1742.89,Credit,INV-000183
+SL000184,2023-04-04,2023,4,April,Q2,C097,Lokesh Trivedi,Hotel/Restaurant,R06,Industrial Area Route,P07,Curd 1kg,Curd,Piece,16,80.69,1291.04,0.0,1291.04,Credit,INV-000184
+SL000185,2023-04-04,2023,4,April,Q2,C029,Lalit Rao,Retailer,R07,Old City Route,P07,Curd 1kg,Curd,Piece,9,82.0,738.0,0.0,738.0,Cash,INV-000185
+SL000186,2023-04-04,2023,4,April,Q2,C029,Lalit Rao,Retailer,R07,Old City Route,P09,Ghee 1L,Ghee,Piece,11,594.32,6537.52,0.0,6537.52,Cash,INV-000186
+SL000187,2023-04-04,2023,4,April,Q2,C076,Bhavesh Chauhan,Direct Consumer,R04,Sadar Bazar Route,P03,Milk Packet 200ml,Milk Packet,Packet,84,10.99,923.16,46.16,877.0,Cash,INV-000187
+SL000188,2023-04-04,2023,4,April,Q2,C076,Bhavesh Chauhan,Direct Consumer,R04,Sadar Bazar Route,P06,Curd 400g,Curd,Piece,16,35.27,564.32,11.29,553.03,Credit,INV-000188
+SL000189,2023-04-04,2023,4,April,Q2,C035,Ganesh Mehta,Institutional,R04,Sadar Bazar Route,P07,Curd 1kg,Curd,Piece,20,82.53,1650.6,33.01,1617.59,Cash,INV-000189
+SL000190,2023-04-04,2023,4,April,Q2,C035,Ganesh Mehta,Institutional,R04,Sadar Bazar Route,P03,Milk Packet 200ml,Milk Packet,Packet,119,11.01,1310.19,0.0,1310.19,Credit,INV-000190
+SL000191,2023-04-04,2023,4,April,Q2,C004,Harish Mishra,Wholesaler,R04,Sadar Bazar Route,P11,Butter 500g,Butter,Piece,11,265.22,2917.42,0.0,2917.42,UPI,INV-000191
+SL000192,2023-04-04,2023,4,April,Q2,C004,Harish Mishra,Wholesaler,R04,Sadar Bazar Route,P03,Milk Packet 200ml,Milk Packet,Packet,132,10.95,1445.4,72.27,1373.13,Cash,INV-000192
+SL000193,2023-04-04,2023,4,April,Q2,C004,Harish Mishra,Wholesaler,R04,Sadar Bazar Route,P10,Butter 100g,Butter,Piece,19,58.57,1112.83,22.26,1090.57,Credit,INV-000193
+SL000194,2023-04-04,2023,4,April,Q2,C004,Harish Mishra,Wholesaler,R04,Sadar Bazar Route,P07,Curd 1kg,Curd,Piece,31,81.76,2534.56,50.69,2483.87,Cheque,INV-000194
+SL000195,2023-04-04,2023,4,April,Q2,C098,Ashok Nair,Retailer,R07,Old City Route,P10,Butter 100g,Butter,Piece,15,58.49,877.35,0.0,877.35,Cash,INV-000195
+SL000196,2023-04-04,2023,4,April,Q2,C098,Ashok Nair,Retailer,R07,Old City Route,P02,Milk Packet 500ml,Milk Packet,Packet,109,23.62,2574.58,51.49,2523.09,Cash,INV-000196
+SL000197,2023-04-04,2023,4,April,Q2,C098,Ashok Nair,Retailer,R07,Old City Route,P04,Paneer 200g,Paneer,Piece,20,70.57,1411.4,0.0,1411.4,Cash,INV-000197
+SL000198,2023-04-04,2023,4,April,Q2,C098,Ashok Nair,Retailer,R07,Old City Route,P03,Milk Packet 200ml,Milk Packet,Packet,49,10.69,523.81,0.0,523.81,Credit,INV-000198
+SL000199,2023-04-04,2023,4,April,Q2,C094,Harish Mishra,Hotel/Restaurant,R07,Old City Route,P09,Ghee 1L,Ghee,Piece,12,584.82,7017.84,0.0,7017.84,Cash,INV-000199
+SL000200,2023-04-04,2023,4,April,Q2,C094,Harish Mishra,Hotel/Restaurant,R07,Old City Route,P02,Milk Packet 500ml,Milk Packet,Packet,162,23.84,3862.08,0.0,3862.08,UPI,INV-000200
+SL000201,2023-04-04,2023,4,April,Q2,C094,Harish Mishra,Hotel/Restaurant,R07,Old City Route,P12,Cream 200ml,Cream,Piece,3,74.69,224.07,4.48,219.59,Credit,INV-000201
+SL000202,2023-04-04,2023,4,April,Q2,C094,Harish Mishra,Hotel/Restaurant,R07,Old City Route,P06,Curd 400g,Curd,Piece,6,36.24,217.44,4.35,213.09,Cheque,INV-000202
+SL000203,2023-04-04,2023,4,April,Q2,C065,Pramod Mehta,Retailer,R07,Old City Route,P10,Butter 100g,Butter,Piece,19,59.23,1125.37,22.51,1102.86,Credit,INV-000203
+SL000204,2023-04-04,2023,4,April,Q2,C096,Rajesh Mittal,Direct Consumer,R04,Sadar Bazar Route,P03,Milk Packet 200ml,Milk Packet,Packet,70,11.21,784.7,15.69,769.01,Cheque,INV-000204
+SL000205,2023-04-04,2023,4,April,Q2,C046,Rekha Chauhan,Direct Consumer,R03,Model Town Route,P03,Milk Packet 200ml,Milk Packet,Packet,28,11.01,308.28,0.0,308.28,Credit,INV-000205
+SL000206,2023-04-04,2023,4,April,Q2,C091,Rekha Jain,Wholesaler,R04,Sadar Bazar Route,P11,Butter 500g,Butter,Piece,10,265.7,2657.0,53.14,2603.86,Cheque,INV-000206
+SL000207,2023-04-04,2023,4,April,Q2,C091,Rekha Jain,Wholesaler,R04,Sadar Bazar Route,P06,Curd 400g,Curd,Piece,26,35.37,919.62,18.39,901.23,Cash,INV-000207
+SL000208,2023-04-04,2023,4,April,Q2,C091,Rekha Jain,Wholesaler,R04,Sadar Bazar Route,P09,Ghee 1L,Ghee,Piece,11,589.06,6479.66,0.0,6479.66,Cash,INV-000208
+SL000209,2023-04-04,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P08,Ghee 500ml,Ghee,Piece,13,306.36,3982.68,79.65,3903.03,Credit,INV-000209
+SL000210,2023-04-04,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P07,Curd 1kg,Curd,Piece,21,83.34,1750.14,0.0,1750.14,Cash,INV-000210
+SL000211,2023-04-04,2023,4,April,Q2,C023,Meena Srivastava,Wholesaler,R07,Old City Route,P11,Butter 500g,Butter,Piece,6,261.58,1569.48,31.39,1538.09,Credit,INV-000211
+SL000212,2023-04-04,2023,4,April,Q2,C103,Girish Thakur,Wholesaler,R03,Model Town Route,P04,Paneer 200g,Paneer,Piece,2,71.79,143.58,7.18,136.4,Credit,INV-000212
+SL000213,2023-04-04,2023,4,April,Q2,C103,Girish Thakur,Wholesaler,R03,Model Town Route,P02,Milk Packet 500ml,Milk Packet,Packet,78,23.52,1834.56,0.0,1834.56,Cash,INV-000213
+SL000214,2023-04-04,2023,4,April,Q2,C103,Girish Thakur,Wholesaler,R03,Model Town Route,P06,Curd 400g,Curd,Piece,8,36.41,291.28,0.0,291.28,Credit,INV-000214
+SL000215,2023-04-04,2023,4,April,Q2,C103,Girish Thakur,Wholesaler,R03,Model Town Route,P12,Cream 200ml,Cream,Piece,2,73.12,146.24,0.0,146.24,Cash,INV-000215
+SL000216,2023-04-04,2023,4,April,Q2,C117,Neha Rajput,Wholesaler,R05,Railway Colony Route,P08,Ghee 500ml,Ghee,Piece,15,304.06,4560.9,0.0,4560.9,Cheque,INV-000216
+SL000217,2023-04-04,2023,4,April,Q2,C117,Neha Rajput,Wholesaler,R05,Railway Colony Route,P04,Paneer 200g,Paneer,Piece,10,69.57,695.7,13.91,681.79,Credit,INV-000217
+SL000218,2023-04-04,2023,4,April,Q2,C105,Nitesh Kumar,Institutional,R06,Industrial Area Route,P12,Cream 200ml,Cream,Piece,3,77.08,231.24,11.56,219.68,Cheque,INV-000218
+SL000219,2023-04-04,2023,4,April,Q2,C105,Nitesh Kumar,Institutional,R06,Industrial Area Route,P01,Milk Bulk 1L,Milk Bulk,Litre,57,41.73,2378.61,47.57,2331.04,Cash,INV-000219
+SL000220,2023-04-04,2023,4,April,Q2,C105,Nitesh Kumar,Institutional,R06,Industrial Area Route,P07,Curd 1kg,Curd,Piece,9,83.38,750.42,0.0,750.42,UPI,INV-000220
+SL000221,2023-04-04,2023,4,April,Q2,C028,Kavita Verma,Hotel/Restaurant,R06,Industrial Area Route,P08,Ghee 500ml,Ghee,Piece,17,306.79,5215.43,0.0,5215.43,Credit,INV-000221
+SL000222,2023-04-04,2023,4,April,Q2,C028,Kavita Verma,Hotel/Restaurant,R06,Industrial Area Route,P02,Milk Packet 500ml,Milk Packet,Packet,94,24.09,2264.46,113.22,2151.24,Cash,INV-000222
+SL000223,2023-04-04,2023,4,April,Q2,C070,Amit Goyal,Retailer,R04,Sadar Bazar Route,P08,Ghee 500ml,Ghee,Piece,9,301.04,2709.36,0.0,2709.36,Credit,INV-000223
+SL000224,2023-04-04,2023,4,April,Q2,C070,Amit Goyal,Retailer,R04,Sadar Bazar Route,P03,Milk Packet 200ml,Milk Packet,Packet,175,11.27,1972.25,0.0,1972.25,Cash,INV-000224
+SL000225,2023-04-04,2023,4,April,Q2,C070,Amit Goyal,Retailer,R04,Sadar Bazar Route,P07,Curd 1kg,Curd,Piece,27,82.16,2218.32,0.0,2218.32,Cash,INV-000225
+SL000226,2023-04-04,2023,4,April,Q2,C070,Amit Goyal,Retailer,R04,Sadar Bazar Route,P06,Curd 400g,Curd,Piece,5,35.14,175.7,3.51,172.19,UPI,INV-000226
+SL000227,2023-04-04,2023,4,April,Q2,C076,Bhavesh Chauhan,Direct Consumer,R04,Sadar Bazar Route,P01,Milk Bulk 1L,Milk Bulk,Litre,18,41.25,742.5,0.0,742.5,Credit,INV-000227
+SL000228,2023-04-04,2023,4,April,Q2,C076,Bhavesh Chauhan,Direct Consumer,R04,Sadar Bazar Route,P04,Paneer 200g,Paneer,Piece,2,70.26,140.52,0.0,140.52,Cheque,INV-000228
+SL000229,2023-04-04,2023,4,April,Q2,C076,Bhavesh Chauhan,Direct Consumer,R04,Sadar Bazar Route,P03,Milk Packet 200ml,Milk Packet,Packet,62,10.98,680.76,13.62,667.14,Credit,INV-000229
+SL000230,2023-04-04,2023,4,April,Q2,C012,Manoj Iyer,Retailer,R08,Bypass Road Route,P05,Paneer 500g,Paneer,Piece,4,163.09,652.36,0.0,652.36,Cash,INV-000230
+SL000231,2023-04-04,2023,4,April,Q2,C057,Manoj Rajput,Retailer,R01,Sector-7 Route,P08,Ghee 500ml,Ghee,Piece,10,309.54,3095.4,0.0,3095.4,Cheque,INV-000231
+SL000232,2023-04-04,2023,4,April,Q2,C064,Kamlesh Mishra,Retailer,R07,Old City Route,P01,Milk Bulk 1L,Milk Bulk,Litre,39,41.97,1636.83,0.0,1636.83,Credit,INV-000232
+SL000233,2023-04-04,2023,4,April,Q2,C064,Kamlesh Mishra,Retailer,R07,Old City Route,P12,Cream 200ml,Cream,Piece,8,74.18,593.44,29.67,563.77,Credit,INV-000233
+SL000234,2023-04-04,2023,4,April,Q2,C008,Ashok Nair,Retailer,R01,Sector-7 Route,P05,Paneer 500g,Paneer,Piece,23,168.11,3866.53,0.0,3866.53,Credit,INV-000234
+SL000235,2023-04-04,2023,4,April,Q2,C008,Ashok Nair,Retailer,R01,Sector-7 Route,P04,Paneer 200g,Paneer,Piece,8,71.73,573.84,0.0,573.84,Credit,INV-000235
+SL000236,2023-04-04,2023,4,April,Q2,C008,Ashok Nair,Retailer,R01,Sector-7 Route,P09,Ghee 1L,Ghee,Piece,7,607.16,4250.12,85.0,4165.12,Credit,INV-000236
+SL000237,2023-04-04,2023,4,April,Q2,C008,Ashok Nair,Retailer,R01,Sector-7 Route,P01,Milk Bulk 1L,Milk Bulk,Litre,75,42.62,3196.5,63.93,3132.57,Cash,INV-000237
+SL000238,2023-04-04,2023,4,April,Q2,C103,Girish Thakur,Wholesaler,R03,Model Town Route,P01,Milk Bulk 1L,Milk Bulk,Litre,61,42.08,2566.88,0.0,2566.88,Cheque,INV-000238
+SL000239,2023-04-04,2023,4,April,Q2,C103,Girish Thakur,Wholesaler,R03,Model Town Route,P09,Ghee 1L,Ghee,Piece,12,597.25,7167.0,0.0,7167.0,Credit,INV-000239
+SL000240,2023-04-04,2023,4,April,Q2,C103,Girish Thakur,Wholesaler,R03,Model Town Route,P08,Ghee 500ml,Ghee,Piece,10,311.19,3111.9,0.0,3111.9,Cheque,INV-000240
+SL000241,2023-04-04,2023,4,April,Q2,C093,Vikas Tiwari,Wholesaler,R01,Sector-7 Route,P07,Curd 1kg,Curd,Piece,14,79.65,1115.1,22.3,1092.8,Cash,INV-000241
+SL000242,2023-04-04,2023,4,April,Q2,C093,Vikas Tiwari,Wholesaler,R01,Sector-7 Route,P03,Milk Packet 200ml,Milk Packet,Packet,23,10.89,250.47,0.0,250.47,Credit,INV-000242
+SL000243,2023-04-04,2023,4,April,Q2,C038,Sanjay Nair,Wholesaler,R08,Bypass Road Route,P04,Paneer 200g,Paneer,Piece,18,72.04,1296.72,0.0,1296.72,Cash,INV-000243
+SL000244,2023-04-04,2023,4,April,Q2,C038,Sanjay Nair,Wholesaler,R08,Bypass Road Route,P11,Butter 500g,Butter,Piece,4,262.16,1048.64,52.43,996.21,Cheque,INV-000244
+SL000245,2023-04-04,2023,4,April,Q2,C097,Lokesh Trivedi,Hotel/Restaurant,R06,Industrial Area Route,P07,Curd 1kg,Curd,Piece,26,80.33,2088.58,0.0,2088.58,Cash,INV-000245
+SL000246,2023-04-04,2023,4,April,Q2,C041,Anita Yadav,Retailer,R04,Sadar Bazar Route,P02,Milk Packet 500ml,Milk Packet,Packet,193,23.6,4554.8,91.1,4463.7,Credit,INV-000246
+SL000247,2023-04-04,2023,4,April,Q2,C040,Sunita Goyal,Institutional,R05,Railway Colony Route,P01,Milk Bulk 1L,Milk Bulk,Litre,17,43.15,733.55,14.67,718.88,Credit,INV-000247
+SL000248,2023-04-04,2023,4,April,Q2,C040,Sunita Goyal,Institutional,R05,Railway Colony Route,P10,Butter 100g,Butter,Piece,6,58.81,352.86,0.0,352.86,UPI,INV-000248
+SL000249,2023-04-04,2023,4,April,Q2,C040,Sunita Goyal,Institutional,R05,Railway Colony Route,P12,Cream 200ml,Cream,Piece,2,75.64,151.28,7.56,143.72,Cash,INV-000249
+SL000250,2023-04-04,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P02,Milk Packet 500ml,Milk Packet,Packet,47,24.37,1145.39,0.0,1145.39,Credit,INV-000250
+SL000251,2023-04-04,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P12,Cream 200ml,Cream,Piece,5,75.95,379.75,18.99,360.76,Credit,INV-000251
+SL000252,2023-04-04,2023,4,April,Q2,C089,Rohit Rao,Retailer,R02,Civil Lines Route,P02,Milk Packet 500ml,Milk Packet,Packet,67,24.24,1624.08,81.2,1542.88,UPI,INV-000252
+SL000253,2023-04-04,2023,4,April,Q2,C089,Rohit Rao,Retailer,R02,Civil Lines Route,P10,Butter 100g,Butter,Piece,16,58.72,939.52,0.0,939.52,UPI,INV-000253
+SL000254,2023-04-04,2023,4,April,Q2,C070,Amit Goyal,Retailer,R04,Sadar Bazar Route,P08,Ghee 500ml,Ghee,Piece,10,314.8,3148.0,0.0,3148.0,Cheque,INV-000254
+SL000255,2023-04-04,2023,4,April,Q2,C070,Amit Goyal,Retailer,R04,Sadar Bazar Route,P03,Milk Packet 200ml,Milk Packet,Packet,85,11.06,940.1,0.0,940.1,UPI,INV-000255
+SL000256,2023-04-04,2023,4,April,Q2,C054,Rakesh Singh,Wholesaler,R04,Sadar Bazar Route,P04,Paneer 200g,Paneer,Piece,4,70.88,283.52,0.0,283.52,Cash,INV-000256
+SL000257,2023-04-04,2023,4,April,Q2,C054,Rakesh Singh,Wholesaler,R04,Sadar Bazar Route,P01,Milk Bulk 1L,Milk Bulk,Litre,29,42.14,1222.06,0.0,1222.06,Cheque,INV-000257
+SL000258,2023-04-04,2023,4,April,Q2,C066,Paresh Mittal,Wholesaler,R01,Sector-7 Route,P11,Butter 500g,Butter,Piece,9,264.77,2382.93,0.0,2382.93,Cash,INV-000258
+SL000259,2023-04-04,2023,4,April,Q2,C066,Paresh Mittal,Wholesaler,R01,Sector-7 Route,P01,Milk Bulk 1L,Milk Bulk,Litre,39,41.11,1603.29,0.0,1603.29,Cash,INV-000259
+SL000260,2023-04-04,2023,4,April,Q2,C066,Paresh Mittal,Wholesaler,R01,Sector-7 Route,P12,Cream 200ml,Cream,Piece,1,76.45,76.45,0.0,76.45,Credit,INV-000260
+SL000261,2023-04-04,2023,4,April,Q2,C066,Paresh Mittal,Wholesaler,R01,Sector-7 Route,P04,Paneer 200g,Paneer,Piece,15,69.5,1042.5,0.0,1042.5,Cash,INV-000261
+SL000262,2023-04-04,2023,4,April,Q2,C008,Ashok Nair,Retailer,R01,Sector-7 Route,P10,Butter 100g,Butter,Piece,1,56.28,56.28,0.0,56.28,Credit,INV-000262
+SL000263,2023-04-04,2023,4,April,Q2,C082,Naresh Gupta,Retailer,R08,Bypass Road Route,P01,Milk Bulk 1L,Milk Bulk,Litre,45,40.99,1844.55,0.0,1844.55,Cash,INV-000263
+SL000264,2023-04-04,2023,4,April,Q2,C082,Naresh Gupta,Retailer,R08,Bypass Road Route,P03,Milk Packet 200ml,Milk Packet,Packet,180,10.69,1924.2,38.48,1885.72,Cash,INV-000264
+SL000265,2023-04-04,2023,4,April,Q2,C082,Naresh Gupta,Retailer,R08,Bypass Road Route,P04,Paneer 200g,Paneer,Piece,8,70.13,561.04,11.22,549.82,UPI,INV-000265
+SL000266,2023-04-04,2023,4,April,Q2,C082,Naresh Gupta,Retailer,R08,Bypass Road Route,P05,Paneer 500g,Paneer,Piece,2,161.34,322.68,6.45,316.23,Credit,INV-000266
+SL000267,2023-04-04,2023,4,April,Q2,C002,Jignesh Patel,Hotel/Restaurant,R02,Civil Lines Route,P07,Curd 1kg,Curd,Piece,29,80.22,2326.38,46.53,2279.85,UPI,INV-000267
+SL000268,2023-04-04,2023,4,April,Q2,C002,Jignesh Patel,Hotel/Restaurant,R02,Civil Lines Route,P04,Paneer 200g,Paneer,Piece,12,71.06,852.72,42.64,810.08,Credit,INV-000268
+SL000269,2023-04-04,2023,4,April,Q2,C002,Jignesh Patel,Hotel/Restaurant,R02,Civil Lines Route,P12,Cream 200ml,Cream,Piece,2,76.88,153.76,0.0,153.76,Credit,INV-000269
+SL000270,2023-04-04,2023,4,April,Q2,C002,Jignesh Patel,Hotel/Restaurant,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,41,41.75,1711.75,0.0,1711.75,UPI,INV-000270
+SL000271,2023-04-04,2023,4,April,Q2,C095,Ajay Mehta,Hotel/Restaurant,R06,Industrial Area Route,P06,Curd 400g,Curd,Piece,27,36.91,996.57,49.83,946.74,Credit,INV-000271
+SL000272,2023-04-04,2023,4,April,Q2,C059,Deepak Rao,Wholesaler,R05,Railway Colony Route,P01,Milk Bulk 1L,Milk Bulk,Litre,46,42.91,1973.86,0.0,1973.86,Credit,INV-000272
+SL000273,2023-04-04,2023,4,April,Q2,C059,Deepak Rao,Wholesaler,R05,Railway Colony Route,P03,Milk Packet 200ml,Milk Packet,Packet,57,11.01,627.57,12.55,615.02,Credit,INV-000273
+SL000274,2023-04-04,2023,4,April,Q2,C059,Deepak Rao,Wholesaler,R05,Railway Colony Route,P10,Butter 100g,Butter,Piece,7,59.47,416.29,8.33,407.96,Cash,INV-000274
+SL000275,2023-04-05,2023,4,April,Q2,C044,Rohit Dubey,Institutional,R03,Model Town Route,P05,Paneer 500g,Paneer,Piece,7,169.41,1185.87,0.0,1185.87,Cheque,INV-000275
+SL000276,2023-04-05,2023,4,April,Q2,C044,Rohit Dubey,Institutional,R03,Model Town Route,P03,Milk Packet 200ml,Milk Packet,Packet,162,11.18,1811.16,0.0,1811.16,Credit,INV-000276
+SL000277,2023-04-05,2023,4,April,Q2,C075,Sunil Kumar,Retailer,R01,Sector-7 Route,P02,Milk Packet 500ml,Milk Packet,Packet,155,23.41,3628.55,72.57,3555.98,UPI,INV-000277
+SL000278,2023-04-05,2023,4,April,Q2,C075,Sunil Kumar,Retailer,R01,Sector-7 Route,P07,Curd 1kg,Curd,Piece,33,83.86,2767.38,138.37,2629.01,UPI,INV-000278
+SL000279,2023-04-05,2023,4,April,Q2,C075,Sunil Kumar,Retailer,R01,Sector-7 Route,P06,Curd 400g,Curd,Piece,33,36.8,1214.4,0.0,1214.4,Cash,INV-000279
+SL000280,2023-04-05,2023,4,April,Q2,C054,Rakesh Singh,Wholesaler,R04,Sadar Bazar Route,P01,Milk Bulk 1L,Milk Bulk,Litre,45,41.26,1856.7,37.13,1819.57,UPI,INV-000280
+SL000281,2023-04-05,2023,4,April,Q2,C054,Rakesh Singh,Wholesaler,R04,Sadar Bazar Route,P11,Butter 500g,Butter,Piece,17,257.31,4374.27,218.71,4155.56,Cash,INV-000281
+SL000282,2023-04-05,2023,4,April,Q2,C054,Rakesh Singh,Wholesaler,R04,Sadar Bazar Route,P03,Milk Packet 200ml,Milk Packet,Packet,21,10.92,229.32,0.0,229.32,Credit,INV-000282
+SL000283,2023-04-05,2023,4,April,Q2,C054,Rakesh Singh,Wholesaler,R04,Sadar Bazar Route,P05,Paneer 500g,Paneer,Piece,9,166.32,1496.88,74.84,1422.04,Cheque,INV-000283
+SL000284,2023-04-05,2023,4,April,Q2,C024,Santosh Singh,Retailer,R08,Bypass Road Route,P02,Milk Packet 500ml,Milk Packet,Packet,113,24.54,2773.02,55.46,2717.56,Credit,INV-000284
+SL000285,2023-04-05,2023,4,April,Q2,C024,Santosh Singh,Retailer,R08,Bypass Road Route,P09,Ghee 1L,Ghee,Piece,7,585.73,4100.11,0.0,4100.11,Credit,INV-000285
+SL000286,2023-04-05,2023,4,April,Q2,C024,Santosh Singh,Retailer,R08,Bypass Road Route,P05,Paneer 500g,Paneer,Piece,6,160.34,962.04,48.1,913.94,Credit,INV-000286
+SL000287,2023-04-05,2023,4,April,Q2,C024,Santosh Singh,Retailer,R08,Bypass Road Route,P12,Cream 200ml,Cream,Piece,5,74.57,372.85,7.46,365.39,Cheque,INV-000287
+SL000288,2023-04-05,2023,4,April,Q2,C072,Neha Iyer,Wholesaler,R05,Railway Colony Route,P06,Curd 400g,Curd,Piece,6,36.36,218.16,0.0,218.16,UPI,INV-000288
+SL000289,2023-04-05,2023,4,April,Q2,C002,Jignesh Patel,Hotel/Restaurant,R02,Civil Lines Route,P05,Paneer 500g,Paneer,Piece,4,164.59,658.36,0.0,658.36,Credit,INV-000289
+SL000290,2023-04-05,2023,4,April,Q2,C002,Jignesh Patel,Hotel/Restaurant,R02,Civil Lines Route,P08,Ghee 500ml,Ghee,Piece,2,318.24,636.48,0.0,636.48,Credit,INV-000290
+SL000291,2023-04-05,2023,4,April,Q2,C002,Jignesh Patel,Hotel/Restaurant,R02,Civil Lines Route,P03,Milk Packet 200ml,Milk Packet,Packet,180,11.25,2025.0,0.0,2025.0,UPI,INV-000291
+SL000292,2023-04-05,2023,4,April,Q2,C002,Jignesh Patel,Hotel/Restaurant,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,13,41.92,544.96,0.0,544.96,Cash,INV-000292
+SL000293,2023-04-05,2023,4,April,Q2,C013,Girish Thakur,Retailer,R08,Bypass Road Route,P02,Milk Packet 500ml,Milk Packet,Packet,201,24.69,4962.69,248.13,4714.56,Credit,INV-000293
+SL000294,2023-04-05,2023,4,April,Q2,C013,Girish Thakur,Retailer,R08,Bypass Road Route,P07,Curd 1kg,Curd,Piece,20,81.64,1632.8,0.0,1632.8,Cheque,INV-000294
+SL000295,2023-04-05,2023,4,April,Q2,C013,Girish Thakur,Retailer,R08,Bypass Road Route,P03,Milk Packet 200ml,Milk Packet,Packet,241,11.14,2684.74,0.0,2684.74,Credit,INV-000295
+SL000296,2023-04-05,2023,4,April,Q2,C013,Girish Thakur,Retailer,R08,Bypass Road Route,P01,Milk Bulk 1L,Milk Bulk,Litre,78,40.98,3196.44,0.0,3196.44,Cash,INV-000296
+SL000297,2023-04-05,2023,4,April,Q2,C050,Ajay Pandey,Direct Consumer,R06,Industrial Area Route,P11,Butter 500g,Butter,Piece,4,261.39,1045.56,0.0,1045.56,UPI,INV-000297
+SL000298,2023-04-05,2023,4,April,Q2,C104,Deepak Dubey,Direct Consumer,R02,Civil Lines Route,P10,Butter 100g,Butter,Piece,14,57.77,808.78,40.44,768.34,Credit,INV-000298
+SL000299,2023-04-05,2023,4,April,Q2,C104,Deepak Dubey,Direct Consumer,R02,Civil Lines Route,P05,Paneer 500g,Paneer,Piece,6,160.97,965.82,0.0,965.82,Credit,INV-000299
+SL000300,2023-04-05,2023,4,April,Q2,C085,Sunita Garg,Wholesaler,R01,Sector-7 Route,P09,Ghee 1L,Ghee,Piece,17,582.06,9895.02,0.0,9895.02,Credit,INV-000300
+SL000301,2023-04-05,2023,4,April,Q2,C088,Vijay Verma,Wholesaler,R03,Model Town Route,P03,Milk Packet 200ml,Milk Packet,Packet,198,11.04,2185.92,43.72,2142.2,Credit,INV-000301
+SL000302,2023-04-05,2023,4,April,Q2,C088,Vijay Verma,Wholesaler,R03,Model Town Route,P08,Ghee 500ml,Ghee,Piece,11,303.69,3340.59,0.0,3340.59,UPI,INV-000302
+SL000303,2023-04-05,2023,4,April,Q2,C088,Vijay Verma,Wholesaler,R03,Model Town Route,P01,Milk Bulk 1L,Milk Bulk,Litre,52,41.76,2171.52,0.0,2171.52,Credit,INV-000303
+SL000304,2023-04-05,2023,4,April,Q2,C088,Vijay Verma,Wholesaler,R03,Model Town Route,P07,Curd 1kg,Curd,Piece,18,81.36,1464.48,0.0,1464.48,Cash,INV-000304
+SL000305,2023-04-05,2023,4,April,Q2,C093,Vikas Tiwari,Wholesaler,R01,Sector-7 Route,P07,Curd 1kg,Curd,Piece,10,81.73,817.3,0.0,817.3,Credit,INV-000305
+SL000306,2023-04-05,2023,4,April,Q2,C093,Vikas Tiwari,Wholesaler,R01,Sector-7 Route,P05,Paneer 500g,Paneer,Piece,17,167.07,2840.19,142.01,2698.18,Cash,INV-000306
+SL000307,2023-04-05,2023,4,April,Q2,C063,Mohit Tiwari,Institutional,R04,Sadar Bazar Route,P03,Milk Packet 200ml,Milk Packet,Packet,51,10.74,547.74,27.39,520.35,Credit,INV-000307
+SL000308,2023-04-05,2023,4,April,Q2,C063,Mohit Tiwari,Institutional,R04,Sadar Bazar Route,P05,Paneer 500g,Paneer,Piece,4,165.69,662.76,0.0,662.76,Credit,INV-000308
+SL000309,2023-04-05,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P03,Milk Packet 200ml,Milk Packet,Packet,95,10.93,1038.35,20.77,1017.58,UPI,INV-000309
+SL000310,2023-04-05,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P06,Curd 400g,Curd,Piece,9,35.95,323.55,0.0,323.55,Credit,INV-000310
+SL000311,2023-04-05,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P04,Paneer 200g,Paneer,Piece,19,67.9,1290.1,0.0,1290.1,Cheque,INV-000311
+SL000312,2023-04-05,2023,4,April,Q2,C112,Pooja Gupta,Retailer,R02,Civil Lines Route,P04,Paneer 200g,Paneer,Piece,16,71.03,1136.48,0.0,1136.48,UPI,INV-000312
+SL000313,2023-04-05,2023,4,April,Q2,C082,Naresh Gupta,Retailer,R08,Bypass Road Route,P10,Butter 100g,Butter,Piece,3,57.21,171.63,3.43,168.2,Credit,INV-000313
+SL000314,2023-04-05,2023,4,April,Q2,C082,Naresh Gupta,Retailer,R08,Bypass Road Route,P03,Milk Packet 200ml,Milk Packet,Packet,75,11.13,834.75,16.7,818.05,Credit,INV-000314
+SL000315,2023-04-05,2023,4,April,Q2,C082,Naresh Gupta,Retailer,R08,Bypass Road Route,P12,Cream 200ml,Cream,Piece,9,75.36,678.24,13.56,664.68,UPI,INV-000315
+SL000316,2023-04-05,2023,4,April,Q2,C090,Priya Sharma,Institutional,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,25,41.27,1031.75,20.64,1011.11,UPI,INV-000316
+SL000317,2023-04-05,2023,4,April,Q2,C090,Priya Sharma,Institutional,R02,Civil Lines Route,P04,Paneer 200g,Paneer,Piece,2,70.66,141.32,2.83,138.49,Cheque,INV-000317
+SL000318,2023-04-05,2023,4,April,Q2,C061,Umesh Jain,Wholesaler,R08,Bypass Road Route,P01,Milk Bulk 1L,Milk Bulk,Litre,22,42.41,933.02,18.66,914.36,Cash,INV-000318
+SL000319,2023-04-05,2023,4,April,Q2,C061,Umesh Jain,Wholesaler,R08,Bypass Road Route,P07,Curd 1kg,Curd,Piece,30,80.1,2403.0,0.0,2403.0,Credit,INV-000319
+SL000320,2023-04-05,2023,4,April,Q2,C049,Harish Shah,Hotel/Restaurant,R07,Old City Route,P05,Paneer 500g,Paneer,Piece,12,165.22,1982.64,39.65,1942.99,Cash,INV-000320
+SL000321,2023-04-05,2023,4,April,Q2,C049,Harish Shah,Hotel/Restaurant,R07,Old City Route,P01,Milk Bulk 1L,Milk Bulk,Litre,74,41.55,3074.7,0.0,3074.7,UPI,INV-000321
+SL000322,2023-04-05,2023,4,April,Q2,C020,Pramod Pandey,Hotel/Restaurant,R02,Civil Lines Route,P05,Paneer 500g,Paneer,Piece,4,165.92,663.68,0.0,663.68,Cash,INV-000322
+SL000323,2023-04-05,2023,4,April,Q2,C020,Pramod Pandey,Hotel/Restaurant,R02,Civil Lines Route,P09,Ghee 1L,Ghee,Piece,4,588.74,2354.96,0.0,2354.96,Cheque,INV-000323
+SL000324,2023-04-05,2023,4,April,Q2,C020,Pramod Pandey,Hotel/Restaurant,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,24,41.12,986.88,0.0,986.88,Cheque,INV-000324
+SL000325,2023-04-05,2023,4,April,Q2,C020,Pramod Pandey,Hotel/Restaurant,R02,Civil Lines Route,P11,Butter 500g,Butter,Piece,7,257.93,1805.51,36.11,1769.4,Cash,INV-000325
+SL000326,2023-04-05,2023,4,April,Q2,C067,Pooja Trivedi,Hotel/Restaurant,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,67,43.15,2891.05,57.82,2833.23,Credit,INV-000326
+SL000327,2023-04-05,2023,4,April,Q2,C067,Pooja Trivedi,Hotel/Restaurant,R02,Civil Lines Route,P06,Curd 400g,Curd,Piece,10,36.22,362.2,7.24,354.96,UPI,INV-000327
+SL000328,2023-04-05,2023,4,April,Q2,C067,Pooja Trivedi,Hotel/Restaurant,R02,Civil Lines Route,P08,Ghee 500ml,Ghee,Piece,7,301.45,2110.15,0.0,2110.15,Cash,INV-000328
+SL000329,2023-04-05,2023,4,April,Q2,C113,Meena Srivastava,Hotel/Restaurant,R03,Model Town Route,P06,Curd 400g,Curd,Piece,32,35.89,1148.48,57.42,1091.06,Cash,INV-000329
+SL000330,2023-04-05,2023,4,April,Q2,C113,Meena Srivastava,Hotel/Restaurant,R03,Model Town Route,P11,Butter 500g,Butter,Piece,2,262.48,524.96,26.25,498.71,UPI,INV-000330
+SL000331,2023-04-05,2023,4,April,Q2,C113,Meena Srivastava,Hotel/Restaurant,R03,Model Town Route,P07,Curd 1kg,Curd,Piece,33,81.91,2703.03,54.06,2648.97,Cheque,INV-000331
+SL000332,2023-04-05,2023,4,April,Q2,C113,Meena Srivastava,Hotel/Restaurant,R03,Model Town Route,P12,Cream 200ml,Cream,Piece,3,73.56,220.68,11.03,209.65,UPI,INV-000332
+SL000333,2023-04-05,2023,4,April,Q2,C020,Pramod Pandey,Hotel/Restaurant,R02,Civil Lines Route,P07,Curd 1kg,Curd,Piece,7,82.12,574.84,0.0,574.84,UPI,INV-000333
+SL000334,2023-04-05,2023,4,April,Q2,C020,Pramod Pandey,Hotel/Restaurant,R02,Civil Lines Route,P10,Butter 100g,Butter,Piece,7,58.91,412.37,0.0,412.37,Credit,INV-000334
+SL000335,2023-04-05,2023,4,April,Q2,C020,Pramod Pandey,Hotel/Restaurant,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,42,42.31,1777.02,0.0,1777.02,Credit,INV-000335
+SL000336,2023-04-05,2023,4,April,Q2,C020,Pramod Pandey,Hotel/Restaurant,R02,Civil Lines Route,P05,Paneer 500g,Paneer,Piece,10,160.17,1601.7,32.03,1569.67,Credit,INV-000336
+SL000337,2023-04-05,2023,4,April,Q2,C043,Vijay Thakur,Retailer,R08,Bypass Road Route,P07,Curd 1kg,Curd,Piece,15,80.65,1209.75,24.2,1185.55,Cheque,INV-000337
+SL000338,2023-04-05,2023,4,April,Q2,C043,Vijay Thakur,Retailer,R08,Bypass Road Route,P02,Milk Packet 500ml,Milk Packet,Packet,147,24.47,3597.09,0.0,3597.09,Cash,INV-000338
+SL000339,2023-04-05,2023,4,April,Q2,C089,Rohit Rao,Retailer,R02,Civil Lines Route,P07,Curd 1kg,Curd,Piece,30,83.06,2491.8,0.0,2491.8,UPI,INV-000339
+SL000340,2023-04-05,2023,4,April,Q2,C089,Rohit Rao,Retailer,R02,Civil Lines Route,P12,Cream 200ml,Cream,Piece,4,73.91,295.64,0.0,295.64,Cheque,INV-000340
+SL000341,2023-04-05,2023,4,April,Q2,C089,Rohit Rao,Retailer,R02,Civil Lines Route,P10,Butter 100g,Butter,Piece,20,58.05,1161.0,0.0,1161.0,Cash,INV-000341
+SL000342,2023-04-05,2023,4,April,Q2,C081,Alpesh Saxena,Retailer,R08,Bypass Road Route,P01,Milk Bulk 1L,Milk Bulk,Litre,56,42.53,2381.68,47.63,2334.05,Cheque,INV-000342
+SL000343,2023-04-05,2023,4,April,Q2,C081,Alpesh Saxena,Retailer,R08,Bypass Road Route,P02,Milk Packet 500ml,Milk Packet,Packet,111,23.4,2597.4,0.0,2597.4,Credit,INV-000343
+SL000344,2023-04-05,2023,4,April,Q2,C081,Alpesh Saxena,Retailer,R08,Bypass Road Route,P09,Ghee 1L,Ghee,Piece,9,600.19,5401.71,0.0,5401.71,Cheque,INV-000344
+SL000345,2023-04-05,2023,4,April,Q2,C056,Dinesh Bansal,Retailer,R01,Sector-7 Route,P08,Ghee 500ml,Ghee,Piece,6,307.28,1843.68,0.0,1843.68,Credit,INV-000345
+SL000346,2023-04-05,2023,4,April,Q2,C056,Dinesh Bansal,Retailer,R01,Sector-7 Route,P10,Butter 100g,Butter,Piece,7,57.19,400.33,0.0,400.33,UPI,INV-000346
+SL000347,2023-04-05,2023,4,April,Q2,C040,Sunita Goyal,Institutional,R05,Railway Colony Route,P03,Milk Packet 200ml,Milk Packet,Packet,88,10.9,959.2,0.0,959.2,Credit,INV-000347
+SL000348,2023-04-05,2023,4,April,Q2,C040,Sunita Goyal,Institutional,R05,Railway Colony Route,P08,Ghee 500ml,Ghee,Piece,8,318.59,2548.72,50.97,2497.75,UPI,INV-000348
+SL000349,2023-04-05,2023,4,April,Q2,C040,Sunita Goyal,Institutional,R05,Railway Colony Route,P10,Butter 100g,Butter,Piece,14,57.91,810.74,40.54,770.2,Credit,INV-000349
+SL000350,2023-04-05,2023,4,April,Q2,C040,Sunita Goyal,Institutional,R05,Railway Colony Route,P09,Ghee 1L,Ghee,Piece,3,582.57,1747.71,34.95,1712.76,Cash,INV-000350
+SL000351,2023-04-05,2023,4,April,Q2,C006,Rajesh Mittal,Retailer,R04,Sadar Bazar Route,P09,Ghee 1L,Ghee,Piece,16,577.73,9243.68,0.0,9243.68,Cash,INV-000351
+SL000352,2023-04-05,2023,4,April,Q2,C006,Rajesh Mittal,Retailer,R04,Sadar Bazar Route,P05,Paneer 500g,Paneer,Piece,6,169.84,1019.04,0.0,1019.04,Credit,INV-000352
+SL000353,2023-04-05,2023,4,April,Q2,C058,Girish Verma,Institutional,R02,Civil Lines Route,P10,Butter 100g,Butter,Piece,14,57.85,809.9,40.5,769.4,Cash,INV-000353
+SL000354,2023-04-05,2023,4,April,Q2,C058,Girish Verma,Institutional,R02,Civil Lines Route,P02,Milk Packet 500ml,Milk Packet,Packet,126,23.62,2976.12,0.0,2976.12,Credit,INV-000354
+SL000355,2023-04-05,2023,4,April,Q2,C043,Vijay Thakur,Retailer,R08,Bypass Road Route,P11,Butter 500g,Butter,Piece,4,267.28,1069.12,53.46,1015.66,UPI,INV-000355
+SL000356,2023-04-05,2023,4,April,Q2,C043,Vijay Thakur,Retailer,R08,Bypass Road Route,P07,Curd 1kg,Curd,Piece,37,83.35,3083.95,0.0,3083.95,Credit,INV-000356
+SL000357,2023-04-05,2023,4,April,Q2,C043,Vijay Thakur,Retailer,R08,Bypass Road Route,P08,Ghee 500ml,Ghee,Piece,6,309.9,1859.4,0.0,1859.4,Cheque,INV-000357
+SL000358,2023-04-05,2023,4,April,Q2,C086,Anita Bansal,Hotel/Restaurant,R01,Sector-7 Route,P07,Curd 1kg,Curd,Piece,29,81.95,2376.55,0.0,2376.55,Credit,INV-000358
+SL000359,2023-04-05,2023,4,April,Q2,C086,Anita Bansal,Hotel/Restaurant,R01,Sector-7 Route,P06,Curd 400g,Curd,Piece,26,35.92,933.92,0.0,933.92,Cash,INV-000359
+SL000360,2023-04-05,2023,4,April,Q2,C061,Umesh Jain,Wholesaler,R08,Bypass Road Route,P07,Curd 1kg,Curd,Piece,25,80.43,2010.75,40.22,1970.53,Credit,INV-000360
+SL000361,2023-04-05,2023,4,April,Q2,C061,Umesh Jain,Wholesaler,R08,Bypass Road Route,P02,Milk Packet 500ml,Milk Packet,Packet,28,24.57,687.96,13.76,674.2,Credit,INV-000361
+SL000362,2023-04-05,2023,4,April,Q2,C061,Umesh Jain,Wholesaler,R08,Bypass Road Route,P05,Paneer 500g,Paneer,Piece,4,166.27,665.08,0.0,665.08,Cash,INV-000362
+SL000363,2023-04-05,2023,4,April,Q2,C061,Umesh Jain,Wholesaler,R08,Bypass Road Route,P10,Butter 100g,Butter,Piece,16,59.32,949.12,18.98,930.14,Cash,INV-000363
+SL000364,2023-04-05,2023,4,April,Q2,C085,Sunita Garg,Wholesaler,R01,Sector-7 Route,P05,Paneer 500g,Paneer,Piece,2,165.0,330.0,0.0,330.0,Credit,INV-000364
+SL000365,2023-04-06,2023,4,April,Q2,C014,Deepak Dubey,Retailer,R03,Model Town Route,P09,Ghee 1L,Ghee,Piece,6,595.78,3574.68,0.0,3574.68,UPI,INV-000365
+SL000366,2023-04-06,2023,4,April,Q2,C111,Paresh Saxena,Direct Consumer,R03,Model Town Route,P05,Paneer 500g,Paneer,Piece,7,162.5,1137.5,0.0,1137.5,Cash,INV-000366
+SL000367,2023-04-06,2023,4,April,Q2,C111,Paresh Saxena,Direct Consumer,R03,Model Town Route,P07,Curd 1kg,Curd,Piece,24,82.72,1985.28,99.26,1886.02,Cash,INV-000367
+SL000368,2023-04-06,2023,4,April,Q2,C111,Paresh Saxena,Direct Consumer,R03,Model Town Route,P12,Cream 200ml,Cream,Piece,12,77.16,925.92,0.0,925.92,Cheque,INV-000368
+SL000369,2023-04-06,2023,4,April,Q2,C111,Paresh Saxena,Direct Consumer,R03,Model Town Route,P01,Milk Bulk 1L,Milk Bulk,Litre,38,41.16,1564.08,0.0,1564.08,UPI,INV-000369
+SL000370,2023-04-06,2023,4,April,Q2,C082,Naresh Gupta,Retailer,R08,Bypass Road Route,P06,Curd 400g,Curd,Piece,27,36.57,987.39,0.0,987.39,Cash,INV-000370
+SL000371,2023-04-06,2023,4,April,Q2,C082,Naresh Gupta,Retailer,R08,Bypass Road Route,P04,Paneer 200g,Paneer,Piece,17,69.01,1173.17,0.0,1173.17,Cash,INV-000371
+SL000372,2023-04-06,2023,4,April,Q2,C082,Naresh Gupta,Retailer,R08,Bypass Road Route,P07,Curd 1kg,Curd,Piece,13,80.18,1042.34,20.85,1021.49,Cash,INV-000372
+SL000373,2023-04-06,2023,4,April,Q2,C067,Pooja Trivedi,Hotel/Restaurant,R02,Civil Lines Route,P05,Paneer 500g,Paneer,Piece,3,164.16,492.48,0.0,492.48,UPI,INV-000373
+SL000374,2023-04-06,2023,4,April,Q2,C067,Pooja Trivedi,Hotel/Restaurant,R02,Civil Lines Route,P04,Paneer 200g,Paneer,Piece,22,71.25,1567.5,0.0,1567.5,Cash,INV-000374
+SL000375,2023-04-06,2023,4,April,Q2,C056,Dinesh Bansal,Retailer,R01,Sector-7 Route,P01,Milk Bulk 1L,Milk Bulk,Litre,25,42.01,1050.25,0.0,1050.25,Cash,INV-000375
+SL000376,2023-04-06,2023,4,April,Q2,C056,Dinesh Bansal,Retailer,R01,Sector-7 Route,P11,Butter 500g,Butter,Piece,10,263.58,2635.8,52.72,2583.08,Credit,INV-000376
+SL000377,2023-04-06,2023,4,April,Q2,C054,Rakesh Singh,Wholesaler,R04,Sadar Bazar Route,P05,Paneer 500g,Paneer,Piece,4,161.15,644.6,12.89,631.71,Credit,INV-000377
+SL000378,2023-04-06,2023,4,April,Q2,C019,Kamlesh Shah,Wholesaler,R02,Civil Lines Route,P04,Paneer 200g,Paneer,Piece,12,71.69,860.28,17.21,843.07,Credit,INV-000378
+SL000379,2023-04-06,2023,4,April,Q2,C078,Mahesh Shukla,Wholesaler,R07,Old City Route,P11,Butter 500g,Butter,Piece,15,272.24,4083.6,0.0,4083.6,Credit,INV-000379
+SL000380,2023-04-06,2023,4,April,Q2,C078,Mahesh Shukla,Wholesaler,R07,Old City Route,P07,Curd 1kg,Curd,Piece,33,82.62,2726.46,136.32,2590.14,Cash,INV-000380
+SL000381,2023-04-06,2023,4,April,Q2,C078,Mahesh Shukla,Wholesaler,R07,Old City Route,P12,Cream 200ml,Cream,Piece,5,75.89,379.45,7.59,371.86,UPI,INV-000381
+SL000382,2023-04-06,2023,4,April,Q2,C078,Mahesh Shukla,Wholesaler,R07,Old City Route,P02,Milk Packet 500ml,Milk Packet,Packet,152,24.05,3655.6,0.0,3655.6,Credit,INV-000382
+SL000383,2023-04-06,2023,4,April,Q2,C108,Mohit Shukla,Hotel/Restaurant,R01,Sector-7 Route,P02,Milk Packet 500ml,Milk Packet,Packet,173,23.48,4062.04,203.1,3858.94,Cash,INV-000383
+SL000384,2023-04-06,2023,4,April,Q2,C108,Mohit Shukla,Hotel/Restaurant,R01,Sector-7 Route,P08,Ghee 500ml,Ghee,Piece,1,308.54,308.54,0.0,308.54,Credit,INV-000384
+SL000385,2023-04-06,2023,4,April,Q2,C108,Mohit Shukla,Hotel/Restaurant,R01,Sector-7 Route,P09,Ghee 1L,Ghee,Piece,6,592.55,3555.3,71.11,3484.19,Credit,INV-000385
+SL000386,2023-04-06,2023,4,April,Q2,C041,Anita Yadav,Retailer,R04,Sadar Bazar Route,P02,Milk Packet 500ml,Milk Packet,Packet,147,24.56,3610.32,180.52,3429.8,Cash,INV-000386
+SL000387,2023-04-06,2023,4,April,Q2,C041,Anita Yadav,Retailer,R04,Sadar Bazar Route,P11,Butter 500g,Butter,Piece,4,267.95,1071.8,0.0,1071.8,Credit,INV-000387
+SL000388,2023-04-06,2023,4,April,Q2,C041,Anita Yadav,Retailer,R04,Sadar Bazar Route,P04,Paneer 200g,Paneer,Piece,14,71.84,1005.76,0.0,1005.76,Cash,INV-000388
+SL000389,2023-04-06,2023,4,April,Q2,C041,Anita Yadav,Retailer,R04,Sadar Bazar Route,P05,Paneer 500g,Paneer,Piece,13,161.64,2101.32,42.03,2059.29,Credit,INV-000389
+SL000390,2023-04-06,2023,4,April,Q2,C087,Suresh Rajput,Retailer,R08,Bypass Road Route,P05,Paneer 500g,Paneer,Piece,17,168.33,2861.61,0.0,2861.61,Cheque,INV-000390
+SL000391,2023-04-06,2023,4,April,Q2,C087,Suresh Rajput,Retailer,R08,Bypass Road Route,P10,Butter 100g,Butter,Piece,2,58.41,116.82,0.0,116.82,Credit,INV-000391
+SL000392,2023-04-06,2023,4,April,Q2,C104,Deepak Dubey,Direct Consumer,R02,Civil Lines Route,P07,Curd 1kg,Curd,Piece,20,84.34,1686.8,33.74,1653.06,Cash,INV-000392
+SL000393,2023-04-06,2023,4,April,Q2,C104,Deepak Dubey,Direct Consumer,R02,Civil Lines Route,P04,Paneer 200g,Paneer,Piece,16,72.07,1153.12,23.06,1130.06,UPI,INV-000393
+SL000394,2023-04-06,2023,4,April,Q2,C104,Deepak Dubey,Direct Consumer,R02,Civil Lines Route,P12,Cream 200ml,Cream,Piece,5,72.87,364.35,7.29,357.06,UPI,INV-000394
+SL000395,2023-04-06,2023,4,April,Q2,C104,Deepak Dubey,Direct Consumer,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,32,41.87,1339.84,26.8,1313.04,Cash,INV-000395
+SL000396,2023-04-06,2023,4,April,Q2,C021,Paresh Saxena,Retailer,R03,Model Town Route,P03,Milk Packet 200ml,Milk Packet,Packet,44,11.06,486.64,0.0,486.64,Cash,INV-000396
+SL000397,2023-04-06,2023,4,April,Q2,C021,Paresh Saxena,Retailer,R03,Model Town Route,P07,Curd 1kg,Curd,Piece,6,82.53,495.18,0.0,495.18,Credit,INV-000397
+SL000398,2023-04-06,2023,4,April,Q2,C021,Paresh Saxena,Retailer,R03,Model Town Route,P08,Ghee 500ml,Ghee,Piece,2,313.06,626.12,0.0,626.12,Cash,INV-000398
+SL000399,2023-04-06,2023,4,April,Q2,C061,Umesh Jain,Wholesaler,R08,Bypass Road Route,P04,Paneer 200g,Paneer,Piece,13,71.56,930.28,0.0,930.28,Credit,INV-000399
+SL000400,2023-04-06,2023,4,April,Q2,C061,Umesh Jain,Wholesaler,R08,Bypass Road Route,P07,Curd 1kg,Curd,Piece,5,84.08,420.4,0.0,420.4,Cash,INV-000400
+SL000401,2023-04-06,2023,4,April,Q2,C061,Umesh Jain,Wholesaler,R08,Bypass Road Route,P01,Milk Bulk 1L,Milk Bulk,Litre,58,42.62,2471.96,123.6,2348.36,Cash,INV-000401
+SL000402,2023-04-06,2023,4,April,Q2,C061,Umesh Jain,Wholesaler,R08,Bypass Road Route,P09,Ghee 1L,Ghee,Piece,11,580.98,6390.78,127.82,6262.96,Cash,INV-000402
+SL000403,2023-04-06,2023,4,April,Q2,C045,Priya Kumar,Retailer,R08,Bypass Road Route,P09,Ghee 1L,Ghee,Piece,1,598.63,598.63,0.0,598.63,UPI,INV-000403
+SL000404,2023-04-06,2023,4,April,Q2,C045,Priya Kumar,Retailer,R08,Bypass Road Route,P10,Butter 100g,Butter,Piece,18,59.24,1066.32,21.33,1044.99,Credit,INV-000404
+SL000405,2023-04-06,2023,4,April,Q2,C045,Priya Kumar,Retailer,R08,Bypass Road Route,P06,Curd 400g,Curd,Piece,18,36.58,658.44,0.0,658.44,Credit,INV-000405
+SL000406,2023-04-06,2023,4,April,Q2,C097,Lokesh Trivedi,Hotel/Restaurant,R06,Industrial Area Route,P04,Paneer 200g,Paneer,Piece,18,71.41,1285.38,0.0,1285.38,Cash,INV-000406
+SL000407,2023-04-06,2023,4,April,Q2,C097,Lokesh Trivedi,Hotel/Restaurant,R06,Industrial Area Route,P07,Curd 1kg,Curd,Piece,8,81.74,653.92,0.0,653.92,Credit,INV-000407
+SL000408,2023-04-06,2023,4,April,Q2,C120,Sunil Sharma,Institutional,R01,Sector-7 Route,P04,Paneer 200g,Paneer,Piece,16,68.7,1099.2,21.98,1077.22,UPI,INV-000408
+SL000409,2023-04-06,2023,4,April,Q2,C120,Sunil Sharma,Institutional,R01,Sector-7 Route,P02,Milk Packet 500ml,Milk Packet,Packet,50,23.61,1180.5,23.61,1156.89,Cheque,INV-000409
+SL000410,2023-04-06,2023,4,April,Q2,C038,Sanjay Nair,Wholesaler,R08,Bypass Road Route,P10,Butter 100g,Butter,Piece,4,56.42,225.68,4.51,221.17,Credit,INV-000410
+SL000411,2023-04-06,2023,4,April,Q2,C038,Sanjay Nair,Wholesaler,R08,Bypass Road Route,P11,Butter 500g,Butter,Piece,4,257.38,1029.52,0.0,1029.52,Cash,INV-000411
+SL000412,2023-04-06,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P08,Ghee 500ml,Ghee,Piece,11,302.76,3330.36,66.61,3263.75,Cash,INV-000412
+SL000413,2023-04-06,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P09,Ghee 1L,Ghee,Piece,7,582.75,4079.25,0.0,4079.25,UPI,INV-000413
+SL000414,2023-04-06,2023,4,April,Q2,C119,Lalit Rao,Retailer,R07,Old City Route,P01,Milk Bulk 1L,Milk Bulk,Litre,20,41.08,821.6,0.0,821.6,UPI,INV-000414
+SL000415,2023-04-06,2023,4,April,Q2,C073,Kavita Thakur,Wholesaler,R02,Civil Lines Route,P06,Curd 400g,Curd,Piece,10,35.44,354.4,0.0,354.4,UPI,INV-000415
+SL000416,2023-04-06,2023,4,April,Q2,C106,Umesh Chauhan,Retailer,R08,Bypass Road Route,P06,Curd 400g,Curd,Piece,32,35.79,1145.28,22.91,1122.37,Cheque,INV-000416
+SL000417,2023-04-06,2023,4,April,Q2,C055,Yogesh Garg,Wholesaler,R01,Sector-7 Route,P01,Milk Bulk 1L,Milk Bulk,Litre,29,42.81,1241.49,24.83,1216.66,Credit,INV-000417
+SL000418,2023-04-06,2023,4,April,Q2,C055,Yogesh Garg,Wholesaler,R01,Sector-7 Route,P04,Paneer 200g,Paneer,Piece,12,69.46,833.52,16.67,816.85,Cash,INV-000418
+SL000419,2023-04-06,2023,4,April,Q2,C055,Yogesh Garg,Wholesaler,R01,Sector-7 Route,P05,Paneer 500g,Paneer,Piece,12,165.51,1986.12,99.31,1886.81,UPI,INV-000419
+SL000420,2023-04-06,2023,4,April,Q2,C030,Sunil Sharma,Retailer,R01,Sector-7 Route,P08,Ghee 500ml,Ghee,Piece,5,307.68,1538.4,0.0,1538.4,Cash,INV-000420
+SL000421,2023-04-06,2023,4,April,Q2,C030,Sunil Sharma,Retailer,R01,Sector-7 Route,P09,Ghee 1L,Ghee,Piece,13,579.13,7528.69,150.57,7378.12,Cash,INV-000421
+SL000422,2023-04-06,2023,4,April,Q2,C014,Deepak Dubey,Retailer,R03,Model Town Route,P08,Ghee 500ml,Ghee,Piece,9,310.73,2796.57,0.0,2796.57,Cash,INV-000422
+SL000423,2023-04-06,2023,4,April,Q2,C014,Deepak Dubey,Retailer,R03,Model Town Route,P01,Milk Bulk 1L,Milk Bulk,Litre,25,41.74,1043.5,52.18,991.32,Credit,INV-000423
+SL000424,2023-04-06,2023,4,April,Q2,C092,Jignesh Patel,Wholesaler,R04,Sadar Bazar Route,P12,Cream 200ml,Cream,Piece,5,73.17,365.85,0.0,365.85,Cash,INV-000424
+SL000425,2023-04-06,2023,4,April,Q2,C082,Naresh Gupta,Retailer,R08,Bypass Road Route,P02,Milk Packet 500ml,Milk Packet,Packet,132,24.05,3174.6,63.49,3111.11,Cash,INV-000425
+SL000426,2023-04-06,2023,4,April,Q2,C082,Naresh Gupta,Retailer,R08,Bypass Road Route,P08,Ghee 500ml,Ghee,Piece,13,301.27,3916.51,78.33,3838.18,Cash,INV-000426
+SL000427,2023-04-06,2023,4,April,Q2,C104,Deepak Dubey,Direct Consumer,R02,Civil Lines Route,P08,Ghee 500ml,Ghee,Piece,11,308.96,3398.56,0.0,3398.56,Cash,INV-000427
+SL000428,2023-04-06,2023,4,April,Q2,C104,Deepak Dubey,Direct Consumer,R02,Civil Lines Route,P06,Curd 400g,Curd,Piece,14,36.84,515.76,0.0,515.76,UPI,INV-000428
+SL000429,2023-04-06,2023,4,April,Q2,C104,Deepak Dubey,Direct Consumer,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,10,41.36,413.6,8.27,405.33,Credit,INV-000429
+SL000430,2023-04-06,2023,4,April,Q2,C074,Lalit Dubey,Wholesaler,R02,Civil Lines Route,P04,Paneer 200g,Paneer,Piece,6,71.68,430.08,0.0,430.08,Cash,INV-000430
+SL000431,2023-04-06,2023,4,April,Q2,C074,Lalit Dubey,Wholesaler,R02,Civil Lines Route,P08,Ghee 500ml,Ghee,Piece,11,310.12,3411.32,0.0,3411.32,Credit,INV-000431
+SL000432,2023-04-06,2023,4,April,Q2,C074,Lalit Dubey,Wholesaler,R02,Civil Lines Route,P10,Butter 100g,Butter,Piece,9,59.38,534.42,10.69,523.73,Cash,INV-000432
+SL000433,2023-04-06,2023,4,April,Q2,C074,Lalit Dubey,Wholesaler,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,85,41.72,3546.2,70.92,3475.28,Credit,INV-000433
+SL000434,2023-04-06,2023,4,April,Q2,C098,Ashok Nair,Retailer,R07,Old City Route,P02,Milk Packet 500ml,Milk Packet,Packet,218,24.69,5382.42,0.0,5382.42,Cash,INV-000434
+SL000435,2023-04-06,2023,4,April,Q2,C098,Ashok Nair,Retailer,R07,Old City Route,P09,Ghee 1L,Ghee,Piece,3,599.64,1798.92,35.98,1762.94,Cash,INV-000435
+SL000436,2023-04-06,2023,4,April,Q2,C098,Ashok Nair,Retailer,R07,Old City Route,P12,Cream 200ml,Cream,Piece,1,74.6,74.6,0.0,74.6,Cash,INV-000436
+SL000437,2023-04-06,2023,4,April,Q2,C098,Ashok Nair,Retailer,R07,Old City Route,P07,Curd 1kg,Curd,Piece,12,81.47,977.64,19.55,958.09,Credit,INV-000437
+SL000438,2023-04-06,2023,4,April,Q2,C005,Ajay Mehta,Retailer,R07,Old City Route,P06,Curd 400g,Curd,Piece,16,35.72,571.52,11.43,560.09,Cash,INV-000438
+SL000439,2023-04-06,2023,4,April,Q2,C005,Ajay Mehta,Retailer,R07,Old City Route,P12,Cream 200ml,Cream,Piece,8,73.97,591.76,0.0,591.76,Credit,INV-000439
+SL000440,2023-04-06,2023,4,April,Q2,C005,Ajay Mehta,Retailer,R07,Old City Route,P02,Milk Packet 500ml,Milk Packet,Packet,57,23.55,1342.35,0.0,1342.35,Cash,INV-000440
+SL000441,2023-04-06,2023,4,April,Q2,C062,Kapil Patel,Retailer,R08,Bypass Road Route,P02,Milk Packet 500ml,Milk Packet,Packet,55,24.31,1337.05,0.0,1337.05,Cash,INV-000441
+SL000442,2023-04-06,2023,4,April,Q2,C068,Meena Nair,Retailer,R06,Industrial Area Route,P10,Butter 100g,Butter,Piece,13,58.87,765.31,0.0,765.31,Cash,INV-000442
+SL000443,2023-04-06,2023,4,April,Q2,C068,Meena Nair,Retailer,R06,Industrial Area Route,P02,Milk Packet 500ml,Milk Packet,Packet,186,23.46,4363.56,0.0,4363.56,UPI,INV-000443
+SL000444,2023-04-06,2023,4,April,Q2,C068,Meena Nair,Retailer,R06,Industrial Area Route,P12,Cream 200ml,Cream,Piece,6,75.67,454.02,0.0,454.02,Credit,INV-000444
+SL000445,2023-04-06,2023,4,April,Q2,C068,Meena Nair,Retailer,R06,Industrial Area Route,P06,Curd 400g,Curd,Piece,37,36.02,1332.74,26.65,1306.09,Credit,INV-000445
+SL000446,2023-04-06,2023,4,April,Q2,C042,Suresh Iyer,Institutional,R02,Civil Lines Route,P03,Milk Packet 200ml,Milk Packet,Packet,195,10.92,2129.4,42.59,2086.81,UPI,INV-000446
+SL000447,2023-04-06,2023,4,April,Q2,C042,Suresh Iyer,Institutional,R02,Civil Lines Route,P06,Curd 400g,Curd,Piece,11,35.5,390.5,0.0,390.5,UPI,INV-000447
+SL000448,2023-04-06,2023,4,April,Q2,C042,Suresh Iyer,Institutional,R02,Civil Lines Route,P07,Curd 1kg,Curd,Piece,13,79.59,1034.67,0.0,1034.67,Cash,INV-000448
+SL000449,2023-04-06,2023,4,April,Q2,C042,Suresh Iyer,Institutional,R02,Civil Lines Route,P12,Cream 200ml,Cream,Piece,4,75.48,301.92,15.1,286.82,UPI,INV-000449
+SL000450,2023-04-06,2023,4,April,Q2,C038,Sanjay Nair,Wholesaler,R08,Bypass Road Route,P07,Curd 1kg,Curd,Piece,20,83.46,1669.2,0.0,1669.2,Credit,INV-000450
+SL000451,2023-04-06,2023,4,April,Q2,C086,Anita Bansal,Hotel/Restaurant,R01,Sector-7 Route,P09,Ghee 1L,Ghee,Piece,1,591.81,591.81,11.84,579.97,Credit,INV-000451
+SL000452,2023-04-06,2023,4,April,Q2,C086,Anita Bansal,Hotel/Restaurant,R01,Sector-7 Route,P01,Milk Bulk 1L,Milk Bulk,Litre,58,41.92,2431.36,0.0,2431.36,Cash,INV-000452
+SL000453,2023-04-06,2023,4,April,Q2,C036,Alpesh Mittal,Retailer,R03,Model Town Route,P01,Milk Bulk 1L,Milk Bulk,Litre,40,42.43,1697.2,0.0,1697.2,UPI,INV-000453
+SL000454,2023-04-06,2023,4,April,Q2,C036,Alpesh Mittal,Retailer,R03,Model Town Route,P06,Curd 400g,Curd,Piece,16,36.09,577.44,11.55,565.89,UPI,INV-000454
+SL000455,2023-04-06,2023,4,April,Q2,C036,Alpesh Mittal,Retailer,R03,Model Town Route,P04,Paneer 200g,Paneer,Piece,15,70.53,1057.95,52.9,1005.05,Cash,INV-000455
+SL000456,2023-04-06,2023,4,April,Q2,C036,Alpesh Mittal,Retailer,R03,Model Town Route,P10,Butter 100g,Butter,Piece,2,58.7,117.4,2.35,115.05,Cash,INV-000456
+SL000457,2023-04-06,2023,4,April,Q2,C033,Mahesh Tiwari,Wholesaler,R02,Civil Lines Route,P02,Milk Packet 500ml,Milk Packet,Packet,40,23.41,936.4,0.0,936.4,Credit,INV-000457
+SL000458,2023-04-06,2023,4,April,Q2,C033,Mahesh Tiwari,Wholesaler,R02,Civil Lines Route,P01,Milk Bulk 1L,Milk Bulk,Litre,28,42.49,1189.72,0.0,1189.72,Cash,INV-000458
+SL000459,2023-04-06,2023,4,April,Q2,C033,Mahesh Tiwari,Wholesaler,R02,Civil Lines Route,P11,Butter 500g,Butter,Piece,10,266.56,2665.6,0.0,2665.6,Cash,INV-000459
+SL000460,2023-04-06,2023,4,April,Q2,C090,Priya Sharma,Institutional,R02,Civil Lines Route,P12,Cream 200ml,Cream,Piece,5,76.3,381.5,0.0,381.5,Credit,INV-000460
+SL000461,2023-04-06,2023,4,April,Q2,C090,Priya Sharma,Institutional,R02,Civil Lines Route,P05,Paneer 500g,Paneer,Piece,3,167.08,501.24,0.0,501.24,Credit,INV-000461
+SL000462,2023-04-06,2023,4,April,Q2,C051,Rajesh Saxena,Wholesaler,R08,Bypass Road Route,P12,Cream 200ml,Cream,Piece,10,73.61,736.1,36.8,699.3,Cash,INV-000462
+SL000463,2023-04-06,2023,4,April,Q2,C051,Rajesh Saxena,Wholesaler,R08,Bypass Road Route,P11,Butter 500g,Butter,Piece,14,265.87,3722.18,74.44,3647.74,UPI,INV-000463
+SL000464,2023-04-06,2023,4,April,Q2,C051,Rajesh Saxena,Wholesaler,R08,Bypass Road Route,P03,Milk Packet 200ml,Milk Packet,Packet,95,10.71,1017.45,20.35,997.1,Cash,INV-000464
+SL000465,2023-04-06,2023,4,April,Q2,C057,Manoj Rajput,Retailer,R01,Sector-7 Route,P04,Paneer 200g,Paneer,Piece,5,68.5,342.5,0.0,342.5,Cash,INV-000465
+SL000466,2023-04-06,2023,4,April,Q2,C057,Manoj Rajput,Retailer,R01,Sector-7 Route,P11,Butter 500g,Butter,Piece,4,269.87,1079.48,21.59,1057.89,UPI,INV-000466
+SL000467,2023-04-06,2023,4,April,Q2,C057,Manoj Rajput,Retailer,R01,Sector-7 Route,P08,Ghee 500ml,Ghee,Piece,13,304.87,3963.31,79.27,3884.04,Cash,INV-000467
+SL000468,2023-04-06,2023,4,April,Q2,C057,Manoj Rajput,Retailer,R01,Sector-7 Route,P07,Curd 1kg,Curd,Piece,20,83.55,1671.0,33.42,1637.58,Credit,INV-000468
+SL000469,2023-04-06,2023,4,April,Q2,C028,Kavita Verma,Hotel/Restaurant,R06,Industrial Area Route,P01,Milk Bulk 1L,Milk Bulk,Litre,23,43.14,992.22,19.84,972.38,UPI,INV-000469
+SL000470,2023-04-07,2023,4,April,Q2,C043,Vijay Thakur,Retailer,R08,Bypass Road Route,P03,Milk Packet 200ml,Milk Packet,Packet,166,10.81,1794.46,0.0,1794.46,Cheque,INV-000470
+SL000471,2023-04-07,2023,4,April,Q2,C043,Vijay Thakur,Retailer,R08,Bypass Road Route,P05,Paneer 500g,Paneer,Piece,17,166.11,2823.87,0.0,2823.87,Credit,INV-000471
+SL000472,2023-04-07,2023,4,April,Q2,C043,Vijay Thakur,Retailer,R08,Bypass Road Route,P08,Ghee 500ml,Ghee,Piece,14,305.28,4273.92,85.48,4188.44,UPI,INV-000472
+SL000473,2023-04-07,2023,4,April,Q2,C064,Kamlesh Mishra,Retailer,R07,Old City Route,P11,Butter 500g,Butter,Piece,3,268.38,805.14,16.1,789.04,Cash,INV-000473
+SL000474,2023-04-07,2023,4,April,Q2,C064,Kamlesh Mishra,Retailer,R07,Old City Route,P08,Ghee 500ml,Ghee,Piece,2,305.61,611.22,0.0,611.22,Credit,INV-000474
+SL000475,2023-04-07,2023,4,April,Q2,C053,Ashok Srivastava,Retailer,R01,Sector-7 Route,P01,Milk Bulk 1L,Milk Bulk,Litre,46,40.77,1875.42,0.0,1875.42,Cash,INV-000475
+SL000476,2023-04-07,2023,4,April,Q2,C053,Ashok Srivastava,Retailer,R01,Sector-7 Route,P09,Ghee 1L,Ghee,Piece,8,598.53,4788.24,0.0,4788.24,Credit,INV-000476
+SL000477,2023-04-07,2023,4,April,Q2,C115,Amit Garg,Hotel/Restaurant,R04,Sadar Bazar Route,P12,Cream 200ml,Cream,Piece,1,74.58,74.58,0.0,74.58,Credit,INV-000477
+SL000478,2023-04-07,2023,4,April,Q2,C115,Amit Garg,Hotel/Restaurant,R04,Sadar Bazar Route,P08,Ghee 500ml,Ghee,Piece,1,319.25,319.25,0.0,319.25,UPI,INV-000478
+SL000479,2023-04-07,2023,4,April,Q2,C115,Amit Garg,Hotel/Restaurant,R04,Sadar Bazar Route,P07,Curd 1kg,Curd,Piece,43,82.82,3561.26,0.0,3561.26,UPI,INV-000479
+SL000480,2023-04-07,2023,4,April,Q2,C115,Amit Garg,Hotel/Restaurant,R04,Sadar Bazar Route,P09,Ghee 1L,Ghee,Piece,1,595.55,595.55,29.78,565.77,Credit,INV-000480
+SL000481,2023-04-07,2023,4,April,Q2,C103,Girish Thakur,Wholesaler,R03,Model Town Route,P04,Paneer 200g,Paneer,Piece,11,71.87,790.57,0.0,790.57,Credit,INV-000481
+SL000482,2023-04-07,2023,4,April,Q2,C099,Rakesh Agarwal,Retailer,R05,Railway Colony Route,P04,Paneer 200g,Paneer,Piece,3,68.86,206.58,0.0,206.58,UPI,INV-000482
+SL000483,2023-04-07,2023,4,April,Q2,C099,Rakesh Agarwal,Retailer,R05,Railway Colony Route,P02,Milk Packet 500ml,Milk Packet,Packet,100,24.16,2416.0,120.8,2295.2,Credit,INV-000483
+SL000484,2023-04-07,2023,4,April,Q2,C099,Rakesh Agarwal,Retailer,R05,Railway Colony Route,P09,Ghee 1L,Ghee,Piece,4,580.62,2322.48,46.45,2276.03,Credit,INV-000484
+SL000485,2023-04-07,2023,4,April,Q2,C099,Rakesh Agarwal,Retailer,R05,Railway Colony Route,P11,Butter 500g,Butter,Piece,13,266.65,3466.45,0.0,3466.45,Credit,INV-000485
+SL000486,2023-04-07,2023,4,April,Q2,C058,Girish Verma,Institutional,R02,Civil Lines Route,P10,Butter 100g,Butter,Piece,15,58.02,870.3,0.0,870.3,Cash,INV-000486
+SL000487,2023-04-07,2023,4,April,Q2,C097,Lokesh Trivedi,Hotel/Restaurant,R06,Industrial Area Route,P10,Butter 100g,Butter,Piece,15,56.35,845.25,0.0,845.25,UPI,INV-000487
+SL000488,2023-04-07,2023,4,April,Q2,C044,Rohit Dubey,Institutional,R03,Model Town Route,P01,Milk Bulk 1L,Milk Bulk,Litre,57,41.48,2364.36,0.0,2364.36,UPI,INV-000488
+SL000489,2023-04-07,2023,4,April,Q2,C044,Rohit Dubey,Institutional,R03,Model Town Route,P06,Curd 400g,Curd,Piece,21,36.53,767.13,0.0,767.13,Cash,INV-000489
+SL000490,2023-04-07,2023,4,April,Q2,C044,Rohit Dubey,Institutional,R03,Model Town Route,P04,Paneer 200g,Paneer,Piece,5,69.9,349.5,0.0,349.5,Credit,INV-000490
+SL000491,2023-04-07,2023,4,April,Q2,C098,Ashok Nair,Retailer,R07,Old City Route,P08,Ghee 500ml,Ghee,Piece,1,302.32,302.32,0.0,302.32,Credit,INV-000491
+SL000492,2023-04-07,2023,4,April,Q2,C025,Amit Garg,Wholesaler,R01,Sector-7 Route,P11,Butter 500g,Butter,Piece,21,270.6,5682.6,0.0,5682.6,Credit,INV-000492
+SL000493,2023-04-07,2023,4,April,Q2,C030,Sunil Sharma,Retailer,R01,Sector-7 Route,P06,Curd 400g,Curd,Piece,27,35.93,970.11,0.0,970.11,Credit,INV-000493
+SL000494,2023-04-07,2023,4,April,Q2,C030,Sunil Sharma,Retailer,R01,Sector-7 Route,P12,Cream 200ml,Cream,Piece,8,75.05,600.4,0.0,600.4,Credit,INV-000494
+SL000495,2023-04-07,2023,4,April,Q2,C012,Manoj Iyer,Retailer,R08,Bypass Road Route,P03,Milk Packet 200ml,Milk Packet,Packet,80,11.09,887.2,17.74,869.46,Credit,INV-000495
+SL000496,2023-04-07,2023,4,April,Q2,C012,Manoj Iyer,Retailer,R08,Bypass Road Route,P06,Curd 400g,Curd,Piece,23,36.06,829.38,0.0,829.38,Cash,INV-000496
+SL000497,2023-04-07,2023,4,April,Q2,C012,Manoj Iyer,Retailer,R08,Bypass Road Route,P08,Ghee 500ml,Ghee,Piece,1,311.69,311.69,6.23,305.46,Cash,INV-000497
+SL000498,2023-04-07,2023,4,April,Q2,C077,Sumit Joshi,Retailer,R08,Bypass Road Route,P02,Milk Packet 500ml,Milk Packet,Packet,64,24.05,1539.2,30.78,1508.42,Credit,INV-000498
+SL000499,2023-04-07,2023,4,April,Q2,C077,Sumit Joshi,Retailer,R08,Bypass Road Route,P09,Ghee 1L,Ghee,Piece,1,607.96,607.96,30.4,577.56,UPI,INV-000499
+SL000500,2023-04-07,2023,4,April,Q2,C077,Sumit Joshi,Retailer,R08,Bypass Road Route,P11,Butter 500g,Butter,Piece,7,269.17,1884.19,0.0,1884.19,Credit,INV-000500
