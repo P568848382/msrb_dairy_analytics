@@ -1,7 +1,7 @@
 # MSRB SONS DAIRY — End-to-End Business Analytics Project
 
 **Prepared by:** Pradeep Kumar  
-**Company:** MSRB SONS DAIRY PRODUCT PVT. LTD., Rohtak, Haryana  
+**Company:** MSRBSONS DAIRY PRODUCT PVT. LTD., Rohtak, Haryana  
 **Analysis Period:** April 2023 – March 2025 (2 Financial Years)  
 **Dataset:** 120 Customers · 12 Products · 8 Delivery Routes · 69,242 Total Records
 
@@ -121,7 +121,7 @@ these accounts risk becoming bad debts.
 ## Repository Structure
 
 ```
-msrb-dairy-analytics/
+msrb_dairy_analytics/
 ├── data/
 │   ├── raw/              ← Source CSV files
 │   └── cleaned/          ← Post-ETL validated files
