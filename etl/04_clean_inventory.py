@@ -109,7 +109,7 @@ def clean_inventory(df:pd.DataFrame):
     if len(over_dispatch):
         log.warning(f"⚠️  Step 5: {len(over_dispatch)} rows with dispatched > available stock capping")
         log.warning(" Correcting dispatched_qty from the equation...")
-        df['dispatched_qty'] = df['dispatch_qty'].clip(upper=available)
+        df['dispatched_qty'] = df['dispatched_qty'].clip(upper=available)
         df['closing_stock'] = (df['opening_stock'] + df['received_qty'] - df['dispatched_qty']).clip(lower=0)
     log.info("✅ Step 5: Dispatched quantity capped by available stock")
 
@@ -143,8 +143,8 @@ def clean_inventory(df:pd.DataFrame):
 
     # ── STEP 8: Derived columns ────────────────────────────────────────────────
     df['financial_year'] = df['date'].apply(
-        lambda x: f"FY{x.year}-{str(x.year+1)[2:]}" if x.month >= 4 
-                  else f"FY{x.year-1}-{str(x.year)[2:]}"
+        lambda x: f"FY{x.year}-{str(x.year+1)[-2:]}" if x.month >= 4 
+                  else f"FY{x.year-1}-{str(x.year)[-2:]}"
         )
     df['day_of_week']=df['date'].dt.day_name()
 

@@ -192,7 +192,7 @@ def clean_accounts(df:pd.DataFrame)->pd.DataFrame:
     log.info(f"  Total Collected      : ₹{total_collected:>14,.2f}")
     log.info(f"  Total Outstanding    : ₹{total_outstanding:>14,.2f}")
     log.info(f"  Collection Efficiency: {coll_eff:>7.2f}%")
-    log.info(f"  Overdue invoices     : {(df['payment_status']=='Overdue').sum():>8,}")
+    log.info(f"  Overdue invoices     : {(df['payment_status']=='OverDue').sum():>8,}")
     log.info(f"  90+ day overdue      : {(df['aging_bucket']=='90+ Days').sum():>8,}")
     log.info(f"{'─'*50}")
 

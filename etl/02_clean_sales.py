@@ -13,7 +13,7 @@ fact_sales.csv    →     fact_sales_cleaned.csv
 (messy, untrusted)          (validated, business-ready)
 If bad data goes into our database → bad decisions.
 """
-import logging
+
 import os
 import pandas as pd
 import numpy as np
