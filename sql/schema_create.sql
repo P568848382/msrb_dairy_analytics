@@ -272,3 +272,4 @@ SELECT 'fact_inventory',                COUNT(*)         FROM fact_inventory  UN
 SELECT 'fact_accounts',                 COUNT(*)         FROM fact_accounts	UNION ALL
 SELECT 'dim_customer',  				count(*)         FROM dim_customer
 ORDER BY 1;
+select * from fact_sales limit 10;
