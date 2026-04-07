@@ -150,19 +150,23 @@ def clean_inventory(df:pd.DataFrame):
 
     # Shelf life risk flag — how many days of stock do we have?
     df['shelf_life_days'] = df['category'].map(SHELF_LIFE_DAYS)
+    avg_dispatch=(
+        df.groupby('product_id')['dispatched_qty'].mean().round(1).rename('avg_daily_dispatch')
+    )
+    df=df.merge(avg_dispatch,on='product_id',how='left')
     df['days_of_stock'] = np.where(
-        df['dispatched_qty']>0,
-        (df['closing_stock']/(df['dispatched_qty']/1)).round(1),
+        df['avg_daily_dispatch']>0,
+        (df['closing_stock']/(df['avg_daily_dispatch'])).round(1),
         df['closing_stock']
     )
     df['shelf_life_risk']=np.where(
-        df['days_of_stock']<=df['shelf_life_days'],
+        df['days_of_stock']>df['shelf_life_days'],
         'At Risk',
         'Safe'
     )
 
     # Drop helper columns
-    df=df.drop(columns=['expected_closing_stock','balance_diff'],errors='ignore')
+    df=df.drop(columns=['avg_daily_dispatch','expected_closing_stock','balance_diff'],errors='ignore')
     log.info("✅ Step 8: Derived columns added (financial_year, day_of_week, days_of_stock, shelf_life_risk)")
 
     # ── FINAL SUMMARY ─────────────────────────────────────────────────────────

@@ -59,8 +59,9 @@ flowchart TD
     %% Base Source
     subgraph DWH ["📦 Data Warehouse (msrb_dairy_dw)"]
         F1[(fact_sales)]
-        F2[(fact_accounts)]
-        F3[(fact_inventory)]
+        F2[(fact_production)]
+        F3[(fact_accounts)]
+        F4[(fact_inventory)]
     end
 
     %% Execution Engine
@@ -110,7 +111,7 @@ flowchart TD
     classDef kpi fill:#d4edda,stroke:#28a745,color:#155724;
     classDef target fill:#ffc107,stroke:#d39e00,color:#000;
 
-    class F1,F2,F3 database;
+    class F1,F2,F3,F4 database;
     class E engine;
     class K1,K2,K3,K4,K5,K6,K7 kpi;
     class Dash target;
