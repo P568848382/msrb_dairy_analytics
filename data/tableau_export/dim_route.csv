@@ -1,0 +1,9 @@
+route_id,route_name,area,city,state,is_active
+R01,Sector-7 Route,Sector-7,Rohtak,Haryana,True
+R02,Civil Lines Route,Civil Lines,Rohtak,Haryana,True
+R03,Model Town Route,Model Town,Rohtak,Haryana,True
+R04,Sadar Bazar Route,Sadar Bazar,Rohtak,Haryana,True
+R05,Railway Colony Route,Railway Colony,Rohtak,Haryana,True
+R06,Industrial Area Route,Industrial Area,Rohtak,Haryana,True
+R07,Old City Route,Old City,Rohtak,Haryana,True
+R08,Bypass Road Route,Bypass Road,Rohtak,Haryana,True

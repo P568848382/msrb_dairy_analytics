@@ -1,0 +1,121 @@
+customer_id,customer_name,customer_type,route_name,total_invoices,total_revenue,first_purchase,last_purchase,customer_segment,segment_rank
+C001,Rekha Jain,Retailer,Railway Colony Route,493,848487.96,2023-04-10,2025-03-24,Silver (7.5L-8.5L),3
+C002,Jignesh Patel,Hotel/Restaurant,Civil Lines Route,491,797260.56,2023-04-01,2025-03-24,Silver (7.5L-8.5L),3
+C003,Vikas Tiwari,Hotel/Restaurant,Model Town Route,440,781230.21,2023-04-01,2025-03-29,Silver (7.5L-8.5L),3
+C004,Harish Mishra,Wholesaler,Sadar Bazar Route,414,732045.22,2023-04-03,2025-03-24,Bronze (6.5L-7.5L),4
+C005,Ajay Mehta,Retailer,Old City Route,429,749605.1,2023-04-01,2025-03-31,Bronze (6.5L-7.5L),4
+C006,Rajesh Mittal,Retailer,Sadar Bazar Route,493,879869.69,2023-04-05,2025-03-31,Gold (8.5L-9L),2
+C007,Lokesh Trivedi,Hotel/Restaurant,Sector-7 Route,407,661926.81,2023-04-17,2025-03-31,Bronze (6.5L-7.5L),4
+C008,Ashok Nair,Retailer,Sector-7 Route,472,813783.57,2023-04-04,2025-03-18,Silver (7.5L-8.5L),3
+C009,Rakesh Agarwal,Institutional,Old City Route,473,784236.55,2023-04-08,2025-03-31,Silver (7.5L-8.5L),3
+C010,Yogesh Goyal,Retailer,Sadar Bazar Route,501,776837.25,2023-04-03,2025-03-31,Silver (7.5L-8.5L),3
+C011,Dinesh Yadav,Direct Consumer,Industrial Area Route,423,712082.05,2023-04-08,2025-03-31,Bronze (6.5L-7.5L),4
+C012,Manoj Iyer,Retailer,Bypass Road Route,462,719437.75,2023-04-04,2025-03-20,Bronze (6.5L-7.5L),4
+C013,Girish Thakur,Retailer,Bypass Road Route,477,842780.35,2023-04-05,2025-03-31,Silver (7.5L-8.5L),3
+C014,Deepak Dubey,Retailer,Model Town Route,463,810356.06,2023-04-01,2025-03-25,Silver (7.5L-8.5L),3
+C015,Nitesh Kumar,Retailer,Railway Colony Route,470,756958.74,2023-04-10,2025-03-25,Silver (7.5L-8.5L),3
+C016,Umesh Chauhan,Hotel/Restaurant,Old City Route,399,669991.01,2023-04-08,2025-03-29,Bronze (6.5L-7.5L),4
+C017,Kapil Joshi,Institutional,Old City Route,453,750608.33,2023-04-13,2025-03-26,Silver (7.5L-8.5L),3
+C018,Mohit Shukla,Retailer,Model Town Route,458,724431.68,2023-04-08,2025-03-31,Bronze (6.5L-7.5L),4
+C019,Kamlesh Shah,Wholesaler,Civil Lines Route,419,706423.28,2023-04-06,2025-03-28,Bronze (6.5L-7.5L),4
+C020,Pramod Pandey,Hotel/Restaurant,Civil Lines Route,493,760815.49,2023-04-01,2025-03-31,Silver (7.5L-8.5L),3
+C021,Paresh Saxena,Retailer,Model Town Route,474,794326.72,2023-04-06,2025-03-28,Silver (7.5L-8.5L),3
+C022,Pooja Gupta,Hotel/Restaurant,Old City Route,436,668222.79,2023-04-07,2025-03-29,Bronze (6.5L-7.5L),4
+C023,Meena Srivastava,Wholesaler,Old City Route,464,775954.35,2023-04-03,2025-03-26,Silver (7.5L-8.5L),3
+C024,Santosh Singh,Retailer,Bypass Road Route,411,696870.41,2023-04-01,2025-03-20,Bronze (6.5L-7.5L),4
+C025,Amit Garg,Wholesaler,Sector-7 Route,505,809732.29,2023-04-01,2025-03-26,Silver (7.5L-8.5L),3
+C026,Ramesh Bansal,Hotel/Restaurant,Civil Lines Route,432,769419.45,2023-04-03,2025-03-25,Silver (7.5L-8.5L),3
+C027,Neha Rajput,Hotel/Restaurant,Railway Colony Route,419,703248.51,2023-04-11,2025-03-21,Bronze (6.5L-7.5L),4
+C028,Kavita Verma,Hotel/Restaurant,Industrial Area Route,475,818209.66,2023-04-04,2025-03-31,Silver (7.5L-8.5L),3
+C029,Lalit Rao,Retailer,Old City Route,506,827636.7,2023-04-04,2025-03-24,Silver (7.5L-8.5L),3
+C030,Sunil Sharma,Retailer,Sector-7 Route,477,803554.73,2023-04-06,2025-03-10,Silver (7.5L-8.5L),3
+C031,Bhavesh Jain,Direct Consumer,Railway Colony Route,443,767005.12,2023-04-03,2025-03-22,Silver (7.5L-8.5L),3
+C032,Sumit Patel,Direct Consumer,Model Town Route,480,854723.96,2023-04-03,2025-03-25,Gold (8.5L-9L),2
+C033,Mahesh Tiwari,Wholesaler,Civil Lines Route,466,815854.15,2023-04-03,2025-03-25,Silver (7.5L-8.5L),3
+C034,Mukesh Mishra,Institutional,Railway Colony Route,392,678870.05,2023-04-01,2025-03-27,Bronze (6.5L-7.5L),4
+C035,Ganesh Mehta,Institutional,Sadar Bazar Route,472,761938.33,2023-04-04,2025-03-31,Silver (7.5L-8.5L),3
+C036,Alpesh Mittal,Retailer,Model Town Route,417,684457.68,2023-04-01,2025-03-31,Bronze (6.5L-7.5L),4
+C037,Naresh Trivedi,Wholesaler,Sector-7 Route,439,767359.23,2023-04-07,2025-03-31,Silver (7.5L-8.5L),3
+C038,Sanjay Nair,Wholesaler,Bypass Road Route,438,734790.05,2023-04-03,2025-03-27,Bronze (6.5L-7.5L),4
+C039,Anil Agarwal,Retailer,Industrial Area Route,433,725334.83,2023-04-08,2025-03-31,Bronze (6.5L-7.5L),4
+C040,Sunita Goyal,Institutional,Railway Colony Route,497,861397.41,2023-04-04,2025-03-27,Gold (8.5L-9L),2
+C041,Anita Yadav,Retailer,Sadar Bazar Route,516,862141.36,2023-04-01,2025-03-21,Gold (8.5L-9L),2
+C042,Suresh Iyer,Institutional,Civil Lines Route,455,764373.96,2023-04-03,2025-03-27,Silver (7.5L-8.5L),3
+C043,Vijay Thakur,Retailer,Bypass Road Route,421,770332.7,2023-04-01,2025-03-28,Silver (7.5L-8.5L),3
+C044,Rohit Dubey,Institutional,Model Town Route,458,786253.21,2023-04-03,2025-03-31,Silver (7.5L-8.5L),3
+C045,Priya Kumar,Retailer,Bypass Road Route,438,726013.42,2023-04-01,2025-03-31,Bronze (6.5L-7.5L),4
+C046,Rekha Chauhan,Direct Consumer,Model Town Route,449,734167.44,2023-04-04,2025-03-25,Bronze (6.5L-7.5L),4
+C047,Jignesh Joshi,Retailer,Old City Route,425,653713.58,2023-04-07,2025-03-29,Bronze (6.5L-7.5L),4
+C048,Vikas Shukla,Direct Consumer,Sadar Bazar Route,442,768706.87,2023-04-26,2025-03-28,Silver (7.5L-8.5L),3
+C049,Harish Shah,Hotel/Restaurant,Old City Route,434,742601.59,2023-04-05,2025-03-29,Bronze (6.5L-7.5L),4
+C050,Ajay Pandey,Direct Consumer,Industrial Area Route,434,719918.71,2023-04-03,2025-03-29,Bronze (6.5L-7.5L),4
+C051,Rajesh Saxena,Wholesaler,Bypass Road Route,513,885581.74,2023-04-01,2025-03-31,Gold (8.5L-9L),2
+C052,Lokesh Gupta,Retailer,Sadar Bazar Route,446,787986.96,2023-04-03,2025-03-28,Silver (7.5L-8.5L),3
+C053,Ashok Srivastava,Retailer,Sector-7 Route,416,700492.87,2023-04-01,2025-03-18,Bronze (6.5L-7.5L),4
+C054,Rakesh Singh,Wholesaler,Sadar Bazar Route,489,909834.04,2023-04-04,2025-03-28,Platinum (>=9L),1
+C055,Yogesh Garg,Wholesaler,Sector-7 Route,394,698237.07,2023-04-01,2025-03-29,Bronze (6.5L-7.5L),4
+C056,Dinesh Bansal,Retailer,Sector-7 Route,428,731965.45,2023-04-01,2025-03-22,Bronze (6.5L-7.5L),4
+C057,Manoj Rajput,Retailer,Sector-7 Route,447,785020.97,2023-04-03,2025-03-20,Silver (7.5L-8.5L),3
+C058,Girish Verma,Institutional,Civil Lines Route,428,704904.05,2023-04-01,2025-03-31,Bronze (6.5L-7.5L),4
+C059,Deepak Rao,Wholesaler,Railway Colony Route,480,819323.57,2023-04-03,2025-03-27,Silver (7.5L-8.5L),3
+C060,Nitesh Sharma,Hotel/Restaurant,Sadar Bazar Route,439,795220.08,2023-04-18,2025-03-29,Silver (7.5L-8.5L),3
+C061,Umesh Jain,Wholesaler,Bypass Road Route,542,882330.99,2023-04-03,2025-03-26,Gold (8.5L-9L),2
+C062,Kapil Patel,Retailer,Bypass Road Route,447,799030.83,2023-04-06,2025-03-28,Silver (7.5L-8.5L),3
+C063,Mohit Tiwari,Institutional,Sadar Bazar Route,484,870966.87,2023-04-05,2025-03-25,Gold (8.5L-9L),2
+C064,Kamlesh Mishra,Retailer,Old City Route,497,869053.13,2023-04-04,2025-03-31,Gold (8.5L-9L),2
+C065,Pramod Mehta,Retailer,Old City Route,396,647588.42,2023-04-01,2025-03-26,Standard (<6L),5
+C066,Paresh Mittal,Wholesaler,Sector-7 Route,385,689562.25,2023-04-04,2025-03-26,Bronze (6.5L-7.5L),4
+C067,Pooja Trivedi,Hotel/Restaurant,Civil Lines Route,474,808657.42,2023-04-05,2025-03-28,Silver (7.5L-8.5L),3
+C068,Meena Nair,Retailer,Industrial Area Route,516,917036.12,2023-04-03,2025-03-29,Platinum (>=9L),1
+C069,Santosh Agarwal,Institutional,Civil Lines Route,424,731102.1,2023-04-01,2025-03-29,Bronze (6.5L-7.5L),4
+C070,Amit Goyal,Retailer,Sadar Bazar Route,468,818200.35,2023-04-01,2025-03-29,Silver (7.5L-8.5L),3
+C071,Ramesh Yadav,Wholesaler,Model Town Route,517,915619.43,2023-04-08,2025-03-29,Platinum (>=9L),1
+C072,Neha Iyer,Wholesaler,Railway Colony Route,424,637190.09,2023-04-05,2025-03-31,Standard (<6L),5
+C073,Kavita Thakur,Wholesaler,Civil Lines Route,459,685480.56,2023-04-06,2025-03-29,Bronze (6.5L-7.5L),4
+C074,Lalit Dubey,Wholesaler,Civil Lines Route,391,626220.34,2023-04-06,2025-03-29,Standard (<6L),5
+C075,Sunil Kumar,Retailer,Sector-7 Route,517,929288.11,2023-04-03,2025-03-27,Platinum (>=9L),1
+C076,Bhavesh Chauhan,Direct Consumer,Sadar Bazar Route,467,787133.04,2023-04-04,2025-03-31,Silver (7.5L-8.5L),3
+C077,Sumit Joshi,Retailer,Bypass Road Route,494,857623.79,2023-04-07,2025-03-17,Gold (8.5L-9L),2
+C078,Mahesh Shukla,Wholesaler,Old City Route,414,729342.54,2023-04-06,2025-03-31,Bronze (6.5L-7.5L),4
+C079,Mukesh Shah,Direct Consumer,Model Town Route,479,815880.72,2023-04-12,2025-03-25,Silver (7.5L-8.5L),3
+C080,Ganesh Pandey,Retailer,Old City Route,460,707503.55,2023-04-08,2025-03-28,Bronze (6.5L-7.5L),4
+C081,Alpesh Saxena,Retailer,Bypass Road Route,430,767865.68,2023-04-05,2025-03-14,Silver (7.5L-8.5L),3
+C082,Naresh Gupta,Retailer,Bypass Road Route,449,776735.01,2023-04-04,2025-03-27,Silver (7.5L-8.5L),3
+C083,Sanjay Srivastava,Retailer,Railway Colony Route,483,879314.89,2023-04-10,2025-03-28,Gold (8.5L-9L),2
+C084,Anil Singh,Retailer,Sector-7 Route,479,751572.79,2023-04-08,2025-03-20,Silver (7.5L-8.5L),3
+C085,Sunita Garg,Wholesaler,Sector-7 Route,465,775495.32,2023-04-05,2025-03-28,Silver (7.5L-8.5L),3
+C086,Anita Bansal,Hotel/Restaurant,Sector-7 Route,409,683242.74,2023-04-01,2025-03-24,Bronze (6.5L-7.5L),4
+C087,Suresh Rajput,Retailer,Bypass Road Route,494,810692.43,2023-04-06,2025-03-31,Silver (7.5L-8.5L),3
+C088,Vijay Verma,Wholesaler,Model Town Route,430,745574.3,2023-04-01,2025-03-24,Bronze (6.5L-7.5L),4
+C089,Rohit Rao,Retailer,Civil Lines Route,469,828942.83,2023-04-01,2025-03-31,Silver (7.5L-8.5L),3
+C090,Priya Sharma,Institutional,Civil Lines Route,446,735087.99,2023-04-03,2025-03-29,Bronze (6.5L-7.5L),4
+C091,Rekha Jain,Wholesaler,Sadar Bazar Route,476,788039.63,2023-04-01,2025-03-31,Silver (7.5L-8.5L),3
+C092,Jignesh Patel,Wholesaler,Sadar Bazar Route,438,732569.09,2023-04-06,2025-03-31,Bronze (6.5L-7.5L),4
+C093,Vikas Tiwari,Wholesaler,Sector-7 Route,461,799320.46,2023-04-03,2025-03-31,Silver (7.5L-8.5L),3
+C094,Harish Mishra,Hotel/Restaurant,Old City Route,434,783074.96,2023-04-01,2025-03-27,Silver (7.5L-8.5L),3
+C095,Ajay Mehta,Hotel/Restaurant,Industrial Area Route,488,787023.33,2023-04-04,2025-03-27,Silver (7.5L-8.5L),3
+C096,Rajesh Mittal,Direct Consumer,Sadar Bazar Route,432,698005.61,2023-04-04,2025-03-24,Bronze (6.5L-7.5L),4
+C097,Lokesh Trivedi,Hotel/Restaurant,Industrial Area Route,455,759532.23,2023-04-03,2025-03-29,Silver (7.5L-8.5L),3
+C098,Ashok Nair,Retailer,Old City Route,492,839823.29,2023-04-04,2025-03-28,Silver (7.5L-8.5L),3
+C099,Rakesh Agarwal,Retailer,Railway Colony Route,441,729993.58,2023-04-07,2025-03-28,Bronze (6.5L-7.5L),4
+C100,Yogesh Goyal,Wholesaler,Civil Lines Route,367,618125.89,2023-04-03,2025-03-28,Standard (<6L),5
+C101,Dinesh Yadav,Retailer,Civil Lines Route,416,690849.01,2023-04-12,2025-03-31,Bronze (6.5L-7.5L),4
+C102,Manoj Iyer,Retailer,Sadar Bazar Route,452,693208.72,2023-04-25,2025-03-28,Bronze (6.5L-7.5L),4
+C103,Girish Thakur,Wholesaler,Model Town Route,429,778188.08,2023-04-04,2025-03-20,Silver (7.5L-8.5L),3
+C104,Deepak Dubey,Direct Consumer,Civil Lines Route,494,842784.81,2023-04-03,2025-03-31,Silver (7.5L-8.5L),3
+C105,Nitesh Kumar,Institutional,Industrial Area Route,457,762842.05,2023-04-04,2025-03-25,Silver (7.5L-8.5L),3
+C106,Umesh Chauhan,Retailer,Bypass Road Route,444,708973.46,2023-04-06,2025-03-25,Bronze (6.5L-7.5L),4
+C107,Kapil Joshi,Institutional,Railway Colony Route,392,687464.77,2023-04-10,2025-03-27,Bronze (6.5L-7.5L),4
+C108,Mohit Shukla,Hotel/Restaurant,Sector-7 Route,522,874220.49,2023-04-01,2025-03-28,Gold (8.5L-9L),2
+C109,Kamlesh Shah,Hotel/Restaurant,Railway Colony Route,415,694953.25,2023-04-01,2025-03-28,Bronze (6.5L-7.5L),4
+C110,Pramod Pandey,Direct Consumer,Civil Lines Route,430,765487.3,2023-04-01,2025-03-08,Silver (7.5L-8.5L),3
+C111,Paresh Saxena,Direct Consumer,Model Town Route,450,763776.62,2023-04-06,2025-03-19,Silver (7.5L-8.5L),3
+C112,Pooja Gupta,Retailer,Civil Lines Route,499,869145.66,2023-04-01,2025-03-28,Gold (8.5L-9L),2
+C113,Meena Srivastava,Hotel/Restaurant,Model Town Route,391,637763.87,2023-04-05,2025-03-27,Standard (<6L),5
+C114,Santosh Singh,Retailer,Sadar Bazar Route,435,728614.87,2023-04-03,2025-03-28,Bronze (6.5L-7.5L),4
+C115,Amit Garg,Hotel/Restaurant,Sadar Bazar Route,423,718157.02,2023-04-03,2025-03-19,Bronze (6.5L-7.5L),4
+C116,Ramesh Bansal,Hotel/Restaurant,Railway Colony Route,496,931023.57,2023-04-07,2025-03-31,Platinum (>=9L),1
+C117,Neha Rajput,Wholesaler,Railway Colony Route,449,782924.68,2023-04-01,2025-03-29,Silver (7.5L-8.5L),3
+C118,Kavita Verma,Direct Consumer,Sector-7 Route,475,823430.24,2023-04-08,2025-03-31,Silver (7.5L-8.5L),3
+C119,Lalit Rao,Retailer,Old City Route,458,779775.9,2023-04-01,2025-03-31,Silver (7.5L-8.5L),3
+C120,Sunil Sharma,Institutional,Sector-7 Route,491,787472.06,2023-04-06,2025-03-29,Silver (7.5L-8.5L),3

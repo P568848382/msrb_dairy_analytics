@@ -1,0 +1,13 @@
+product_id,product_name,category,total_days,stockout_days,critical_days,stockout_rate_pct,risk_category
+P06,Curd 400g,Curd,626,10,5,1.6,High Risk
+P08,Ghee 500ml,Ghee,626,6,0,0.96,High Risk
+P04,Paneer 200g,Paneer,626,4,3,0.64,Medium Risk
+P11,Butter 500g,Butter,626,3,0,0.48,Medium Risk
+P01,Milk Bulk 1L,Milk Bulk,626,1,3,0.16,Low Risk
+P03,Milk Packet 200ml,Milk Packet,626,1,8,0.16,Low Risk
+P02,Milk Packet 500ml,Milk Packet,626,1,10,0.16,Low Risk
+P09,Ghee 1L,Ghee,626,0,0,0.0,No Stockout
+P05,Paneer 500g,Paneer,626,0,0,0.0,No Stockout
+P10,Butter 100g,Butter,626,0,0,0.0,No Stockout
+P07,Curd 1kg,Curd,626,0,0,0.0,No Stockout
+P12,Cream 200ml,Cream,626,0,0,0.0,No Stockout

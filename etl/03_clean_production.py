@@ -112,7 +112,7 @@ def clean_production(df:pd.DataFrame) -> pd.DataFrame:
     log.info("✅ Step 4: Numerics validated")
 
     # ── Business rule validations ──────────────────────────────────────
-    # Rule 1: actual_qty must not exceed 110% of planned (impossible overproduction)
+    # Rule 1: actual_qty must not exceed 110% of planned (impossible over production)
     over_prod=df[df['actual_qty']>df['planned_qty'] * 1.10 ]
     if len(over_prod):
         log.warning(f"⚠️  Step 5: {len(over_prod)} rows with actual > 110% of planned")

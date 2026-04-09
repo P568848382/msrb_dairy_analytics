@@ -1,0 +1,5 @@
+aging_bucket,invoices,customers,outstanding_amount,pct_of_total,sort_order
+1-30 Days,39,37,769874.19,8.01,1
+31-60 Days,18,18,491059.61,5.11,2
+61-90 Days,11,11,321606.8,3.35,3
+90+ Days,332,111,8023687.06,83.53,4

@@ -1,0 +1,13 @@
+product_id,product_name,category,unit,standard_price,cost_price,shelf_life_days,is_active
+P01,Milk Bulk 1L,Milk Bulk,Litre,42.0,38.0,2,True
+P02,Milk Packet 500ml,Milk Packet,Packet,24.0,21.0,3,True
+P03,Milk Packet 200ml,Milk Packet,Packet,11.0,9.5,3,True
+P04,Paneer 200g,Paneer,Piece,70.0,58.0,7,True
+P05,Paneer 500g,Paneer,Piece,165.0,138.0,7,True
+P06,Curd 400g,Curd,Piece,36.0,29.0,5,True
+P07,Curd 1kg,Curd,Piece,82.0,68.0,5,True
+P08,Ghee 500ml,Ghee,Piece,310.0,265.0,180,True
+P09,Ghee 1L,Ghee,Piece,595.0,510.0,180,True
+P10,Butter 100g,Butter,Piece,58.0,48.0,90,True
+P11,Butter 500g,Butter,Piece,265.0,220.0,90,True
+P12,Cream 200ml,Cream,Piece,75.0,62.0,10,True

@@ -1,0 +1,13 @@
+product_id,product_name,category,closing_stock,reorder_level,stock_status,shelf_life_days,avg_daily_dispatch,days_of_stock_remaining,supply_risk
+P02,Milk Packet 500ml,Milk Packet,14089,500,OK,3,155.52,90.59,At Risk - Expires Before Sold
+P01,Milk Bulk 1L,Milk Bulk,11218,200,OK,2,160.31,69.98,At Risk - Expires Before Sold
+P10,Butter 100g,Butter,10743,25,OK,90,156.78,68.52,Safe - Sells Before Expiry
+P09,Ghee 1L,Ghee,10682,15,OK,180,156.27,68.36,Safe - Sells Before Expiry
+P12,Cream 200ml,Cream,10638,12,OK,10,157.08,67.72,At Risk - Expires Before Sold
+P11,Butter 500g,Butter,9739,25,OK,90,159.78,60.95,Safe - Sells Before Expiry
+P05,Paneer 500g,Paneer,8388,30,OK,7,159.97,52.43,At Risk - Expires Before Sold
+P03,Milk Packet 200ml,Milk Packet,8464,500,OK,3,162.93,51.95,At Risk - Expires Before Sold
+P04,Paneer 200g,Paneer,8181,30,OK,7,158.32,51.67,At Risk - Expires Before Sold
+P08,Ghee 500ml,Ghee,7857,15,OK,180,156.38,50.24,Safe - Sells Before Expiry
+P07,Curd 1kg,Curd,7749,80,OK,5,161.83,47.88,At Risk - Expires Before Sold
+P06,Curd 400g,Curd,7066,80,OK,5,161.42,43.77,At Risk - Expires Before Sold

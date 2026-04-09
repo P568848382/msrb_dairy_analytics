@@ -1,0 +1,289 @@
+year,month,month_name,product_id,product_name,category,avg_inventory,total_dispatched,turnover_ratio,movement_category
+2023,4,April,P06,Curd 400g,Curd,61.2,3599.0,59.04,Fast Moving
+2023,4,April,P04,Paneer 200g,Paneer,138.16,4258.0,30.86,Fast Moving
+2023,4,April,P08,Ghee 500ml,Ghee,252.78,3647.0,14.44,Fast Moving
+2023,4,April,P11,Butter 500g,Butter,289.98,4181.0,14.43,Fast Moving
+2023,4,April,P07,Curd 1kg,Curd,302.08,3690.0,12.23,Fast Moving
+2023,4,April,P10,Butter 100g,Butter,363.02,3934.0,10.84,Fast Moving
+2023,4,April,P02,Milk Packet 500ml,Milk Packet,366.44,3791.0,10.35,Fast Moving
+2023,4,April,P03,Milk Packet 200ml,Milk Packet,363.6,3673.0,10.11,Fast Moving
+2023,4,April,P12,Cream 200ml,Cream,496.76,3944.0,7.94,Normal
+2023,4,April,P01,Milk Bulk 1L,Milk Bulk,477.12,3692.0,7.74,Normal
+2023,4,April,P09,Ghee 1L,Ghee,568.18,4025.0,7.09,Normal
+2023,4,April,P05,Paneer 500g,Paneer,879.92,3556.0,4.04,Slow Moving
+2023,5,May,P04,Paneer 200g,Paneer,324.37,4209.0,12.98,Fast Moving
+2023,5,May,P09,Ghee 1L,Ghee,463.65,4386.0,9.46,Normal
+2023,5,May,P03,Milk Packet 200ml,Milk Packet,654.87,4573.0,6.99,Normal
+2023,5,May,P07,Curd 1kg,Curd,736.91,4305.0,5.84,Normal
+2023,5,May,P11,Butter 500g,Butter,821.3,4407.0,5.37,Normal
+2023,5,May,P02,Milk Packet 500ml,Milk Packet,835.78,4260.0,5.1,Normal
+2023,5,May,P06,Curd 400g,Curd,679.87,3416.0,5.03,Normal
+2023,5,May,P08,Ghee 500ml,Ghee,794.3,3783.0,4.76,Slow Moving
+2023,5,May,P01,Milk Bulk 1L,Milk Bulk,934.78,4155.0,4.45,Slow Moving
+2023,5,May,P10,Butter 100g,Butter,1016.48,4178.0,4.11,Slow Moving
+2023,5,May,P12,Cream 200ml,Cream,1111.72,4241.0,3.82,Slow Moving
+2023,5,May,P05,Paneer 500g,Paneer,1751.63,4274.0,2.44,Slow Moving
+2023,6,June,P04,Paneer 200g,Paneer,448.31,4704.0,10.5,Fast Moving
+2023,6,June,P01,Milk Bulk 1L,Milk Bulk,781.13,4454.0,5.7,Normal
+2023,6,June,P07,Curd 1kg,Curd,854.21,4279.0,5.01,Normal
+2023,6,June,P09,Ghee 1L,Ghee,888.31,4340.0,4.89,Slow Moving
+2023,6,June,P02,Milk Packet 500ml,Milk Packet,974.21,3840.0,3.94,Slow Moving
+2023,6,June,P12,Cream 200ml,Cream,1203.21,4609.0,3.83,Slow Moving
+2023,6,June,P11,Butter 500g,Butter,1502.35,4444.0,2.96,Slow Moving
+2023,6,June,P08,Ghee 500ml,Ghee,1212.94,3407.0,2.81,Slow Moving
+2023,6,June,P03,Milk Packet 200ml,Milk Packet,1391.42,3854.0,2.77,Slow Moving
+2023,6,June,P06,Curd 400g,Curd,1751.02,3905.0,2.23,Slow Moving
+2023,6,June,P05,Paneer 500g,Paneer,2017.9,4391.0,2.18,Slow Moving
+2023,6,June,P10,Butter 100g,Butter,1762.85,3357.0,1.9,Slow Moving
+2023,7,July,P04,Paneer 200g,Paneer,387.42,4256.0,10.99,Fast Moving
+2023,7,July,P07,Curd 1kg,Curd,915.83,4798.0,5.24,Normal
+2023,7,July,P11,Butter 500g,Butter,1016.37,4734.0,4.66,Slow Moving
+2023,7,July,P12,Cream 200ml,Cream,1186.92,4204.0,3.54,Slow Moving
+2023,7,July,P01,Milk Bulk 1L,Milk Bulk,1289.15,4021.0,3.12,Slow Moving
+2023,7,July,P02,Milk Packet 500ml,Milk Packet,1337.23,4067.0,3.04,Slow Moving
+2023,7,July,P09,Ghee 1L,Ghee,1446.67,4281.0,2.96,Slow Moving
+2023,7,July,P05,Paneer 500g,Paneer,1619.04,3943.0,2.44,Slow Moving
+2023,7,July,P06,Curd 400g,Curd,2156.06,4651.0,2.16,Slow Moving
+2023,7,July,P08,Ghee 500ml,Ghee,2447.54,4251.0,1.74,Slow Moving
+2023,7,July,P10,Butter 100g,Butter,2930.17,4145.0,1.41,Slow Moving
+2023,7,July,P03,Milk Packet 200ml,Milk Packet,2896.38,4015.0,1.39,Slow Moving
+2023,8,August,P04,Paneer 200g,Paneer,800.33,4569.0,5.71,Normal
+2023,8,August,P11,Butter 500g,Butter,934.7,4452.0,4.76,Slow Moving
+2023,8,August,P07,Curd 1kg,Curd,1083.0,3980.0,3.68,Slow Moving
+2023,8,August,P02,Milk Packet 500ml,Milk Packet,1164.98,4098.0,3.52,Slow Moving
+2023,8,August,P09,Ghee 1L,Ghee,1722.5,4229.0,2.46,Slow Moving
+2023,8,August,P01,Milk Bulk 1L,Milk Bulk,1859.43,4132.0,2.22,Slow Moving
+2023,8,August,P05,Paneer 500g,Paneer,2051.28,4429.0,2.16,Slow Moving
+2023,8,August,P12,Cream 200ml,Cream,2036.76,3691.0,1.81,Slow Moving
+2023,8,August,P06,Curd 400g,Curd,2518.33,4062.0,1.61,Slow Moving
+2023,8,August,P08,Ghee 500ml,Ghee,2581.43,4020.0,1.56,Slow Moving
+2023,8,August,P10,Butter 100g,Butter,3043.48,4191.0,1.38,Slow Moving
+2023,8,August,P03,Milk Packet 200ml,Milk Packet,3560.02,4505.0,1.27,Slow Moving
+2023,9,September,P11,Butter 500g,Butter,1224.29,3977.0,3.25,Slow Moving
+2023,9,September,P07,Curd 1kg,Curd,1316.54,4033.0,3.06,Slow Moving
+2023,9,September,P04,Paneer 200g,Paneer,1425.27,4216.0,2.96,Slow Moving
+2023,9,September,P05,Paneer 500g,Paneer,1611.0,4482.0,2.78,Slow Moving
+2023,9,September,P09,Ghee 1L,Ghee,2023.25,4188.0,2.07,Slow Moving
+2023,9,September,P02,Milk Packet 500ml,Milk Packet,2156.13,3872.0,1.8,Slow Moving
+2023,9,September,P12,Cream 200ml,Cream,2902.94,4579.0,1.58,Slow Moving
+2023,9,September,P06,Curd 400g,Curd,2877.19,4391.0,1.53,Slow Moving
+2023,9,September,P08,Ghee 500ml,Ghee,2768.25,4122.0,1.49,Slow Moving
+2023,9,September,P10,Butter 100g,Butter,2870.56,4002.0,1.39,Slow Moving
+2023,9,September,P01,Milk Bulk 1L,Milk Bulk,2910.6,3581.0,1.23,Slow Moving
+2023,9,September,P03,Milk Packet 200ml,Milk Packet,4262.08,3767.0,0.88,Dead Stock Risk
+2023,10,October,P07,Curd 1kg,Curd,1354.73,4379.0,3.23,Slow Moving
+2023,10,October,P11,Butter 500g,Butter,1543.35,3813.0,2.47,Slow Moving
+2023,10,October,P05,Paneer 500g,Paneer,2006.15,3874.0,1.93,Slow Moving
+2023,10,October,P04,Paneer 200g,Paneer,1976.83,3244.0,1.64,Slow Moving
+2023,10,October,P12,Cream 200ml,Cream,2886.67,4291.0,1.49,Slow Moving
+2023,10,October,P09,Ghee 1L,Ghee,2608.77,3731.0,1.43,Slow Moving
+2023,10,October,P02,Milk Packet 500ml,Milk Packet,2751.79,3743.0,1.36,Slow Moving
+2023,10,October,P08,Ghee 500ml,Ghee,3065.58,3797.0,1.24,Slow Moving
+2023,10,October,P10,Butter 100g,Butter,3546.4,4080.0,1.15,Slow Moving
+2023,10,October,P01,Milk Bulk 1L,Milk Bulk,3524.54,3950.0,1.12,Slow Moving
+2023,10,October,P06,Curd 400g,Curd,3268.52,3565.0,1.09,Slow Moving
+2023,10,October,P03,Milk Packet 200ml,Milk Packet,5249.42,3617.0,0.69,Dead Stock Risk
+2023,11,November,P07,Curd 1kg,Curd,1203.48,4174.0,3.47,Slow Moving
+2023,11,November,P05,Paneer 500g,Paneer,1742.58,4135.0,2.37,Slow Moving
+2023,11,November,P11,Butter 500g,Butter,2148.42,4220.0,1.96,Slow Moving
+2023,11,November,P04,Paneer 200g,Paneer,2698.69,4208.0,1.56,Slow Moving
+2023,11,November,P12,Cream 200ml,Cream,3072.54,4686.0,1.53,Slow Moving
+2023,11,November,P02,Milk Packet 500ml,Milk Packet,3087.79,4461.0,1.44,Slow Moving
+2023,11,November,P09,Ghee 1L,Ghee,3246.46,4248.0,1.31,Slow Moving
+2023,11,November,P06,Curd 400g,Curd,3667.19,4074.0,1.11,Slow Moving
+2023,11,November,P01,Milk Bulk 1L,Milk Bulk,4158.29,4528.0,1.09,Slow Moving
+2023,11,November,P08,Ghee 500ml,Ghee,3787.56,4115.0,1.09,Slow Moving
+2023,11,November,P10,Butter 100g,Butter,4124.62,4100.0,0.99,Dead Stock Risk
+2023,11,November,P03,Milk Packet 200ml,Milk Packet,5805.85,4475.0,0.77,Dead Stock Risk
+2023,12,December,P07,Curd 1kg,Curd,1492.96,4505.0,3.02,Slow Moving
+2023,12,December,P05,Paneer 500g,Paneer,2014.9,4116.0,2.04,Slow Moving
+2023,12,December,P11,Butter 500g,Butter,2637.96,4289.0,1.63,Slow Moving
+2023,12,December,P04,Paneer 200g,Paneer,2914.73,4122.0,1.41,Slow Moving
+2023,12,December,P06,Curd 400g,Curd,3702.85,4710.0,1.27,Slow Moving
+2023,12,December,P09,Ghee 1L,Ghee,3703.12,4225.0,1.14,Slow Moving
+2023,12,December,P08,Ghee 500ml,Ghee,3883.6,4035.0,1.04,Slow Moving
+2023,12,December,P12,Cream 200ml,Cream,3557.31,3497.0,0.98,Dead Stock Risk
+2023,12,December,P10,Butter 100g,Butter,4447.88,4228.0,0.95,Dead Stock Risk
+2023,12,December,P02,Milk Packet 500ml,Milk Packet,3950.44,3382.0,0.86,Dead Stock Risk
+2023,12,December,P01,Milk Bulk 1L,Milk Bulk,4584.88,3820.0,0.83,Dead Stock Risk
+2023,12,December,P03,Milk Packet 200ml,Milk Packet,6090.87,3896.0,0.64,Dead Stock Risk
+2024,1,January,P07,Curd 1kg,Curd,1447.83,4325.0,2.99,Slow Moving
+2024,1,January,P05,Paneer 500g,Paneer,2930.91,4210.0,1.44,Slow Moving
+2024,1,January,P11,Butter 500g,Butter,3353.96,4520.0,1.35,Slow Moving
+2024,1,January,P04,Paneer 200g,Paneer,3475.17,4324.0,1.24,Slow Moving
+2024,1,January,P06,Curd 400g,Curd,4123.5,4342.0,1.05,Slow Moving
+2024,1,January,P09,Ghee 1L,Ghee,4003.93,4119.0,1.03,Slow Moving
+2024,1,January,P10,Butter 100g,Butter,4591.48,4267.0,0.93,Dead Stock Risk
+2024,1,January,P12,Cream 200ml,Cream,4307.0,3891.0,0.9,Dead Stock Risk
+2024,1,January,P01,Milk Bulk 1L,Milk Bulk,5226.98,4475.0,0.86,Dead Stock Risk
+2024,1,January,P08,Ghee 500ml,Ghee,4734.43,4022.0,0.85,Dead Stock Risk
+2024,1,January,P02,Milk Packet 500ml,Milk Packet,5179.07,3877.0,0.75,Dead Stock Risk
+2024,1,January,P03,Milk Packet 200ml,Milk Packet,7109.13,4114.0,0.58,Dead Stock Risk
+2024,2,February,P07,Curd 1kg,Curd,2200.62,4154.0,1.89,Slow Moving
+2024,2,February,P05,Paneer 500g,Paneer,3160.18,4145.0,1.31,Slow Moving
+2024,2,February,P11,Butter 500g,Butter,3369.72,4026.0,1.19,Slow Moving
+2024,2,February,P06,Curd 400g,Curd,4129.94,4462.0,1.08,Slow Moving
+2024,2,February,P12,Cream 200ml,Cream,4471.04,4533.0,1.01,Slow Moving
+2024,2,February,P04,Paneer 200g,Paneer,4408.02,3801.0,0.86,Dead Stock Risk
+2024,2,February,P09,Ghee 1L,Ghee,4559.9,3860.0,0.85,Dead Stock Risk
+2024,2,February,P02,Milk Packet 500ml,Milk Packet,5171.66,4165.0,0.81,Dead Stock Risk
+2024,2,February,P01,Milk Bulk 1L,Milk Bulk,5446.26,3653.0,0.67,Dead Stock Risk
+2024,2,February,P10,Butter 100g,Butter,5407.7,3559.0,0.66,Dead Stock Risk
+2024,2,February,P08,Ghee 500ml,Ghee,5449.64,3612.0,0.66,Dead Stock Risk
+2024,2,February,P03,Milk Packet 200ml,Milk Packet,7735.32,4189.0,0.54,Dead Stock Risk
+2024,3,March,P07,Curd 1kg,Curd,1957.85,4587.0,2.34,Slow Moving
+2024,3,March,P11,Butter 500g,Butter,2545.94,4626.0,1.82,Slow Moving
+2024,3,March,P12,Cream 200ml,Cream,3773.81,4217.0,1.12,Slow Moving
+2024,3,March,P05,Paneer 500g,Paneer,3547.63,3755.0,1.06,Slow Moving
+2024,3,March,P04,Paneer 200g,Paneer,4460.5,4257.0,0.95,Dead Stock Risk
+2024,3,March,P06,Curd 400g,Curd,4581.48,3620.0,0.79,Dead Stock Risk
+2024,3,March,P02,Milk Packet 500ml,Milk Packet,5665.25,4266.0,0.75,Dead Stock Risk
+2024,3,March,P03,Milk Packet 200ml,Milk Packet,6771.02,4907.0,0.72,Dead Stock Risk
+2024,3,March,P08,Ghee 500ml,Ghee,5831.63,4152.0,0.71,Dead Stock Risk
+2024,3,March,P10,Butter 100g,Butter,6245.92,4021.0,0.64,Dead Stock Risk
+2024,3,March,P09,Ghee 1L,Ghee,5285.6,3347.0,0.63,Dead Stock Risk
+2024,3,March,P01,Milk Bulk 1L,Milk Bulk,6313.35,3683.0,0.58,Dead Stock Risk
+2024,4,April,P07,Curd 1kg,Curd,2537.98,4030.0,1.59,Slow Moving
+2024,4,April,P11,Butter 500g,Butter,2701.29,4214.0,1.56,Slow Moving
+2024,4,April,P04,Paneer 200g,Paneer,4455.87,4608.0,1.03,Slow Moving
+2024,4,April,P12,Cream 200ml,Cream,4506.46,4104.0,0.91,Dead Stock Risk
+2024,4,April,P06,Curd 400g,Curd,5062.15,4464.0,0.88,Dead Stock Risk
+2024,4,April,P05,Paneer 500g,Paneer,4257.29,3716.0,0.87,Dead Stock Risk
+2024,4,April,P08,Ghee 500ml,Ghee,5603.52,4232.0,0.76,Dead Stock Risk
+2024,4,April,P03,Milk Packet 200ml,Milk Packet,5929.21,4326.0,0.73,Dead Stock Risk
+2024,4,April,P09,Ghee 1L,Ghee,5871.79,3828.0,0.65,Dead Stock Risk
+2024,4,April,P10,Butter 100g,Butter,7160.27,3954.0,0.55,Dead Stock Risk
+2024,4,April,P01,Milk Bulk 1L,Milk Bulk,7337.23,3960.0,0.54,Dead Stock Risk
+2024,4,April,P02,Milk Packet 500ml,Milk Packet,6906.88,3309.0,0.48,Dead Stock Risk
+2024,5,May,P07,Curd 1kg,Curd,2286.02,4800.0,2.1,Slow Moving
+2024,5,May,P11,Butter 500g,Butter,2930.69,4123.0,1.41,Slow Moving
+2024,5,May,P05,Paneer 500g,Paneer,5051.28,4749.0,0.94,Dead Stock Risk
+2024,5,May,P03,Milk Packet 200ml,Milk Packet,5445.33,4791.0,0.88,Dead Stock Risk
+2024,5,May,P04,Paneer 200g,Paneer,4577.48,3800.0,0.83,Dead Stock Risk
+2024,5,May,P12,Cream 200ml,Cream,5457.19,4556.0,0.83,Dead Stock Risk
+2024,5,May,P06,Curd 400g,Curd,4979.06,3905.0,0.78,Dead Stock Risk
+2024,5,May,P08,Ghee 500ml,Ghee,6222.09,4110.0,0.66,Dead Stock Risk
+2024,5,May,P01,Milk Bulk 1L,Milk Bulk,7574.02,4798.0,0.63,Dead Stock Risk
+2024,5,May,P10,Butter 100g,Butter,7646.59,4710.0,0.62,Dead Stock Risk
+2024,5,May,P09,Ghee 1L,Ghee,6392.61,3880.0,0.61,Dead Stock Risk
+2024,5,May,P02,Milk Packet 500ml,Milk Packet,7711.81,4537.0,0.59,Dead Stock Risk
+2024,6,June,P07,Curd 1kg,Curd,3150.34,3310.0,1.05,Slow Moving
+2024,6,June,P11,Butter 500g,Butter,3463.58,3584.0,1.03,Slow Moving
+2024,6,June,P04,Paneer 200g,Paneer,4944.04,4885.0,0.99,Dead Stock Risk
+2024,6,June,P06,Curd 400g,Curd,5337.04,4687.0,0.88,Dead Stock Risk
+2024,6,June,P05,Paneer 500g,Paneer,5272.62,3929.0,0.75,Dead Stock Risk
+2024,6,June,P03,Milk Packet 200ml,Milk Packet,5800.12,4190.0,0.72,Dead Stock Risk
+2024,6,June,P12,Cream 200ml,Cream,6098.78,3669.0,0.6,Dead Stock Risk
+2024,6,June,P08,Ghee 500ml,Ghee,6271.6,3789.0,0.6,Dead Stock Risk
+2024,6,June,P10,Butter 100g,Butter,7880.8,4095.0,0.52,Dead Stock Risk
+2024,6,June,P09,Ghee 1L,Ghee,7329.26,3595.0,0.49,Dead Stock Risk
+2024,6,June,P02,Milk Packet 500ml,Milk Packet,8433.28,4008.0,0.48,Dead Stock Risk
+2024,6,June,P01,Milk Bulk 1L,Milk Bulk,8262.06,3673.0,0.44,Dead Stock Risk
+2024,7,July,P07,Curd 1kg,Curd,3920.33,4687.0,1.2,Slow Moving
+2024,7,July,P11,Butter 500g,Butter,3991.94,4551.0,1.14,Slow Moving
+2024,7,July,P06,Curd 400g,Curd,4929.59,4784.0,0.97,Dead Stock Risk
+2024,7,July,P03,Milk Packet 200ml,Milk Packet,5354.43,5106.0,0.95,Dead Stock Risk
+2024,7,July,P04,Paneer 200g,Paneer,4819.67,4287.0,0.89,Dead Stock Risk
+2024,7,July,P05,Paneer 500g,Paneer,5461.56,4434.0,0.81,Dead Stock Risk
+2024,7,July,P12,Cream 200ml,Cream,6283.67,4478.0,0.71,Dead Stock Risk
+2024,7,July,P08,Ghee 500ml,Ghee,6673.09,4552.0,0.68,Dead Stock Risk
+2024,7,July,P09,Ghee 1L,Ghee,7632.39,4485.0,0.59,Dead Stock Risk
+2024,7,July,P02,Milk Packet 500ml,Milk Packet,8486.52,4821.0,0.57,Dead Stock Risk
+2024,7,July,P01,Milk Bulk 1L,Milk Bulk,8681.3,4649.0,0.54,Dead Stock Risk
+2024,7,July,P10,Butter 100g,Butter,7995.0,4079.0,0.51,Dead Stock Risk
+2024,8,August,P07,Curd 1kg,Curd,4051.28,4097.0,1.01,Slow Moving
+2024,8,August,P04,Paneer 200g,Paneer,5130.19,4350.0,0.85,Dead Stock Risk
+2024,8,August,P11,Butter 500g,Butter,5256.15,4054.0,0.77,Dead Stock Risk
+2024,8,August,P06,Curd 400g,Curd,5526.04,4106.0,0.74,Dead Stock Risk
+2024,8,August,P08,Ghee 500ml,Ghee,6074.44,4306.0,0.71,Dead Stock Risk
+2024,8,August,P03,Milk Packet 200ml,Milk Packet,6095.76,4221.0,0.69,Dead Stock Risk
+2024,8,August,P05,Paneer 500g,Paneer,6421.46,4206.0,0.66,Dead Stock Risk
+2024,8,August,P01,Milk Bulk 1L,Milk Bulk,8649.94,5023.0,0.58,Dead Stock Risk
+2024,8,August,P09,Ghee 1L,Ghee,7798.39,4322.0,0.55,Dead Stock Risk
+2024,8,August,P02,Milk Packet 500ml,Milk Packet,8806.91,4509.0,0.51,Dead Stock Risk
+2024,8,August,P12,Cream 200ml,Cream,7339.41,3690.0,0.5,Dead Stock Risk
+2024,8,August,P10,Butter 100g,Butter,8675.8,3922.0,0.45,Dead Stock Risk
+2024,9,September,P07,Curd 1kg,Curd,4494.54,4899.0,1.09,Slow Moving
+2024,9,September,P06,Curd 400g,Curd,5736.7,4311.0,0.75,Dead Stock Risk
+2024,9,September,P04,Paneer 200g,Paneer,5201.9,3734.0,0.72,Dead Stock Risk
+2024,9,September,P11,Butter 500g,Butter,5875.74,4191.0,0.71,Dead Stock Risk
+2024,9,September,P08,Ghee 500ml,Ghee,5983.7,4161.0,0.7,Dead Stock Risk
+2024,9,September,P05,Paneer 500g,Paneer,7128.44,3979.0,0.56,Dead Stock Risk
+2024,9,September,P03,Milk Packet 200ml,Milk Packet,6792.96,3722.0,0.55,Dead Stock Risk
+2024,9,September,P09,Ghee 1L,Ghee,7754.32,3877.0,0.5,Dead Stock Risk
+2024,9,September,P10,Butter 100g,Butter,8980.96,4387.0,0.49,Dead Stock Risk
+2024,9,September,P01,Milk Bulk 1L,Milk Bulk,9298.7,4055.0,0.44,Dead Stock Risk
+2024,9,September,P02,Milk Packet 500ml,Milk Packet,9633.36,3624.0,0.38,Dead Stock Risk
+2024,9,September,P12,Cream 200ml,Cream,8549.94,3277.0,0.38,Dead Stock Risk
+2024,10,October,P04,Paneer 200g,Paneer,4781.96,4256.0,0.89,Dead Stock Risk
+2024,10,October,P11,Butter 500g,Butter,5755.02,4754.0,0.83,Dead Stock Risk
+2024,10,October,P07,Curd 1kg,Curd,4831.22,3724.0,0.77,Dead Stock Risk
+2024,10,October,P08,Ghee 500ml,Ghee,6342.76,4548.0,0.72,Dead Stock Risk
+2024,10,October,P06,Curd 400g,Curd,6140.07,4004.0,0.65,Dead Stock Risk
+2024,10,October,P03,Milk Packet 200ml,Milk Packet,7263.0,4544.0,0.63,Dead Stock Risk
+2024,10,October,P05,Paneer 500g,Paneer,7742.63,4174.0,0.54,Dead Stock Risk
+2024,10,October,P09,Ghee 1L,Ghee,8192.81,4428.0,0.54,Dead Stock Risk
+2024,10,October,P12,Cream 200ml,Cream,9447.91,4679.0,0.5,Dead Stock Risk
+2024,10,October,P10,Butter 100g,Butter,9144.72,4480.0,0.49,Dead Stock Risk
+2024,10,October,P01,Milk Bulk 1L,Milk Bulk,9541.81,4013.0,0.42,Dead Stock Risk
+2024,10,October,P02,Milk Packet 500ml,Milk Packet,10482.69,4270.0,0.41,Dead Stock Risk
+2024,11,November,P04,Paneer 200g,Paneer,4903.62,4139.0,0.84,Dead Stock Risk
+2024,11,November,P03,Milk Packet 200ml,Milk Packet,7055.33,4984.0,0.71,Dead Stock Risk
+2024,11,November,P08,Ghee 500ml,Ghee,7252.25,4488.0,0.62,Dead Stock Risk
+2024,11,November,P07,Curd 1kg,Curd,6120.35,3812.0,0.62,Dead Stock Risk
+2024,11,November,P11,Butter 500g,Butter,6465.1,3830.0,0.59,Dead Stock Risk
+2024,11,November,P06,Curd 400g,Curd,7496.15,3907.0,0.52,Dead Stock Risk
+2024,11,November,P05,Paneer 500g,Paneer,8426.27,4104.0,0.49,Dead Stock Risk
+2024,11,November,P10,Butter 100g,Butter,9326.83,4356.0,0.47,Dead Stock Risk
+2024,11,November,P09,Ghee 1L,Ghee,8482.25,3685.0,0.43,Dead Stock Risk
+2024,11,November,P01,Milk Bulk 1L,Milk Bulk,10661.19,4134.0,0.39,Dead Stock Risk
+2024,11,November,P02,Milk Packet 500ml,Milk Packet,10744.4,3963.0,0.37,Dead Stock Risk
+2024,11,November,P12,Cream 200ml,Cream,10030.17,3373.0,0.34,Dead Stock Risk
+2024,12,December,P04,Paneer 200g,Paneer,5475.63,3761.0,0.69,Dead Stock Risk
+2024,12,December,P07,Curd 1kg,Curd,6676.58,4176.0,0.63,Dead Stock Risk
+2024,12,December,P08,Ghee 500ml,Ghee,7333.1,4253.0,0.58,Dead Stock Risk
+2024,12,December,P03,Milk Packet 200ml,Milk Packet,7246.58,4220.0,0.58,Dead Stock Risk
+2024,12,December,P11,Butter 500g,Butter,6889.62,3835.0,0.56,Dead Stock Risk
+2024,12,December,P06,Curd 400g,Curd,8250.31,4372.0,0.53,Dead Stock Risk
+2024,12,December,P09,Ghee 1L,Ghee,8976.23,4620.0,0.51,Dead Stock Risk
+2024,12,December,P10,Butter 100g,Butter,9324.88,4551.0,0.49,Dead Stock Risk
+2024,12,December,P05,Paneer 500g,Paneer,8647.29,4280.0,0.49,Dead Stock Risk
+2024,12,December,P01,Milk Bulk 1L,Milk Bulk,10483.67,4599.0,0.44,Dead Stock Risk
+2024,12,December,P02,Milk Packet 500ml,Milk Packet,11191.9,4495.0,0.4,Dead Stock Risk
+2024,12,December,P12,Cream 200ml,Cream,10474.83,3629.0,0.35,Dead Stock Risk
+2025,1,January,P07,Curd 1kg,Curd,6750.48,4696.0,0.7,Dead Stock Risk
+2025,1,January,P04,Paneer 200g,Paneer,6301.72,3932.0,0.62,Dead Stock Risk
+2025,1,January,P08,Ghee 500ml,Ghee,7396.41,4164.0,0.56,Dead Stock Risk
+2025,1,January,P06,Curd 400g,Curd,8207.7,4610.0,0.56,Dead Stock Risk
+2025,1,January,P05,Paneer 500g,Paneer,8677.57,4696.0,0.54,Dead Stock Risk
+2025,1,January,P03,Milk Packet 200ml,Milk Packet,7681.85,3909.0,0.51,Dead Stock Risk
+2025,1,January,P09,Ghee 1L,Ghee,9269.65,4243.0,0.46,Dead Stock Risk
+2025,1,January,P11,Butter 500g,Butter,7869.52,3497.0,0.44,Dead Stock Risk
+2025,1,January,P01,Milk Bulk 1L,Milk Bulk,10223.3,4473.0,0.44,Dead Stock Risk
+2025,1,January,P10,Butter 100g,Butter,9617.93,4163.0,0.43,Dead Stock Risk
+2025,1,January,P02,Milk Packet 500ml,Milk Packet,11836.61,4336.0,0.37,Dead Stock Risk
+2025,1,January,P12,Cream 200ml,Cream,11167.07,3949.0,0.35,Dead Stock Risk
+2025,2,February,P04,Paneer 200g,Paneer,6778.38,3904.0,0.58,Dead Stock Risk
+2025,2,February,P07,Curd 1kg,Curd,6866.67,3794.0,0.55,Dead Stock Risk
+2025,2,February,P06,Curd 400g,Curd,7968.29,4292.0,0.54,Dead Stock Risk
+2025,2,February,P08,Ghee 500ml,Ghee,7928.73,4142.0,0.52,Dead Stock Risk
+2025,2,February,P03,Milk Packet 200ml,Milk Packet,7920.13,3728.0,0.47,Dead Stock Risk
+2025,2,February,P01,Milk Bulk 1L,Milk Bulk,10206.5,4741.0,0.46,Dead Stock Risk
+2025,2,February,P05,Paneer 500g,Paneer,9071.73,3820.0,0.42,Dead Stock Risk
+2025,2,February,P09,Ghee 1L,Ghee,9575.42,3882.0,0.41,Dead Stock Risk
+2025,2,February,P11,Butter 500g,Butter,8678.67,3582.0,0.41,Dead Stock Risk
+2025,2,February,P12,Cream 200ml,Cream,10803.5,4313.0,0.4,Dead Stock Risk
+2025,2,February,P10,Butter 100g,Butter,9996.5,3322.0,0.33,Dead Stock Risk
+2025,2,February,P02,Milk Packet 500ml,Milk Packet,12823.77,3438.0,0.27,Dead Stock Risk
+2025,3,March,P06,Curd 400g,Curd,6907.1,4809.0,0.7,Dead Stock Risk
+2025,3,March,P03,Milk Packet 200ml,Milk Packet,8469.1,4670.0,0.55,Dead Stock Risk
+2025,3,March,P05,Paneer 500g,Paneer,8649.02,4747.0,0.55,Dead Stock Risk
+2025,3,March,P07,Curd 1kg,Curd,7520.73,4071.0,0.54,Dead Stock Risk
+2025,3,March,P08,Ghee 500ml,Ghee,8026.27,4187.0,0.52,Dead Stock Risk
+2025,3,March,P11,Butter 500g,Butter,9541.02,4120.0,0.43,Dead Stock Risk
+2025,3,March,P04,Paneer 200g,Paneer,7790.27,3287.0,0.42,Dead Stock Risk
+2025,3,March,P12,Cream 200ml,Cream,10631.44,4235.0,0.4,Dead Stock Risk
+2025,3,March,P09,Ghee 1L,Ghee,10185.33,4001.0,0.39,Dead Stock Risk
+2025,3,March,P10,Butter 100g,Butter,10607.58,4063.0,0.38,Dead Stock Risk
+2025,3,March,P01,Milk Bulk 1L,Milk Bulk,10897.67,4093.0,0.38,Dead Stock Risk
+2025,3,March,P02,Milk Packet 500ml,Milk Packet,13760.42,4226.0,0.31,Dead Stock Risk

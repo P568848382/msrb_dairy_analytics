@@ -1,0 +1,6 @@
+customer_type,customers,invoices,total_billed,total_collected,outstanding_amount,collection_efficiency_pct,avg_days_to_pay
+Direct Consumer,13,312,10053102.49,9439197.9,613904.59,93.89,0.0
+Institutional,14,336,10667517.73,9979531.45,687986.28,93.55,34.74
+Retailer,46,1104,35873228.95,32564718.25,3308510.7,90.78,11.52
+Wholesaler,26,624,19841118.64,17421968.43,2419150.21,87.81,23.21
+Hotel/Restaurant,21,503,15845795.04,13269119.16,2576675.88,83.74,11.46

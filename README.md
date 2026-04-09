@@ -28,10 +28,11 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 [LAYER 1]  Ingestion       → 01_ingest.py
 [LAYER 2]  Cleaning        → 02–05_clean_*.py
 [LAYER 3]  Data Warehouse  → PostgreSQL Star Schema
-[LAYER 4]  KPI Queries     → SQL (7 Sales + 5 Prod + 4 Inv + 5 Acc KPIs)
+[LAYER 4]  KPI Queries     → SQL (7 Sales + 5 Prod + 5 Inv + 5 Acc KPIs)
 [LAYER 5]  Semantic Model  → Tabular Model (DAX — 35+ measures)
-[LAYER 6]  Dashboards      → 4 Interactive Reports
-[LAYER 7]  Insights        → Executive Summary + Recommendations
+[LAYER 6]  Tableau Views   → 15 PostgreSQL Views + CSV Export Pipeline
+[LAYER 7]  Dashboards      → 5 Tableau Dashboards (Exec + 4 Departments)
+[LAYER 8]  Insights        → Executive Summary + Recommendations
 ```
 
 ---
@@ -123,25 +124,29 @@ these accounts risk becoming bad debts.
 ```
 msrb_dairy_analytics/
 ├── data/
-│   ├── raw/              ← Source CSV files
-│   └── cleaned/          ← Post-ETL validated files
+│   ├── raw/              ← Source CSV files (Input)
+│   ├── cleaned/          ← Post-ETL validated files
+│   ├── sample/           ← Sample datasets for testing
+│   └── tableau_export/   ← Final CSV exports for Tableau Public
+├── docs/
+│   ├── 02–06_*.md        ← Detailed ETL documentation for each step
+│   ├── kpi_*.md          ← KPI logic and analysis documentation
+│   ├── data_dictionary.md ← Comprehensive column documentation
+│   └── tableau_dashboard_guide.md ← Step-by-step UI build guide
 ├── etl/
 │   ├── 01_ingest.py      ← Structural validation + logging
-│   ├── 02_clean_sales.py ← Sales data cleaning
-│   ├── 03_clean_production.py
-│   ├── 04_clean_inventory.py
-│   ├── 05_clean_accounts.py
-│   └── 06_load_to_postgres.py ← Star schema load
+│   ├── 02–05_clean_*.py  ← Modular cleaning scripts
+│   ├── 06_load_to_postgres.py ← Star schema deployment
+│   └── 07_export_for_tableau.py ← Automated CSV export pipeline
 ├── sql/
-│   ├── schema_create.sql      ← Full star schema DDL
-│   ├── kpi_sales.sql          ← 7 Sales KPI queries
-│   └── kpi_production_inventory_accounts.sql
+│   ├── schema_create.sql ← Full star schema DDL (Fact & Dim tables)
+│   ├── kpi_*.sql         ← Departmental KPI queries (Sales, Prod, Inv, Acc)
+│   └── tableau_views.sql ← 15 PostgreSQL views for Tableau optimization
 ├── tabular_model/
-│   └── README_dax_measures.md ← 35+ DAX measures
+│   └── README_dax_measures.md ← 35+ Business measures (DAX)
 ├── dashboards/
-│   └── screenshots/           ← Power BI exports
-└── docs/
-    └── data_dictionary.md     ← All columns documented
+│   └── screenshots/      ← Captures of final departmental dashboards
+└── logs/                 ← Automated ETL execution logs (timestamped)
 ```
 
 ---
@@ -153,7 +158,8 @@ msrb_dairy_analytics/
 | Data Processing | Python 3.11 — Pandas, NumPy |
 | Data Warehouse | PostgreSQL 15 — Star Schema |
 | Semantic Layer | Tabular Model — DAX |
-| Visualization | Power BI Desktop |
+| BI Views Layer | PostgreSQL Views (15 pre-computed) |
+| Visualization | Tableau Desktop / Tableau Public |
 | Version Control | GitHub |
 
 ---
@@ -182,8 +188,14 @@ python etl/05_clean_accounts.py
 # 6. Load data
 python etl/06_load_to_postgres.py
 
-# 7. Connect Power BI Desktop to PostgreSQL
-# Import tables → Build Tabular Model → Apply DAX measures
+# 7. Create Tableau views
+# Run sql/tableau_views.sql in pgAdmin
+
+# 8a. Tableau Desktop → Connect directly to PostgreSQL
+# 8b. Tableau Public → Export CSVs first:
+python etl/07_export_for_tableau.py
+
+# 9. Follow docs/tableau_dashboard_guide.md to build all 5 dashboards
 ```
 
 ---
@@ -202,6 +214,6 @@ item for the business.
 
 ---
 
-*Built with Python, PostgreSQL, Tabular Model (DAX), and Power BI.*  
-*Full pipeline, SQL queries, and DAX measures documented in this repository.*  
+*Built with Python, PostgreSQL, Tabular Model (DAX), and Tableau.*  
+*Full pipeline, SQL queries, Tableau views, and dashboard guide documented in this repository.*  
 *GitHub: [https://github.com/P568848382](https://github.com/P568848382)*

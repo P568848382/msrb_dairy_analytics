@@ -1,0 +1,121 @@
+customer_id,customer_name,customer_type,route_id,city,state,credit_days,credit_limit,is_active
+C001,Rekha Jain,Retailer,R05,Rohtak,Haryana,15,75000.0,True
+C002,Jignesh Patel,Hotel/Restaurant,R02,Rohtak,Haryana,15,150000.0,True
+C003,Vikas Tiwari,Hotel/Restaurant,R03,Rohtak,Haryana,15,150000.0,True
+C004,Harish Mishra,Wholesaler,R04,Rohtak,Haryana,30,200000.0,True
+C005,Ajay Mehta,Retailer,R07,Rohtak,Haryana,15,75000.0,True
+C006,Rajesh Mittal,Retailer,R04,Rohtak,Haryana,15,75000.0,True
+C007,Lokesh Trivedi,Hotel/Restaurant,R01,Rohtak,Haryana,15,150000.0,True
+C008,Ashok Nair,Retailer,R01,Rohtak,Haryana,15,75000.0,True
+C009,Rakesh Agarwal,Institutional,R07,Rohtak,Haryana,45,300000.0,True
+C010,Yogesh Goyal,Retailer,R04,Rohtak,Haryana,15,75000.0,True
+C011,Dinesh Yadav,Direct Consumer,R06,Rohtak,Haryana,0,25000.0,True
+C012,Manoj Iyer,Retailer,R08,Rohtak,Haryana,15,75000.0,True
+C013,Girish Thakur,Retailer,R08,Rohtak,Haryana,15,75000.0,True
+C014,Deepak Dubey,Retailer,R03,Rohtak,Haryana,15,75000.0,True
+C015,Nitesh Kumar,Retailer,R05,Rohtak,Haryana,15,75000.0,True
+C016,Umesh Chauhan,Hotel/Restaurant,R07,Rohtak,Haryana,15,150000.0,True
+C017,Kapil Joshi,Institutional,R07,Rohtak,Haryana,45,300000.0,True
+C018,Mohit Shukla,Retailer,R03,Rohtak,Haryana,15,75000.0,True
+C019,Kamlesh Shah,Wholesaler,R02,Rohtak,Haryana,30,200000.0,True
+C020,Pramod Pandey,Hotel/Restaurant,R02,Rohtak,Haryana,15,150000.0,True
+C021,Paresh Saxena,Retailer,R03,Rohtak,Haryana,15,75000.0,True
+C022,Pooja Gupta,Hotel/Restaurant,R07,Rohtak,Haryana,15,150000.0,True
+C023,Meena Srivastava,Wholesaler,R07,Rohtak,Haryana,30,200000.0,True
+C024,Santosh Singh,Retailer,R08,Rohtak,Haryana,15,75000.0,True
+C025,Amit Garg,Wholesaler,R01,Rohtak,Haryana,30,200000.0,True
+C026,Ramesh Bansal,Hotel/Restaurant,R02,Rohtak,Haryana,15,150000.0,True
+C027,Neha Rajput,Hotel/Restaurant,R05,Rohtak,Haryana,15,150000.0,True
+C028,Kavita Verma,Hotel/Restaurant,R06,Rohtak,Haryana,15,150000.0,True
+C029,Lalit Rao,Retailer,R07,Rohtak,Haryana,15,75000.0,True
+C030,Sunil Sharma,Retailer,R01,Rohtak,Haryana,15,75000.0,True
+C031,Bhavesh Jain,Direct Consumer,R05,Rohtak,Haryana,0,25000.0,True
+C032,Sumit Patel,Direct Consumer,R03,Rohtak,Haryana,0,25000.0,True
+C033,Mahesh Tiwari,Wholesaler,R02,Rohtak,Haryana,30,200000.0,True
+C034,Mukesh Mishra,Institutional,R05,Rohtak,Haryana,45,300000.0,True
+C035,Ganesh Mehta,Institutional,R04,Rohtak,Haryana,45,300000.0,True
+C036,Alpesh Mittal,Retailer,R03,Rohtak,Haryana,15,75000.0,True
+C037,Naresh Trivedi,Wholesaler,R01,Rohtak,Haryana,30,200000.0,True
+C038,Sanjay Nair,Wholesaler,R08,Rohtak,Haryana,30,200000.0,True
+C039,Anil Agarwal,Retailer,R06,Rohtak,Haryana,15,75000.0,True
+C040,Sunita Goyal,Institutional,R05,Rohtak,Haryana,45,300000.0,True
+C041,Anita Yadav,Retailer,R04,Rohtak,Haryana,15,75000.0,True
+C042,Suresh Iyer,Institutional,R02,Rohtak,Haryana,45,300000.0,True
+C043,Vijay Thakur,Retailer,R08,Rohtak,Haryana,15,75000.0,True
+C044,Rohit Dubey,Institutional,R03,Rohtak,Haryana,45,300000.0,True
+C045,Priya Kumar,Retailer,R08,Rohtak,Haryana,15,75000.0,True
+C046,Rekha Chauhan,Direct Consumer,R03,Rohtak,Haryana,0,25000.0,True
+C047,Jignesh Joshi,Retailer,R07,Rohtak,Haryana,15,75000.0,True
+C048,Vikas Shukla,Direct Consumer,R04,Rohtak,Haryana,0,25000.0,True
+C049,Harish Shah,Hotel/Restaurant,R07,Rohtak,Haryana,15,150000.0,True
+C050,Ajay Pandey,Direct Consumer,R06,Rohtak,Haryana,0,25000.0,True
+C051,Rajesh Saxena,Wholesaler,R08,Rohtak,Haryana,30,200000.0,True
+C052,Lokesh Gupta,Retailer,R04,Rohtak,Haryana,15,75000.0,True
+C053,Ashok Srivastava,Retailer,R01,Rohtak,Haryana,15,75000.0,True
+C054,Rakesh Singh,Wholesaler,R04,Rohtak,Haryana,30,200000.0,True
+C055,Yogesh Garg,Wholesaler,R01,Rohtak,Haryana,30,200000.0,True
+C056,Dinesh Bansal,Retailer,R01,Rohtak,Haryana,15,75000.0,True
+C057,Manoj Rajput,Retailer,R01,Rohtak,Haryana,15,75000.0,True
+C058,Girish Verma,Institutional,R02,Rohtak,Haryana,45,300000.0,True
+C059,Deepak Rao,Wholesaler,R05,Rohtak,Haryana,30,200000.0,True
+C060,Nitesh Sharma,Hotel/Restaurant,R04,Rohtak,Haryana,15,150000.0,True
+C061,Umesh Jain,Wholesaler,R08,Rohtak,Haryana,30,200000.0,True
+C062,Kapil Patel,Retailer,R08,Rohtak,Haryana,15,75000.0,True
+C063,Mohit Tiwari,Institutional,R04,Rohtak,Haryana,45,300000.0,True
+C064,Kamlesh Mishra,Retailer,R07,Rohtak,Haryana,15,75000.0,True
+C065,Pramod Mehta,Retailer,R07,Rohtak,Haryana,15,75000.0,True
+C066,Paresh Mittal,Wholesaler,R01,Rohtak,Haryana,30,200000.0,True
+C067,Pooja Trivedi,Hotel/Restaurant,R02,Rohtak,Haryana,15,150000.0,True
+C068,Meena Nair,Retailer,R06,Rohtak,Haryana,15,75000.0,True
+C069,Santosh Agarwal,Institutional,R02,Rohtak,Haryana,45,300000.0,True
+C070,Amit Goyal,Retailer,R04,Rohtak,Haryana,15,75000.0,True
+C071,Ramesh Yadav,Wholesaler,R03,Rohtak,Haryana,30,200000.0,True
+C072,Neha Iyer,Wholesaler,R05,Rohtak,Haryana,30,200000.0,True
+C073,Kavita Thakur,Wholesaler,R02,Rohtak,Haryana,30,200000.0,True
+C074,Lalit Dubey,Wholesaler,R02,Rohtak,Haryana,30,200000.0,True
+C075,Sunil Kumar,Retailer,R01,Rohtak,Haryana,15,75000.0,True
+C076,Bhavesh Chauhan,Direct Consumer,R04,Rohtak,Haryana,0,25000.0,True
+C077,Sumit Joshi,Retailer,R08,Rohtak,Haryana,15,75000.0,True
+C078,Mahesh Shukla,Wholesaler,R07,Rohtak,Haryana,30,200000.0,True
+C079,Mukesh Shah,Direct Consumer,R03,Rohtak,Haryana,0,25000.0,True
+C080,Ganesh Pandey,Retailer,R07,Rohtak,Haryana,15,75000.0,True
+C081,Alpesh Saxena,Retailer,R08,Rohtak,Haryana,15,75000.0,True
+C082,Naresh Gupta,Retailer,R08,Rohtak,Haryana,15,75000.0,True
+C083,Sanjay Srivastava,Retailer,R05,Rohtak,Haryana,15,75000.0,True
+C084,Anil Singh,Retailer,R01,Rohtak,Haryana,15,75000.0,True
+C085,Sunita Garg,Wholesaler,R01,Rohtak,Haryana,30,200000.0,True
+C086,Anita Bansal,Hotel/Restaurant,R01,Rohtak,Haryana,15,150000.0,True
+C087,Suresh Rajput,Retailer,R08,Rohtak,Haryana,15,75000.0,True
+C088,Vijay Verma,Wholesaler,R03,Rohtak,Haryana,30,200000.0,True
+C089,Rohit Rao,Retailer,R02,Rohtak,Haryana,15,75000.0,True
+C090,Priya Sharma,Institutional,R02,Rohtak,Haryana,45,300000.0,True
+C091,Rekha Jain,Wholesaler,R04,Rohtak,Haryana,30,200000.0,True
+C092,Jignesh Patel,Wholesaler,R04,Rohtak,Haryana,30,200000.0,True
+C093,Vikas Tiwari,Wholesaler,R01,Rohtak,Haryana,30,200000.0,True
+C094,Harish Mishra,Hotel/Restaurant,R07,Rohtak,Haryana,15,150000.0,True
+C095,Ajay Mehta,Hotel/Restaurant,R06,Rohtak,Haryana,15,150000.0,True
+C096,Rajesh Mittal,Direct Consumer,R04,Rohtak,Haryana,0,25000.0,True
+C097,Lokesh Trivedi,Hotel/Restaurant,R06,Rohtak,Haryana,15,150000.0,True
+C098,Ashok Nair,Retailer,R07,Rohtak,Haryana,15,75000.0,True
+C099,Rakesh Agarwal,Retailer,R05,Rohtak,Haryana,15,75000.0,True
+C100,Yogesh Goyal,Wholesaler,R02,Rohtak,Haryana,30,200000.0,True
+C101,Dinesh Yadav,Retailer,R02,Rohtak,Haryana,15,75000.0,True
+C102,Manoj Iyer,Retailer,R04,Rohtak,Haryana,15,75000.0,True
+C103,Girish Thakur,Wholesaler,R03,Rohtak,Haryana,30,200000.0,True
+C104,Deepak Dubey,Direct Consumer,R02,Rohtak,Haryana,0,25000.0,True
+C105,Nitesh Kumar,Institutional,R06,Rohtak,Haryana,45,300000.0,True
+C106,Umesh Chauhan,Retailer,R08,Rohtak,Haryana,15,75000.0,True
+C107,Kapil Joshi,Institutional,R05,Rohtak,Haryana,45,300000.0,True
+C108,Mohit Shukla,Hotel/Restaurant,R01,Rohtak,Haryana,15,150000.0,True
+C109,Kamlesh Shah,Hotel/Restaurant,R05,Rohtak,Haryana,15,150000.0,True
+C110,Pramod Pandey,Direct Consumer,R02,Rohtak,Haryana,0,25000.0,True
+C111,Paresh Saxena,Direct Consumer,R03,Rohtak,Haryana,0,25000.0,True
+C112,Pooja Gupta,Retailer,R02,Rohtak,Haryana,15,75000.0,True
+C113,Meena Srivastava,Hotel/Restaurant,R03,Rohtak,Haryana,15,150000.0,True
+C114,Santosh Singh,Retailer,R04,Rohtak,Haryana,15,75000.0,True
+C115,Amit Garg,Hotel/Restaurant,R04,Rohtak,Haryana,15,150000.0,True
+C116,Ramesh Bansal,Hotel/Restaurant,R05,Rohtak,Haryana,15,150000.0,True
+C117,Neha Rajput,Wholesaler,R05,Rohtak,Haryana,30,200000.0,True
+C118,Kavita Verma,Direct Consumer,R01,Rohtak,Haryana,0,25000.0,True
+C119,Lalit Rao,Retailer,R07,Rohtak,Haryana,15,75000.0,True
+C120,Sunil Sharma,Institutional,R01,Rohtak,Haryana,45,300000.0,True

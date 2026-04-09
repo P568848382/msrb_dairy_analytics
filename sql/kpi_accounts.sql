@@ -1,7 +1,7 @@
 -- ══════════════════════════════════════════════════════════════════════════════
 -- FILE    : kpi_accounts.sql
 -- ══════════════════════════════════════════════════════════════════════════════
-select * from fact_accounts
+select * from fact_accounts;
 -- ── KPI 1: Monthly Billing vs Collections ─────────────────────────────────────
 select 
 	year,
