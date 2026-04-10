@@ -31,9 +31,17 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 [LAYER 4]  KPI Queries     → SQL (7 Sales + 5 Prod + 5 Inv + 5 Acc KPIs)
 [LAYER 5]  Semantic Model  → Tabular Model (DAX — 35+ measures)
 [LAYER 6]  Tableau Views   → 15 PostgreSQL Views + CSV Export Pipeline
-[LAYER 7]  Dashboards      → 5 Tableau Dashboards (Exec + 4 Departments)
-[LAYER 8]  Insights        → Executive Summary + Recommendations
+[LAYER 7]  Dashboards      → 5 Tableau Dashboards (Sales Complete)
+[LAYER 8]  Insights        → [Sales Performance Report](docs/sales_performance_report.md)
 ```
+
+---
+
+## 🔥 Featured Dashboard: Sales Performance
+
+![MSRB Sales Performance Dashboard](dashboards/screenshots/sales_performance.png)
+
+> **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/shared/NBH9N4P4F?:display_count=n&:origin=viz_share_link)
 
 ---
 
@@ -51,12 +59,12 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 
 ## Key Business Findings
 
-### Sales & Revenue
-- **Total Net Revenue: ₹4.2 Cr+** across 2 financial years
-- **Top Category:** Milk Bulk + Milk Packets drive 45%+ of revenue
-- **Top Route:** Civil Lines Route generates highest revenue per customer
-- **Peak Month:** November–December consistently 15–20% above average (festive season)
-- **Payment Mode:** 35% Cash, 35% Credit, 20% UPI, 10% Cheque
+### Sales & Revenue (Verified by Tableau)
+- **Total Net Revenue: ₹ 92M (9.2 Crore)** across 2 financial years (FY 2023-25)
+- **Top Product Category:** **Ghee** accounts for **30.82%** of total revenue share
+- **High-Volume Routes:** **Sadar Bazar** and **Sector-7** Routes drive ~₹ 14M each
+- **Avg Invoice Value:** ₹ 1,694 with a tight 1.25% average discount rate
+- **Payment Mode Hub:** 35% Credit, 35% Cash, 20% UPI, 10% Cheque
 
 ### Production
 - **Average Production Efficiency: 93.4%** — below 95% target
