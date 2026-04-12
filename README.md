@@ -31,17 +31,17 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 [LAYER 4]  KPI Queries     → SQL (7 Sales + 5 Prod + 5 Inv + 5 Acc KPIs)
 [LAYER 5]  Semantic Model  → Tabular Model (DAX — 35+ measures)
 [LAYER 6]  Tableau Views   → 15 PostgreSQL Views + CSV Export Pipeline
-[LAYER 7]  Dashboards      → 5 Tableau Dashboards (Sales Complete)
-[LAYER 8]  Insights        → [Sales Performance Report](docs/sales_performance_report.md)
+[LAYER 7]  Dashboards      → 5 Tableau Dashboards (Executive & Sales Complete)
+[LAYER 8]  Insights        → [Executive Performance Report](docs/executive_performance_report.md)
 ```
 
 ---
 
-## 🔥 Featured Dashboard: Sales Performance
+## 🔥 Featured Dashboard: Executive Overview
 
-![MSRB Sales Performance Dashboard](dashboards/screenshots/sales_performance.png)
+![MSRB Executive Dashboard](dashboards/screenshots/Executive%20Dashboard.png)
 
-> **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/shared/NBH9N4P4F?:display_count=n&:origin=viz_share_link)
+> **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/views/msrbsexecutivedashboard/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
@@ -59,12 +59,12 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 
 ## Key Business Findings
 
-### Sales & Revenue (Verified by Tableau)
-- **Total Net Revenue: ₹ 92M (9.2 Crore)** across 2 financial years (FY 2023-25)
-- **Top Product Category:** **Ghee** accounts for **30.82%** of total revenue share
-- **High-Volume Routes:** **Sadar Bazar** and **Sector-7** Routes drive ~₹ 14M each
-- **Avg Invoice Value:** ₹ 1,694 with a tight 1.25% average discount rate
-- **Payment Mode Hub:** 35% Credit, 35% Cash, 20% UPI, 10% Cheque
+### 📈 Executive Performance (FY 2023-25)
+- **Total Net Revenue: ₹ 92M (9.2 Crore)** 
+- **MoM Sales Growth:** **22.0%** average month-over-month growth.
+- **Production Efficiency:** **93.54%** (Target: 95%).
+- **Collection Efficiency:** **89.59%** (Target: 95%).
+- **Stock Out Rate:** **0.35%** overall.
 
 ### Production
 - **Average Production Efficiency: 93.4%** — below 95% target
@@ -78,12 +78,11 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 - **Ghee and Butter** maintain healthiest stock levels (long shelf life)
 - **Days of Stock** for perishables consistently under 2 days — requires daily replenishment
 
-### Accounts & Finance
-- **Overall Collection Efficiency: 86.4%**
-- **Days Sales Outstanding (DSO): 14.2 days** — within credit terms
-- **Hotel/Restaurant segment** has the highest overdue rate (22% of invoices)
-- **23% of customers account for 67% of outstanding receivables** — Pareto confirmed
-- **90+ day overdue balance** requires immediate management intervention
+### 💳 Accounts & Finance (Critical Finding)
+- **Overdue Crisis:** **83.5% (₹ 8M+)** of all outstanding receivables are in the **90+ Days** bucket.
+- **Overall Collection Efficiency:** **89.59%**.
+- **Days Sales Outstanding (DSO):** 14.2 days.
+- **Risk:** High concentration of 90+ day overdue signifies a major liquidity risk.
 
 ---
 
