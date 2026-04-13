@@ -31,8 +31,8 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 [LAYER 4]  KPI Queries     → SQL (7 Sales + 5 Prod + 5 Inv + 5 Acc KPIs)
 [LAYER 5]  Semantic Model  → Tabular Model (DAX — 35+ measures)
 [LAYER 6]  Tableau Views   → 15 PostgreSQL Views + CSV Export Pipeline
-[LAYER 7]  Dashboards      → 5 Tableau Dashboards (Executive & Sales Complete)
-[LAYER 8]  Insights        → [Executive Performance Report](docs/executive_performance_report.md)
+[LAYER 7]  Dashboards      → 5 Tableau Dashboards (Executive, Sales, & Production Complete)
+[LAYER 8]  Insights        → [Executive Report](docs/executive_performance_report.md) · [Sales Report](docs/sales_performance_report.md) · [Production Report](docs/production_operation_report.md)
 ```
 
 ---
@@ -42,6 +42,14 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 ![MSRB Executive Dashboard](dashboards/screenshots/Executive%20Dashboard.png)
 
 > **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/views/msrbsexecutivedashboard/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+---
+
+## 🔥 Featured Dashboard: Production & Operations
+
+![MSRB Production Dashboard](dashboards/screenshots/MSRB%20PRODUCTION%20AND%20OPERATIONS%20DASHBOARD.png)
+
+> **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/shared/NBH9N4P4F?:display_count=n&:origin=viz_share_link)
 
 ---
 
@@ -218,6 +226,25 @@ The most critical finding is the receivables concentration risk — 15 customers
 hold 61% of outstanding balance. Combined with the Hotel/Restaurant segment's
 22% overdue rate, cash flow management is the single highest-priority action
 item for the business.
+
+---
+
+## Dashboard Design & Technical Decisions
+
+### Why use PostgreSQL Views instead of Raw Tables?
+"Each view pre-aggregates data to the grain Tableau actually needs. For example, `vw_shift_performance` reduces 4,382 production rows to 2 rows — one per shift. Tableau renders these instantly. If I connected `fact_production` directly for the shift comparison chart, Tableau would aggregate 4,382 rows live on every filter interaction. Views move computation to PostgreSQL where it is optimized, and Tableau only handles presentation. This is the same principle as a semantic layer in enterprise BI — the database does the math, the visualization tool does the display."
+
+### Chart-Specific Design Logic
+
+| Component | Design Decision | Business Rationale |
+|-----------|-----------------|---------------------|
+| **KPI Cards** | Calculated fields and conditional coloring. | Uses `SUM(actual)/SUM(planned)` for correct weighted efficiency. Visual cues (Green/Amber/Red) provide immediate status without manual calculation. |
+| **Dual Axis Chart** | Independent scales (Efficiency vs Wastage). | Different metrics require different scales to remain visible. Highlights the inverse relationship: dips in efficiency often correlate with spikes in wastage. |
+| **Bar Chart** | Horizontal layout with fixed X-axis (88-100%). | Horizontal labels are more readable for multi-word categories. Starting the axis at 88% highlights meaningful business variation (e.g., a 1.55% gap) that would be invisible on a 0-100% scale. |
+| **Heatmap** | 2D color encoding (Category vs Year). | Simplifies 21 data points (7 categories × 3 years) into a single visual pattern. Instantly reveals that yield efficiency is stagnant year-over-year. |
+| **Donut Chart** | Dual-axis with central total count. | Provides context by showing that percentages represent 4,382 runs. Reveals that while no catastrophic failures occur, performance is consistently capped below target. |
+| **Shift Comparison** | Vertically stacked independent panels. | Allows accurate reading of metrics on incompatible scales (93% vs 2%). Highlights the volume superiority of the Evening shift (approx. 58,000 extra units). |
+| **Area + Line** | Synchronized dual-axis (Input vs Output). | Both measures use the same unit (Litres). The visual gap between the area and line is proportional to conversion loss, making the yield concept intuitive. |
 
 ---
 
