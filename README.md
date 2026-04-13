@@ -45,6 +45,14 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 
 ---
 
+## 🔥 Featured Dashboard: Sales Performance
+
+![MSRB Sales Performance Dashboard](dashboards/screenshots/Sales%20Performance.png)
+
+> **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/shared/NBH9N4P4F?:display_count=n&:origin=viz_share_link)
+
+---
+
 ## 🔥 Featured Dashboard: Production & Operations
 
 ![MSRB Production Dashboard](dashboards/screenshots/MSRB%20PRODUCTION%20AND%20OPERATIONS%20DASHBOARD.png)
