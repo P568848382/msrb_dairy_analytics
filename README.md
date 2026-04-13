@@ -82,6 +82,12 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 - **Collection Efficiency:** **89.59%** (Target: 95%).
 - **Stock Out Rate:** **0.35%** overall.
 
+### 🛒 Sales Performance
+- **Ghee is the dominant revenue driver**, accounting for **30.8%** of total turnover.
+- **Sadar Bazar & Sector-7 Routes** are the primary revenue hubs, generating ~₹ 14M each.
+- **Payment Mix:** 35% of sales are on Credit, highlighting a need for tight receivable monitoring.
+- **Seasonal Peaks:** Significant revenue surges observed in festive seasons (Q3/Q4).
+
 ### Production
 - **Average Production Efficiency: 93.4%** — below 95% target
 - **Average Wastage Rate: 2.1%** — within acceptable 3% threshold
