@@ -31,8 +31,8 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 [LAYER 4]  KPI Queries     → SQL (7 Sales + 5 Prod + 5 Inv + 5 Acc KPIs)
 [LAYER 5]  Semantic Model  → Tabular Model (DAX — 35+ measures)
 [LAYER 6]  Tableau Views   → 15 PostgreSQL Views + CSV Export Pipeline
-[LAYER 7]  Dashboards      → 5 Tableau Dashboards (Executive, Sales, & Production Complete)
-[LAYER 8]  Insights        → [Executive Report](docs/executive_performance_report.md) · [Sales Report](docs/sales_performance_report.md) · [Production Report](docs/production_operation_report.md)
+[LAYER 7]  Dashboards      → 5 Tableau Dashboards (Executive, Sales, Production, & Inventory Complete)
+[LAYER 8]  Insights        → [Executive Report](docs/executive_performance_report.md) · [Sales Report](docs/sales_performance_report.md) · [Production Report](docs/production_operation_report.md) · [Inventory Report](docs/inventory_operations_report.md)
 ```
 
 ---
@@ -58,6 +58,14 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 ![MSRB Production Dashboard](dashboards/screenshots/MSRB%20PRODUCTION%20AND%20OPERATIONS%20DASHBOARD.png)
 
 > **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/shared/NBH9N4P4F?:display_count=n&:origin=viz_share_link)
+
+---
+
+## 🔥 Featured Dashboard: Inventory Operations
+
+![MSRB Inventory Dashboard](dashboards/screenshots/MSRB%20inventory%20operations%20dashboard.png)
+
+> **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/views/MSRBInventoryOperations/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
@@ -259,6 +267,9 @@ item for the business.
 | **Donut Chart** | Dual-axis with central total count. | Provides context by showing that percentages represent 4,382 runs. Reveals that while no catastrophic failures occur, performance is consistently capped below target. |
 | **Shift Comparison** | Vertically stacked independent panels. | Allows accurate reading of metrics on incompatible scales (93% vs 2%). Highlights the volume superiority of the Evening shift (approx. 58,000 extra units). |
 | **Area + Line** | Synchronized dual-axis (Input vs Output). | Both measures use the same unit (Litres). The visual gap between the area and line is proportional to conversion loss, making the yield concept intuitive. |
+| **Stockout Bar** | Sorted horizontal bars with risk color segments. | Identifies SKU availability bottlenecks. Horizontal layout ensures readability for long product names. |
+| **Days of Stock** | Predictive supply distribution. | Projects when current stock will deplete versus shelf life. Categorizes items into *Critical* or *At Risk* to trigger replenishment before loss occurs. |
+| **Turnover Trend** | Monthly ratio with movement categorization. | Tracks inventory velocity (Fast/Slow Moving). Helps balance warehouse space and reduce dead stock capital tie-up. |
 
 ---
 
