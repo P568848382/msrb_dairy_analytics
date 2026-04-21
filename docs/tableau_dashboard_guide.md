@@ -422,45 +422,41 @@ Build 5 separate BAN sheets (same technique as Executive):
 ## 8. Dashboard 5: Accounts & Finance
 
 **Target Audience:** Finance Head, Accounts Manager  
+**Purpose:** Visualize the end-to-end "collections story" from billing to debt recovery.  
 **Data Sources:** `fact_accounts`, `vw_billing_collections`, `vw_receivables_aging`, `vw_customer_payment`, `vw_dso_monthly`, `vw_custtype_efficiency`
+
+### Analysis Perspective (Interview-Ready Logic)
+> "The accounts dashboard reveals two seemingly contradictory findings that together tell a complete story. The DSO of 3.15 days looks excellent — we collect payment within days of billing. However, collection efficiency is only 89.59%, meaning ₹96L of billed revenue is uncollected. The resolution is in the aging chart — 83.53% of all overdue amounts are in the 90+ days bucket. This means we are not dealing with slow payers; we are dealing with chronic non-payers."
 
 ### Sheets to Build (6 Total)
 
-#### Sheet 1: `Acc_KPI_Cards` (5 cards)
-- Total Billed, Total Collected, Outstanding, DSO Days, Collection %
+#### Sheet 1: `Acc_KPI_Cards`
+- **Design:** Five KPI cards forming a financial health summary (Billed, Collected, Outstanding, DSO, Efficiency).
+- **Technical Logic:** Thresholds are defined as constants in calculated fields. DSO is green below 15 days; Collection Efficiency target is 90%; Outstanding shouldn't exceed 15% of billed.
+- **Rationale:** Standardizes performance tracking. If management changes targets, only one field needs updating.
 
 #### Sheet 2: `Billing_Collections_Combo`
-1. Data Source: `vw_billing_collections`
-2. Columns: Year-Month
-3. Rows: `Total Billed` (Bar, Blue), `Total Collected` (Bar, Green)
-4. Dual Axis: `Collection Efficiency Pct` (Line, Orange)
+- **Design:** Bars for Billing and Collections sharing a single axis; Efficiency line on a dual axis.
+- **Technical Logic:** Reference lines create three visual zones: Green (>90%), Amber (88-90%), and Red (<88% alert zone).
+- **Insight:** Reveals the inverse relationship between volume and efficiency — festive spikes in billing often lead to collection lags, requiring intensified follow-up.
 
 #### Sheet 3: `Aging_Stacked_Bar`
-1. Data Source: `vw_receivables_aging`
-2. Columns: `Aging Bucket` (sorted by Sort Order)
-3. Rows: `Outstanding Amount`
-4. Color: Gradient (1-30d=Light Red → 90+d=Dark Red)
-5. Label: Amount + % of total
+- **Design:** Manual sort of aging buckets using a `sort_order` field.
+- **Technical Logic:** Gradient red color scheme (lightest to darkest) to encode increasing severity.
+- **Principle:** Uses pre-attentive processing to draw the eye immediately to the 90+ day bucket, clarifying that the receivables problem is a systemic credit policy issue rather than a temporary cash flow problem.
 
 #### Sheet 4: `Customer_Payment_Table`
-1. Data Source: `vw_customer_payment`
-2. Scrollable highlight table — top 20 by outstanding
-3. Columns: Total Billed, Total Paid, Outstanding, On-Time %, Overdue %
-4. Conditional formatting on Collection Efficiency
+- **Design:** Highlight table with pale background washes for high readability.
+- **Technical Logic:** Sorted by outstanding amount descending; filtered to top 20 for actionable focus.
+- **Visuals:** Unicode emojis (✅, ⚠️, ❌) used for status icons to avoid external image dependencies.
 
 #### Sheet 5: `DSO_Trend_Line`
-1. Data Source: `vw_dso_monthly`
-2. Columns: Year-Month
-3. Rows: `DSO Days`
-4. Reference Line at 15 (Good threshold) and 30 (Warning threshold)
-5. Color zones: Green <15, Amber 15-30, Red >30
+- **Design:** Colored background zones (Green/Amber/Red) using dual-axis area marks with low opacity.
+- **Rationale:** Area marks fill the background, allowing instant health classification without reading axis numbers, unlike thin dashed reference lines.
 
 #### Sheet 6: `CustType_Grouped_Bar`
-1. Data Source: `vw_custtype_efficiency`
-2. Rows: `Customer Type`
-3. Columns: `Collection Efficiency Pct`
-4. Color: Conditional on efficiency level
-5. Label: Efficiency % + Avg Days to Pay
+- **Design:** Dual-panel layout: Collection Efficiency (left) vs. Days to Pay (right).
+- **Rationale:** Distinguishes between "slow" payers and "risky" non-payers. For example, Hotel/Restaurant (83.74% efficiency, 11 days to pay) is revealed as the highest-risk segment.
 
 ---
 

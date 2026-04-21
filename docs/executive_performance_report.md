@@ -24,7 +24,7 @@ The Executive Dashboard provides a high-level cross-functional view of MSRB SONS
 | **MoM Growth** | **22.0%** | ✅ | Excellent month-over-month sales momentum. |
 | **Product Efficiency**| **93.54%** | ⚠️ | Slightly below the **95.0%** organizational target. |
 | **Stock Out Rate** | **0.35%** | ✅ | Overall availability is high, though specific SKUs face issues. |
-| **Collection Efficiency**| **89.59%** | ⚠️ | Below the 95% target, indicating cash flow lag. |
+| **Collection Efficiency**| **89.59%** | ⚠️ | Below the 95% target, indicating a ₹96L collection gap. |
 
 ---
 
@@ -46,19 +46,17 @@ The Executive Dashboard provides a high-level cross-functional view of MSRB SONS
 
 ---
 
-## 🚨 Critical Business Finding: Receivables Aging Crisis
-
 The most significant risk identified in this dashboard is the **Accounts Receivable Aging**.
 
-- **90+ Days Overdue:** **₹ 8,024K (₹ 80.2 Lakhs)**
-- **Concentration:** This single bucket represents **83.5%** of all outstanding balances.
-- **Risk:** Most of this ₹ 8M is at high risk of becoming bad debt, as collections have stalled for over 3 months.
+- **90+ Days Overdue:** **₹ 80.2 Lakhs (83.5% of total overdue)**
+- **Chronic Non-Payers:** 111 customers with 3+ overdue invoices each, concentrated in the Hotel/Restaurant segment.
+- **Insight:** We don't have slow payers; we have chronic non-payers. Most payments are collected in 3.15 days, but this ₹8M core remains untouched, making it a systemic credit policy issue.
 
 ---
 
 ## Strategic Recommendations
 
-1.  **Urgent Debt Recovery:** Launch a legal/formal recovery process for all accounts in the 90+ days bucket.
-2.  **Credit Policy Tightening:** Stop further credit sales to customers already in the 61-90 or 90+ day buckets.
+1.  **Immediate Credit Policy Enforcement:** Require full settlement of outstanding balances before receiving new deliveries for high-risk segments.
+2.  **Automated COD Conversion:** Automatically move any customer with a 90+ day overdue invoice to Cash-On-Delivery (COD) terms.
 3.  **Production Optimization:** Investigate the bottleneck preventing the morning shift from reaching 95% efficiency.
 4.  **Buffer Stock for Curd 400g:** Increase safety stock levels for Curd 400g to eliminate the frequent stockouts (10 days).

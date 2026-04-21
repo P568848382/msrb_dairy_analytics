@@ -31,8 +31,8 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 [LAYER 4]  KPI Queries     → SQL (7 Sales + 5 Prod + 5 Inv + 5 Acc KPIs)
 [LAYER 5]  Semantic Model  → Tabular Model (DAX — 35+ measures)
 [LAYER 6]  Tableau Views   → 15 PostgreSQL Views + CSV Export Pipeline
-[LAYER 7]  Dashboards      → 5 Tableau Dashboards (Executive, Sales, Production, & Inventory Complete)
-[LAYER 8]  Insights        → [Executive Report](docs/executive_performance_report.md) · [Sales Report](docs/sales_performance_report.md) · [Production Report](docs/production_operation_report.md) · [Inventory Report](docs/inventory_operations_report.md)
+[LAYER 7]  Dashboards      → 5 Tableau Dashboards (Executive, Sales, Production, Inventory, & Finance Complete)
+[LAYER 8]  Insights        → [Executive Report](docs/executive_performance_report.md) · [Sales Report](docs/sales_performance_report.md) · [Production Report](docs/production_operation_report.md) · [Inventory Report](docs/inventory_operations_report.md) · [Finance Report](docs/accounts_finance_report.md)
 ```
 
 ---
@@ -66,6 +66,14 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 ![MSRB Inventory Dashboard](dashboards/screenshots/MSRB%20inventory%20operations%20dashboard.png)
 
 > **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/views/MSRBInventoryOperations/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+---
+
+## 🔥 Featured Dashboard: Accounts & Finance
+
+![MSRB Accounts Dashboard](dashboards/screenshots/Accounts%20&%20Finance.png)
+
+> **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/shared/NBH9N4P4F?:display_count=n&:origin=viz_share_link)
 
 ---
 
@@ -109,10 +117,10 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 - **Days of Stock** for perishables consistently under 2 days — requires daily replenishment
 
 ### 💳 Accounts & Finance (Critical Finding)
-- **Overdue Crisis:** **83.5% (₹ 8M+)** of all outstanding receivables are in the **90+ Days** bucket.
-- **Overall Collection Efficiency:** **89.59%**.
-- **Days Sales Outstanding (DSO):** 14.2 days.
-- **Risk:** High concentration of 90+ day overdue signifies a major liquidity risk.
+- **Collection Gap:** **₹ 96L (10.4%)** of billed revenue (₹ 9.22Cr) remains uncollected.
+- **Aging Concentration:** **83.5%** of all overdue balances sit in the **90+ Days** bucket.
+- **Chronic Debtors:** 111 customers hold an average of 3+ overdue invoices each.
+- **DSO Paradox:** Excellent DSO of **3.15 days** coexists with low efficiency, indicating that while most pay quickly, a core group has stopped paying entirely.
 
 ---
 
@@ -138,10 +146,10 @@ these accounts risk becoming bad debts.
 **Action:** Set automated reorder alerts when closing stock < 2 days of average dispatch
 **Impact:** Estimated 6–8% reduction in stockout-related lost revenue
 
-### 3. Launch Overdue Recovery Campaign for Hotel/Restaurant Segment
-**At Risk:** Hotel/Restaurant segment — 22% overdue rate, highest across all types
-**Action:** Dedicated collections follow-up, reduce credit days from 15 to 7 for repeat offenders
-**Impact:** Recovering 50% of overdue amount = ₹12–15L additional cash flow
+### 3. Reform Credit Policy for Hotel/Restaurant Segment
+**Risk:** 22% overdue rate; 83.5% of debt is chronic (90+ days).
+**Action:** (1) Require full settlement of outstanding balance before new deliveries. (2) Automatically move any customer with a 90+ day overdue invoice to Cash-On-Delivery (COD) terms.
+**Impact:** Prevents debt accumulation and recovers ₹12–15L in immediate cash flow.
 
 ### 4. Concentrate Sales Effort on Top 3 Routes
 **Finding:** Top 3 routes generate 58% of revenue with 45% of customers
@@ -270,6 +278,9 @@ item for the business.
 | **Stockout Bar** | Sorted horizontal bars with risk color segments. | Identifies SKU availability bottlenecks. Horizontal layout ensures readability for long product names. |
 | **Days of Stock** | Predictive supply distribution. | Projects when current stock will deplete versus shelf life. Categorizes items into *Critical* or *At Risk* to trigger replenishment before loss occurs. |
 | **Turnover Trend** | Monthly ratio with movement categorization. | Tracks inventory velocity (Fast/Slow Moving). Helps balance warehouse space and reduce dead stock capital tie-up. |
+| **Aging Chart** | Gradient red palette for progressive severity. | Draws attention immediately to the 90+ days bucket. Highlights that receivables risk is concentrated in chronic non-payers rather than just slow payers. |
+| **DSO Trend** | Three-zone background area marks. | Uses pre-attentive color coding (Green/Amber/Red) to allow instant classification of financial health without reading axis numbers. |
+| **Billing Combo** | measure-shared axis vs dual-axis line. | Billing and collections shared bars allow direct height comparison. Efficiency line on dual axis targets festive season follow-ups. |
 
 ---
 
