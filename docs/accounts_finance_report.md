@@ -3,7 +3,7 @@
 **Project:** MSRB SONS DAIRY Business Analytics  
 **Dashboard:** Accounts & Finance  
 **Date:** April 21, 2026  
-**Live Link:** [Tableau Public - MSRB Accounts & Finance](https://public.tableau.com/shared/NBH9N4P4F?:display_count=n&:origin=viz_share_link)
+**Live Link:** [Tableau Public - MSRB Accounts & Finance](https://public.tableau.com/views/msrbaccountsandfinancedashboard/AccountsFinance?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 

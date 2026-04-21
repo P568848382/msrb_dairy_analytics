@@ -73,7 +73,7 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 
 ![MSRB Accounts Dashboard](dashboards/screenshots/Accounts%20&%20Finance.png)
 
-> **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/shared/NBH9N4P4F?:display_count=n&:origin=viz_share_link)
+> **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/views/msrbaccountsandfinancedashboard/AccountsFinance?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
