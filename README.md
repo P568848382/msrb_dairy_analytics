@@ -226,6 +226,23 @@ msrb_dairy_analytics/
 │   ├── schema_create.sql ← Full star schema DDL (Fact & Dim tables)
 │   ├── kpi_*.sql         ← Departmental KPI queries (Sales, Prod, Inv, Acc)
 │   └── tableau_views.sql ← 15 PostgreSQL views for Tableau optimization
+|──powerbi/
+|         ├── README_powerbi.md              ← Full technical documentation
+|         ├── MSRB_Dairy_Analytics.pbix      ← Your file, renamed back to clean name
+|         ├── dax_measures/
+|         │   ├── 01_sales_measures.dax
+|         │   ├── 02_production_measures.dax
+|         │   ├── 03_inventory_measures.dax
+|         │   ├── 04_accounts_measures.dax
+|         │   ├── 05_time_intelligence_measures.dax
+|         │   └── 06_rank_topn_iterator_measures.dax
+|         └── screenshots/
+|             ├── 01_executive_summary.png
+|             ├── 02_sales_performance.png
+|             ├── 03_customer_detail.png
+|             ├── 04_production_operations.png
+|             ├── 05_inventory_supply_chain.png
+|             └── 06_accounts_finance.png
 ├── tabular_model/
 │   └── README_dax_measures.md ← 35+ Business measures (DAX)
 ├── dashboards/
