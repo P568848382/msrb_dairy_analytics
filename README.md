@@ -76,7 +76,37 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 > **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/views/msrbaccountsandfinancedashboard/AccountsFinance?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
+🟧 Power BI Tabular Model & Dashboard Suite
 
+
+A second, independent BI implementation on the same PostgreSQL warehouse —
+built to demonstrate Tabular modeling, DAX, and Power BI's native AI visuals
+(Key Influencers, Decomposition Tree, Smart Narrative, Anomaly Detection)
+alongside the Tableau Public build above.
+
+
+
+Full documentation: powerbi/README_powerbi.md
+DAX measures (44 total, 6 tables): powerbi/dax_measures/
+File: powerbi/MSRB_Dairy_Analytics.pbix
+
+PageHighlightsExecutive Summary5 KPI cards w/ conditional targets, FY trend, category donut, aging bar, efficiency gaugeSales PerformanceCombo chart w/ YoY% secondary axis, Field Parameter dynamic metric switcher, route/payment analysisCustomer DetailDrill-through target page, Decomposition Tree auto-explaining revenue by FY → Month → Route → Category → TypeProduction & OperationsWhat-If Parameter efficiency-target simulator, rule-based conditional formatting, shift comparisonInventory & Supply ChainSmart Narrative AI summary, Anomaly Detection on turnover trend, supply-risk classificationAccounts & FinanceKey Influencers AI visual on overdue-payment drivers, DSO trend, aging, collection efficiency by segment
+
+Sample Screenshot
+
+Show Image
+
+Data Model
+
+11-relationship star schema — 4 fact tables sharing one dim_date, with fact_accounts carrying 3 date columns (only invoice_date active; due_date/payment_date kept inactive for selective USERELATIONSHIP() use). Full diagram and DAX explanations in powerbi/README_powerbi.md.
+
+Why Two BI Tools
+
+Tableau PublicPower BISemantic layer15 PostgreSQL views44 DAX measures (Tabular model)AI-assisted visuals—Key Influencers, Decomposition Tree, Smart Narrative, Anomaly DetectionParameter interactivityTableau ParametersField Parameters, What-If Parameters
+
+Both connect to the same msrb_dairy_dw warehouse and answer the same business questions — included together to demonstrate cross-platform BI capability.
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 ## Dataset Summary
 
 | Table | Rows | Description |
