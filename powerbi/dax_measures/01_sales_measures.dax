@@ -1,0 +1,52 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// TABLE       : _Sales_Measures
+// PROJECT     : MSRB SONS DAIRY — Power BI Tabular Model
+// SOURCE      : fact_sales, dim_customer, dim_product, dim_route
+// DESCRIPTION : Revenue, invoice, discount, and segment-level sales measures
+// ═══════════════════════════════════════════════════════════════════════════
+
+Total Revenue =
+SUM(fact_sales[net_amount])
+
+Total Gross Revenue =
+SUM(fact_sales[gross_amount])
+
+Total Discount =
+SUM(fact_sales[discount])
+
+Discount % =
+DIVIDE([Total Discount], [Total Gross Revenue], 0)
+
+Total Qty Sold =
+SUM(fact_sales[quantity])
+
+Total Invoices =
+DISTINCTCOUNT(fact_sales[invoice_number])
+
+Unique Customers =
+DISTINCTCOUNT(fact_sales[customer_id])
+
+Avg Invoice Value =
+DIVIDE([Total Revenue], [Total Invoices], 0)
+// NOTE: Deliberately NOT AVERAGE(fact_sales[net_amount]).
+// AVERAGE would average individual line items, not invoices.
+// DIVIDE(Total Revenue, Total Invoices) gives the correct invoice-level average
+// and remains correct under any filter context (e.g. filtered to one customer).
+
+Credit Sales =
+CALCULATE(
+    [Total Revenue],
+    fact_sales[payment_mode] = "Credit"
+)
+
+Credit Sales % =
+DIVIDE([Credit Sales], [Total Revenue], 0)
+
+Ghee Revenue =
+CALCULATE(
+    [Total Revenue],
+    fact_sales[category] = "Ghee"
+)
+
+Ghee Revenue Share % =
+DIVIDE([Ghee Revenue], [Total Revenue], 0)
