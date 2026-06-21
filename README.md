@@ -76,37 +76,46 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 > **Live Dashboard Link:** [View on Tableau Public](https://public.tableau.com/views/msrbaccountsandfinancedashboard/AccountsFinance?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
-🟧 Power BI Tabular Model & Dashboard Suite
+## 🟧 Power BI Tabular Model & Dashboard Suite
 
+> A second, independent BI implementation on the same PostgreSQL warehouse —
+> built to demonstrate Tabular modeling, DAX, and Power BI's native AI visuals
+> (Key Influencers, Decomposition Tree, Smart Narrative, Anomaly Detection)
+> alongside the Tableau Public build above.
 
-A second, independent BI implementation on the same PostgreSQL warehouse —
-built to demonstrate Tabular modeling, DAX, and Power BI's native AI visuals
-(Key Influencers, Decomposition Tree, Smart Narrative, Anomaly Detection)
-alongside the Tableau Public build above.
+**Full documentation:** [`powerbi/README_powerbi.md`](powerbi/README_powerbi.md)
+**DAX measures (44 total, 6 tables):** [`powerbi/dax_measures/`](powerbi/dax_measures/)
+**File:** [`powerbi/MSRB_Dairy_Analytics.pbix`](powerbi/MSRB_Dairy_Analytics.pbix)
 
+| Page | Highlights |
+|---|---|
+| Executive Summary | 5 KPI cards w/ conditional targets, FY trend, category donut, aging bar, efficiency gauge |
+| Sales Performance | Combo chart w/ YoY% secondary axis, **Field Parameter** dynamic metric switcher, route/payment analysis |
+| Customer Detail | **Drill-through** target page, **Decomposition Tree** auto-explaining revenue by FY → Month → Route → Category → Type |
+| Production & Operations | **What-If Parameter** efficiency-target simulator, rule-based conditional formatting, shift comparison |
+| Inventory & Supply Chain | **Smart Narrative** AI summary, **Anomaly Detection** on turnover trend, supply-risk classification |
+| Accounts & Finance | **Key Influencers** AI visual on overdue-payment drivers, DSO trend, aging, collection efficiency by segment |
 
+### Sample Screenshot
 
-Full documentation: powerbi/README_powerbi.md
-DAX measures (44 total, 6 tables): powerbi/dax_measures/
-File: powerbi/MSRB_Dairy_Analytics.pbix
+![Power BI Executive Summary](powerbi/screenshots/01_executive_summary.png)
 
-PageHighlightsExecutive Summary5 KPI cards w/ conditional targets, FY trend, category donut, aging bar, efficiency gaugeSales PerformanceCombo chart w/ YoY% secondary axis, Field Parameter dynamic metric switcher, route/payment analysisCustomer DetailDrill-through target page, Decomposition Tree auto-explaining revenue by FY → Month → Route → Category → TypeProduction & OperationsWhat-If Parameter efficiency-target simulator, rule-based conditional formatting, shift comparisonInventory & Supply ChainSmart Narrative AI summary, Anomaly Detection on turnover trend, supply-risk classificationAccounts & FinanceKey Influencers AI visual on overdue-payment drivers, DSO trend, aging, collection efficiency by segment
+### Data Model
 
-Sample Screenshot
+11-relationship star schema — 4 fact tables sharing one `dim_date`, with `fact_accounts` carrying 3 date columns (only `invoice_date` active; `due_date`/`payment_date` kept inactive for selective `USERELATIONSHIP()` use). Full diagram and DAX explanations in [`powerbi/README_powerbi.md`](powerbi/README_powerbi.md).
 
-Show Image
+### Why Two BI Tools
 
-Data Model
+| | Tableau Public | Power BI |
+|---|---|---|
+| Semantic layer | 15 PostgreSQL views | 44 DAX measures (Tabular model) |
+| AI-assisted visuals | — | Key Influencers, Decomposition Tree, Smart Narrative, Anomaly Detection |
+| Parameter interactivity | Tableau Parameters | Field Parameters, What-If Parameters |
 
-11-relationship star schema — 4 fact tables sharing one dim_date, with fact_accounts carrying 3 date columns (only invoice_date active; due_date/payment_date kept inactive for selective USERELATIONSHIP() use). Full diagram and DAX explanations in powerbi/README_powerbi.md.
-
-Why Two BI Tools
-
-Tableau PublicPower BISemantic layer15 PostgreSQL views44 DAX measures (Tabular model)AI-assisted visuals—Key Influencers, Decomposition Tree, Smart Narrative, Anomaly DetectionParameter interactivityTableau ParametersField Parameters, What-If Parameters
-
-Both connect to the same msrb_dairy_dw warehouse and answer the same business questions — included together to demonstrate cross-platform BI capability.
+Both connect to the same `msrb_dairy_dw` warehouse and answer the same business questions — included together to demonstrate cross-platform BI capability.
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
+
 ## Dataset Summary
 
 | Table | Rows | Description |
