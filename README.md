@@ -98,7 +98,7 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 
 ### Sample Screenshot
 
-![Power BI Executive Summary](powerbi/PowerBI%20Screenshots/1.Executive%20Summary.png)
+![Power BI Executive Summary](powerbi/PowerBI%20Screenshots/01_Executive_Summary.png)
 
 ### Data Model
 
