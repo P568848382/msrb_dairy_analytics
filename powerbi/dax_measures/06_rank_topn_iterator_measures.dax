@@ -1,0 +1,86 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// TABLE       : _Rank_TopN_Iterator_Measures
+// PROJECT     : MSRB SONS DAIRY — Power BI Tabular Model
+// SOURCE      : fact_sales, dim_customer, fact_production
+// DESCRIPTION : RANKX, TOPN, and X-iterator (SUMX/AVERAGEX/MAXX) measures
+// ═══════════════════════════════════════════════════════════════════════════
+
+Customer Revenue Rank =
+IF(
+    ISINSCOPE(dim_customer[customer_name]),
+    RANKX(
+        ALL(
+            dim_customer[customer_name],
+            dim_customer[customer_type]
+        ),
+        [Total Revenue],
+        ,
+        DESC,
+        Dense
+    ),
+    BLANK()
+)
+// ALL() removes filters on BOTH customer_name AND customer_type. Without
+// including customer_type, ranking inside a matrix that also groups by
+// customer_type would silently re-rank WITHIN each type group, producing
+// multiple "Rank 1" rows (one per type) instead of one true global rank.
+
+Category Revenue Rank =
+IF(
+    ISINSCOPE(fact_sales[category]),
+    RANKX(
+        ALL(fact_sales[category]),
+        [Total Revenue],
+        ,
+        DESC,
+        Dense
+    ),
+    BLANK()
+)
+
+Top 5 Customer Revenue =
+CALCULATE(
+    [Total Revenue],
+    TOPN(
+        5,
+        ALL(dim_customer[customer_id]),
+        [Total Revenue],
+        DESC
+    )
+)
+
+Gross Revenue Verify =
+SUMX(
+    fact_sales,
+    fact_sales[quantity] * fact_sales[unit_price]
+)
+// Row-by-row recomputation of gross revenue, used as a data-integrity
+// cross-check against [Total Gross Revenue] (a direct column SUM). The two
+// should always match exactly; a divergence would indicate corrupted
+// quantity/unit_price values at the row level.
+
+Weighted Avg Price =
+DIVIDE(
+    SUMX(fact_sales, fact_sales[quantity] * fact_sales[unit_price]),
+    SUM(fact_sales[quantity]),
+    0
+)
+// NOT AVERAGE(unit_price) — a simple average treats a ₹600 Ghee sale the
+// same as an ₹11 milk packet sale. This SUMX-weighted version correctly
+// reflects what each unit actually sold for on average, weighted by volume.
+
+Weighted Avg Efficiency % =
+AVERAGEX(
+    fact_production,
+    DIVIDE(fact_production[actual_qty], fact_production[planned_qty])
+)
+// Row-level efficiency averaged across runs (unweighted by run size) —
+// distinct from [Production Efficiency %] (SUM/SUM, volume-weighted).
+// Useful when comparing average run-level performance rather than overall
+// volume-weighted efficiency.
+
+Best Month Revenue =
+MAXX(
+    ALL(dim_date[month_name], dim_date[year]),
+    [Total Revenue]
+)

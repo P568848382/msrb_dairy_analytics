@@ -1,0 +1,72 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// TABLE       : _Accounts_Measures
+// PROJECT     : MSRB SONS DAIRY — Power BI Tabular Model
+// SOURCE      : fact_accounts, dim_customer
+// DESCRIPTION : Billing, collections, aging, and DSO measures
+//
+// DATA NOTE: payment_status values are 'Paid', 'Paid Late', 'OverDue'
+// (capital D in OverDue — this casing must be used exactly in every
+// measure below; it traces back to a known casing inconsistency from the
+// ETL layer that was kept as the de facto standard across SQL and DAX).
+// ═══════════════════════════════════════════════════════════════════════════
+
+Total Billed =
+SUM(fact_accounts[invoice_amount])
+
+Total Collected =
+SUM(fact_accounts[amount_paid])
+
+Outstanding Balance =
+SUM(fact_accounts[outstanding_balance])
+
+Collection Efficiency % =
+DIVIDE([Total Collected], [Total Billed], 0)
+
+Overdue Amount =
+CALCULATE(
+    SUM(fact_accounts[outstanding_balance]),
+    fact_accounts[payment_status] = "OverDue"
+)
+
+Overdue Invoice Count =
+CALCULATE(
+    COUNTROWS(fact_accounts),
+    fact_accounts[payment_status] = "OverDue"
+)
+
+Overdue % of Billed =
+DIVIDE([Overdue Amount], [Total Billed], 0)
+
+Overdue 90 Plus Days =
+CALCULATE(
+    SUM(fact_accounts[outstanding_balance]),
+    fact_accounts[aging_bucket] = "90+ Days"
+)
+
+Hotel Collection Eff % =
+CALCULATE(
+    [Collection Efficiency %],
+    fact_accounts[customer_type] = "Hotel/Restaurant"
+)
+
+DSO Days =
+DIVIDE(SUM(fact_accounts[outstanding_balance]), SUM(fact_accounts[invoice_amount]), 0) * 30
+
+Paid On Time Count =
+CALCULATE(
+    COUNTROWS(fact_accounts),
+    fact_accounts[payment_status] = "Paid"
+)
+
+On Time Payment % =
+DIVIDE([Paid On Time Count], COUNTROWS(fact_accounts), 0)
+
+// ── Key Influencers data-leakage note ───────────────────────────────────────
+// `aging_bucket` is NOT used as an Explain-by field for the Key Influencers
+// visual on the Accounts & Finance page, because it is computed FROM
+// payment_status during ETL (see 05_clean_accounts.py) — using it to explain
+// payment_status is circular and causes Power BI's underlying logistic
+// regression to fail (perfect class separation). `route_name` is also
+// excluded: dim_route has no direct relationship to fact_accounts, which
+// Key Influencers requires. Valid Explain-by fields used instead:
+// customer_type, credit_days, credit_limit, invoice_amount, month_name.

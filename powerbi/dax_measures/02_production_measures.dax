@@ -1,0 +1,80 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// TABLE       : _Production_Measures_
+// PROJECT     : MSRB SONS DAIRY — Power BI Tabular Model
+// SOURCE      : fact_production
+// DESCRIPTION : Efficiency, wastage, and target-simulation measures
+// ═══════════════════════════════════════════════════════════════════════════
+
+Total Planned Qty =
+SUM(fact_production[planned_qty])
+
+Total Actual Qty =
+SUM(fact_production[actual_qty])
+
+Total Wastage Qty =
+SUM(fact_production[wastage_qty])
+
+Total Net Produced =
+SUM(fact_production[net_produced_qty])
+
+Total Raw Milk Used L =
+SUM(fact_production[raw_milk_used_L])
+
+Production Efficiency % =
+DIVIDE([Total Actual Qty], [Total Planned Qty], 0)
+// NOTE: SUM(actual)/SUM(planned), NOT AVERAGE of the pre-calculated
+// production_efficiency_% column. Averaging row-level percentages weights
+// a 10-unit run equally with a 1,000-unit run, distorting the true efficiency.
+// This SUM/SUM pattern matches the equivalent SQL KPI calculation exactly.
+
+Wastage Rate % =
+DIVIDE([Total Wastage Qty], [Total Actual Qty], 0)
+
+Efficiency Gap =
+[Production Efficiency %] - 0.95
+// Distance from the fixed 95% target. Negative = below target.
+
+Production Efficiency Status =
+SWITCH(
+    TRUE(),
+    [Production Efficiency %] >= 0.95, "On Target",
+    [Production Efficiency %] >= 0.90, "Near Target",
+    "Below Target"
+)
+
+Morning Efficiency =
+CALCULATE(
+    [Production Efficiency %],
+    fact_production[shift] = "Morning"
+)
+
+Evening Efficiency =
+CALCULATE(
+    [Production Efficiency %],
+    fact_production[shift] = "Evening"
+)
+
+Morning Wastage =
+CALCULATE(
+    [Wastage Rate %],
+    fact_production[shift] = "Morning"
+)
+
+Evening Wastage =
+CALCULATE(
+    [Wastage Rate %],
+    fact_production[shift] = "Evening"
+)
+
+// ── What-If Parameter measures ──────────────────────────────────────────────
+// "Efficiency Target" is a Numeric Range What-If Parameter (0.88 to 1.00,
+// step 0.01) created via Modeling → New Parameter. Power BI auto-generates
+// the [Efficiency Target Value] measure and a slicer.
+
+Efficiency vs Selected Target =
+[Production Efficiency %] - [Efficiency Target Value]
+
+Units Recovered if Target Met =
+([Efficiency Target Value] - [Production Efficiency %]) * [Total Planned Qty]
+// Tangible production-planning output: how many additional units would be
+// needed to close the gap to whatever target the user sets on the slider.

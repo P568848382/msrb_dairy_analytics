@@ -1,0 +1,77 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// TABLE       : _Time_Intelligence_Measures
+// PROJECT     : MSRB SONS DAIRY — Power BI Tabular Model
+// SOURCE      : fact_sales, dim_date
+// DESCRIPTION : YTD, prior-year, growth%, and MTD measures
+//
+// PREREQUISITE: dim_date must be marked as the model's official Date Table
+// (Table tools → Mark as date table → date_key) with financial year end
+// set to "31-03" for all TOTALYTD-style logic below to resolve against the
+// Indian financial year (April–March), not the calendar year.
+// ═══════════════════════════════════════════════════════════════════════════
+
+Revenue YTD =
+TOTALYTD(
+    [Total Revenue],
+    dim_date[date_key],
+    "31-03"
+)
+
+Revenue SPLY =
+CALCULATE(
+    [Total Revenue],
+    SAMEPERIODLASTYEAR(dim_date[date_key])
+)
+
+Revenue YOY% =
+VAR CurrentPeriod = [Total Revenue]
+VAR LastYear       = [Revenue SPLY]
+VAR GrowthPct       = DIVIDE(CurrentPeriod - LastYear, LastYear, BLANK())
+RETURN
+    IF(
+        ISBLANK(LastYear),
+        BLANK(),
+        IF(
+            ISINSCOPE(dim_date[month_number])
+                || ISINSCOPE(dim_date[financial_year])
+                || HASONEVALUE(dim_date[financial_year]),
+            GrowthPct,
+            BLANK()
+        )
+    )
+// Three guards, in order:
+//  1. ISBLANK(LastYear)        -> no prior-year data exists (e.g. FY2023-24
+//                                  has no FY2022-23 to compare against)
+//  2. ISINSCOPE(...)           -> correct value at matrix month/FY subtotal rows,
+//                                  BLANK at the nonsensical grand-total row
+//  3. HASONEVALUE(financial_year) -> makes the SAME measure also resolve
+//                                  correctly on a single KPI card when exactly
+//                                  one FY is selected via slicer (cards have
+//                                  no row/column scope, so ISINSCOPE alone
+//                                  is always FALSE there).
+
+Revenue MoM% =
+VAR CurrentMonth  = [Total Revenue]
+VAR PreviousMonth =
+    CALCULATE(
+        [Total Revenue],
+        DATEADD(dim_date[date_key], -1, MONTH)
+    )
+VAR MoMPct = DIVIDE(CurrentMonth - PreviousMonth, PreviousMonth, BLANK())
+RETURN
+    IF(
+        ISBLANK(PreviousMonth),
+        BLANK(),
+        IF(
+            ISINSCOPE(dim_date[month_number])
+                || HASONEVALUE(dim_date[month_number]),
+            MoMPct,
+            BLANK()
+        )
+    )
+
+Revenue MTD =
+TOTALMTD(
+    [Total Revenue],
+    dim_date[date_key]
+)

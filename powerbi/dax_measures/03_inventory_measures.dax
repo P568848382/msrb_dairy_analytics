@@ -1,0 +1,81 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// TABLE       : _Inventory_Measures
+// PROJECT     : MSRB SONS DAIRY — Power BI Tabular Model
+// SOURCE      : fact_inventory
+// DESCRIPTION : Stock position, stockout, turnover, and supply-risk measures
+// ═══════════════════════════════════════════════════════════════════════════
+
+Total Closing Stock =
+SUM(fact_inventory[closing_stock])
+
+Is Latest Date =
+fact_inventory[date] = CALCULATE(MAX(fact_inventory[date]), ALL(fact_inventory))
+
+Current Closing Stock =
+CALCULATE(
+    SUM(fact_inventory[closing_stock]),
+    fact_inventory[date] = MAX(fact_inventory[date])
+)
+// CALCULATE overrides the filter context to only the latest date in the
+// table, turning a 7,512-row historical SUM into a single "stock today" figure.
+
+Stockout Days =
+CALCULATE(
+    COUNTROWS(fact_inventory),
+    fact_inventory[stock_status] = "Stockout"
+)
+
+Stockout Rate % =
+DIVIDE([Stockout Days], COUNTROWS(fact_inventory), 0)
+
+Avg Daily Dispatch =
+CALCULATE(AVERAGE(fact_inventory[dispatched_qty]))
+
+Days of Stock Remaining =
+DIVIDE([Current Closing Stock], [Avg Daily Dispatch], 0)
+
+Supply Risk =
+VAR DaysRemaining = [Days of Stock Remaining]
+VAR ShelfLife = CALCULATE(AVERAGE(fact_inventory[shelf_life_days]))
+RETURN
+    SWITCH(
+        TRUE(),
+        [Current Closing Stock] = 0, "Stockout",
+        DaysRemaining < 1, "Critical - Under 1 Day",
+        DaysRemaining > ShelfLife, "At Risk - Expires Before Sold",
+        "Safe - Sells Before Expiry"
+    )
+// Counter-intuitive but correct: MORE days of stock than shelf-life days
+// means the stock will expire before it can be sold — that is "At Risk",
+// not "Safe". Holding fewer days of stock than the shelf life allows means
+// it will sell through before expiring.
+
+Products At Risk Count =
+CALCULATE(
+    DISTINCTCOUNT(fact_inventory[product_id]),
+    FILTER(
+        VALUES(fact_inventory[product_id]),
+        [Supply Risk] = "At Risk - Expires Before Sold"
+    )
+)
+// FILTER(VALUES(...)) iterates one virtual row per unique product, evaluating
+// the Supply Risk measure independently for each product, then DISTINCTCOUNT
+// keeps only those that qualify.
+
+Avg Inventory Level =
+AVERAGEX(
+    fact_inventory,
+    (fact_inventory[opening_stock] + fact_inventory[closing_stock]) / 2
+)
+// Row-by-row average of (opening+closing)/2 across the whole table —
+// the TRUE average inventory level per product-day. Required because a
+// plain AVG()/SUM() grain mismatch here gives nonsensical results
+// (e.g. a naive SUM(dispatched)/AVG(one row's stock) returned 240+ instead
+// of a realistic single-digit turnover ratio).
+
+Turnover Ratio =
+DIVIDE(
+    SUM(fact_inventory[dispatched_qty]),
+    [Avg Inventory Level],
+    0
+)
