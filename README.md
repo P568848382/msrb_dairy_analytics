@@ -25,16 +25,27 @@ data-driven decision making across Sales, Production, Inventory, and Finance.
 ```
 RAW DATA (Excel / Tally Exports / Paper Registers)
          ↓
-[LAYER 1]  Ingestion       → 01_ingest.py
+[LAYER 1]  Ingestion & QA       → 01_ingest.py
 [LAYER 2]  Cleaning        → 02–05_clean_*.py
-[LAYER 3]  Data Warehouse  → PostgreSQL Star Schema
+[Layer 2.1] Staging → PostrgreSQL staging schema(Fast Bulk Copy)
+[LAYER 3]  Data Warehouse  → PostgreSQL  dw Star Schema via Idempotent Stored Procedures
 [LAYER 4]  KPI Queries     → SQL (7 Sales + 5 Prod + 5 Inv + 5 Acc KPIs)
-[LAYER 5]  Semantic Model  → Tabular Model (DAX — 35+ measures)
+[LAYER 5]  Semantic Layer  → PostgreSQL Materialized Views(Pre computed)& Views(Real-Time),Tabular Model,PowerBI (DAX — 45+ measures)
 [LAYER 6]  Tableau Views   → 15 PostgreSQL Views + CSV Export Pipeline
-[LAYER 7]  Dashboards      → 5 Tableau Dashboards (Executive, Sales, Production, Inventory, & Finance Complete)
+[LAYER 7]  Dashboards      → 5 Tableau and PowerBI Dashboards (Executive, Sales, Production, Inventory, & Finance Complete)
+[Layer 7.1] BI & Security  → PowerBI Tbular Model(Dynamic RLS)
 [LAYER 8]  Insights        → [Executive Report](docs/executive_performance_report.md) · [Sales Report](docs/sales_performance_report.md) · [Production Report](docs/production_operation_report.md) · [Inventory Report](docs/inventory_operations_report.md) · [Finance Report](docs/accounts_finance_report.md)
 ```
+## Enterprise Architecture Upgrades (Featured Technical Implementations)
+To ensure scalability, data integrity, and high performance, this project implements several advanced industry-standard techniques:
 
+Idempotent ETL via Stored Procedures: Data is moved from staging to the Data Warehouse using INSERT ... ON CONFLICT DO UPDATE (SCD Type 1). This ensures automated pipeline reruns do not duplicate records or inflate revenue.
+
+Semantic Layer Optimization: Heavy KPI aggregations (e.g., Monthly Sales, Route Profitability) are stored in Materialized Views. Utilizing Unique Indexes and the CONCURRENTLY command allows zero-downtime background refreshes without locking out dashboard users.
+
+Dynamic Row-Level Security (RLS): The Power BI model is secured via a manager mapping table. Using the DAX USERPRINCIPALNAME() function, Regional Managers logging into the Power BI Service only see data for their specific delivery routes. The security filter securely propagates downhill through the 1-to-Many Star Schema.
+
+Defensive DAX & Time Intelligence: Complex custom DAX handling Month-over-Month (MoM%) and Year-over-Year (YoY%) growth, deliberately engineered to handle dynamic filter contexts, division-by-zero errors, and ISINSCOPE hierarchical boundaries.
 ---
 
 ## 🔥 Featured Dashboard: Executive Overview
@@ -80,7 +91,7 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 
 > A second, independent BI implementation on the same PostgreSQL warehouse —
 > built to demonstrate Tabular modeling, DAX, and Power BI's native AI visuals
-> (Key Influencers, Decomposition Tree, Smart Narrative, Anomaly Detection)
+> (Key Influencers, Decomposition Tree, Smart Narrative, Anomaly Detection,Dynamic RLS)
 > alongside the Tableau Public build above.
 
 **Full documentation:** [`powerbi/README_powerbi.md`](powerbi/README_powerbi.md)
@@ -89,8 +100,8 @@ RAW DATA (Excel / Tally Exports / Paper Registers)
 
 | Page | Highlights |
 |---|---|
-| Executive Summary | 5 KPI cards w/ conditional targets, FY trend, category donut, aging bar, efficiency gauge |
-| Sales Performance | Combo chart w/ YoY% secondary axis, **Field Parameter** dynamic metric switcher, route/payment analysis |
+| Executive Summary | 5 KPI cards w/ conditional targets, FY trend, category donut, aging bar, efficiency gauge.Acts as a cross-departmental pulse check with drill-through actions. |
+| Sales Performance | Combo chart w/ YoY% secondary axis, **Field Parameter** dynamic metric switcher, route/payment analysis and Dynamic Row-Level Security (RLS) restricting route access. |
 | Customer Detail | **Drill-through** target page, **Decomposition Tree** auto-explaining revenue by FY → Month → Route → Category → Type |
 | Production & Operations | **What-If Parameter** efficiency-target simulator, rule-based conditional formatting, shift comparison |
 | Inventory & Supply Chain | **Smart Narrative** AI summary, **Anomaly Detection** on turnover trend, supply-risk classification |
@@ -224,11 +235,17 @@ msrb_dairy_analytics/
 │   └── 07_export_for_tableau.py ← Automated CSV export pipeline
 ├── sql/
 │   ├── schema_create.sql ← Full star schema DDL (Fact & Dim tables)
+│   ├──staging.sql        ← Transient layer verification
+|   ├── 07_create_dw_dimensions.sql    
+│   ├── 08_create_dw_facts.sql         
+│   ├── 09_dw_load_procedures.sql      ← Idempotent UPSERT ETL procedures
+│   ├── 09_dw_views_and_materialized_views.sql ← Semantic layer & Concurrency logic
 │   ├── kpi_*.sql         ← Departmental KPI queries (Sales, Prod, Inv, Acc)
 │   └── tableau_views.sql ← 15 PostgreSQL views for Tableau optimization
+│   
 |──powerbi/
 |         ├── README_powerbi.md              ← Full technical documentation
-|         ├── MSRB_Dairy_Analytics.pbix      ← Your file, renamed back to clean name
+|         ├── MSRB_Dairy_Analytics.pbix     
 |         ├── dax_measures/
 |         │   ├── 01_sales_measures.dax
 |         │   ├── 02_production_measures.dax
@@ -319,6 +336,12 @@ item for the business.
 
 ### Why use PostgreSQL Views instead of Raw Tables?
 "Each view pre-aggregates data to the grain Tableau actually needs. For example, `vw_shift_performance` reduces 4,382 production rows to 2 rows — one per shift. Tableau renders these instantly. If I connected `fact_production` directly for the shift comparison chart, Tableau would aggregate 4,382 rows live on every filter interaction. Views move computation to PostgreSQL where it is optimized, and Tableau only handles presentation. This is the same principle as a semantic layer in enterprise BI — the database does the math, the visualization tool does the display."
+### Why use Materialized Views instead of querying raw fact tables?
+"By pre-aggregating heavy historical KPIs (like Monthly Route Profitability) into Materialized Views, we shift the compute burden to PostgreSQL. Power BI and Tableau can query these cached tables instantly, rather than scanning 69,000+ rows on every filter click. Using CONCURRENTLY ensures background refreshes never block dashboard users."
+## Why use Stored Procedures for ETL?
+"To maintain ACID compliance and Idempotency. If the Python pipeline triggers twice, the stored procedure uses ON CONFLICT DO UPDATE to gracefully overwrite existing records rather than duplicating revenue."
+## Why Dynamic Row-Level Security (RLS)?
+"Maintains a single source of truth. Instead of building 8 dashboards for 8 route managers, the model uses USERPRINCIPALNAME() to identify the logged-in user, mapping them to their authorized route and safely filtering the entire Star Schema downstream."
 
 ### Chart-Specific Design Logic
 
